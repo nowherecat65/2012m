@@ -392,14 +392,6 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 3,
-        "fields": {
-            "candidate": 17,
-            "running_mate": 31
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 13,
         "fields": {
             "candidate": 29,
@@ -464,14 +456,6 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 4,
-        "fields": {
-            "candidate": 17,
-            "running_mate": 32
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 2,
         "fields": {
             "candidate": 16,
@@ -480,18 +464,10 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 5,
-        "fields": {
-            "candidate": 17,
-            "running_mate": 33
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 6,
         "fields": {
             "candidate": 17,
-            "running_mate": 37
+            "running_mate": 28
         }
     }
 ]
