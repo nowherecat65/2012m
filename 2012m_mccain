@@ -10568,7 +10568,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 416,
         "fields": {
             "answer": 726,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "This is surely a negative route, but Warner's poll numbers do look scary, and knocking him down a peg might be the move here. \n"
         }
     },
@@ -10577,7 +10577,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 417,
         "fields": {
             "answer": 727,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "This is certaintly a scare tactic, and slightly unbecoming, but approaching the election through this lens could be the smart move here. \n"
         }
     },
@@ -10586,7 +10586,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 418,
         "fields": {
             "answer": 728,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "It's true, early in your term you were able to get some legislation passed, and signed, but in the last few years, the naiton has been deep in deadlock. This is probably not the right tone.\n"
         }
     },
@@ -10595,7 +10595,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 419,
         "fields": {
             "answer": 729,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "The nation has been mirred in gridlock, and adopting a sort of Truman-esque, populist tone on the issue seems like a smart idea. Good move, sir! "
         }
     },
