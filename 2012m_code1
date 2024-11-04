@@ -220,7 +220,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>A friend and ally of the once-rising star Senator Obama, Deval Patrick's name keeps floating as a top choice for the Democratic vice-presidential nominee. The Massachusetts governor launched a short-lived bid for the presidency this year, and although he didn’t stand out much, he was the runner-up in New Hampshire before dropping out.</p><p>Patrick has plenty of hype around his name, and he’s a compelling choice for president. That said, it’s unclear if he could actively boost your campaign or expand your coalition much.</p>",
+            "description_as_running_mate": "<p>A friend and ally of the once-rising star Senator Obama, Deval Patrick's name keeps floating as a top choice for the Democratic vice-presidential nominee. The Massachusetts governor launched a short-lived bid for the presidency this year, and although he didn’t stand out much, he was the runner-up in New Hampshire before dropping out.</p><p>Patrick has plenty of hype around his name, and he’s a compelling choice for president. That said, it’s unclear if he could actively boost the Democratic campaign or expand their coalition much.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
