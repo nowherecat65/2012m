@@ -565,17 +565,8 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits =  "<button onclick='credits()'>2012 Redux Team</button>";
+campaignTrail_temp.credits =  ".theanswerisme";
   
-credits = function() {
-  credits = [""]
-text = "Coders:\namnity.\n\nWriters:\n.shammar\nthe.supreme.gentleman\nunlas\ne_lvir\nlord.duncan\nau5stral1an\ncommonerduncan7\n\nPlaytesters:\ndreangyr\narkaldenade\ndrheal\nshammar.\nyoda"
-  for (i in credits) {
-      text += credits[i]
-  }
-  alert(text)
-}
-
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
