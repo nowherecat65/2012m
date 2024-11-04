@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 130,
         "fields": {
             "priority": 0,
-            "description": "How would you plan to win against Romney in the upcoming campaign? Think about all the things you could do to convince people to choose you instead of him. What are your big ideas? How will you get your message out there?\n",
+            "description": "In the most general terms, what will be your overall campaign strategy against Warner, and the Democrats?\n",
             "likelihood": 1
         }
     },
@@ -928,7 +928,7 @@ campaignTrail_temp.answers_json = [
         "pk": 726,
         "fields": {
             "question": 130,
-            "description": "We're going to keep talking about Mitt Romney and pointing out the things we don't like about him. He's changed his mind on important things, and when he worked at Bain Capital, lots of people lost their jobs. We think he doesn't really understand what regular Americans need, and it's kind of funny because he's criticizing us for a health care plan that's almost the same as the one he supported in Massachusetts.\n"
+            "description": "Mark Warner is nothing but a liberal. If he ever got into power, the Democratic Party would go wild with pork, and spending in general. In these past 4 years I've been proud to stand in their way, and I'll keep standing in there way. \n"
         }
     },
     {
@@ -936,7 +936,7 @@ campaignTrail_temp.answers_json = [
         "pk": 727,
         "fields": {
             "question": 130,
-            "description": "My team has a bunch of information they can share about Romney and the Republicans, things that might not make them look so good. But when I'm talking to people during my campaign, I'm going to focus on positive stuff like hope and good things for the future.\n"
+            "description": "You know, it might be a little cynical, but it's completely neccessary. I want to point out the failures of the Democratic Party, and the fact that if the American people elected them, we have a good chance of stepping into another Great Depression. \n"
         }
     },
     {
@@ -944,7 +944,7 @@ campaignTrail_temp.answers_json = [
         "pk": 728,
         "fields": {
             "question": 130,
-            "description": "I want to make things better in Washington by getting rid of all the arguments and disagreements that stop us from doing important stuff. If I get another term, I'll talk to people who have different ideas and try to work together to solve problems in a smart way that makes sense for everyone.\n"
+            "description": "During these last 4 years I have been able to sit down with my Democrat, and Republican friends, and simply get to work. We passed the FSAA last year, and we can, and we will do more. I promise you that. \n"
         }
     },
     {
@@ -952,7 +952,7 @@ campaignTrail_temp.answers_json = [
         "pk": 729,
         "fields": {
             "question": 130,
-            "description": "I promise to focus on helping people and making the economy better. We need to make sure that programs that help everyone and groups like unions are safe. If the other party keeps blocking us from making things better, we'll find different ways to make progress happen.\n"
+            "description": "It's simple. We are dealing with a Do-Nothing congress. During my entire term I've worked with my team of advisors to sculpt plans, and bills that would help our recovery. The Democratic Party though, is more focused on fighting us at every step. \n"
         }
     }
 ]
@@ -7090,9 +7090,19 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 300,
         "fields": {
             "answer": 726,
-            "candidate": 16,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.033
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 300,
+        "fields": {
+            "answer": 726,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.01
         }
     },
     {
@@ -7100,9 +7110,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 301,
         "fields": {
             "answer": 727,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": 0.033
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.026
         }
     },
     {
@@ -7110,9 +7120,19 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 302,
         "fields": {
             "answer": 728,
-            "candidate": 16,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.027
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 302,
+        "fields": {
+            "answer": 728,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.00775
         }
     },
     {
@@ -7120,9 +7140,19 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 303,
         "fields": {
             "answer": 729,
-            "candidate": 16,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.027
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 303,
+        "fields": {
+            "answer": 729,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.015
+            "global_multiplier": -0.002
         }
     },
     {
@@ -7380,9 +7410,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 379,
         "fields": {
             "answer": 728,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 19,
-            "global_multiplier": 0.125
+            "global_multiplier": 0.0125
         }
     },
     {
@@ -8344,7 +8374,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 726,
             "issue": 1,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 8
         }
     },
@@ -8354,7 +8384,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 726,
             "issue": 2,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 8
         }
     },
@@ -8364,7 +8394,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 726,
             "issue": 3,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 8
         }
     },
@@ -8374,7 +8404,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 726,
             "issue": 4,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 8
         }
     },
@@ -8384,7 +8414,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 726,
             "issue": 5,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 8
         }
     },
@@ -8394,7 +8424,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 727,
             "issue": 1,
-            "issue_score": 0.33,
+            "issue_score": -0.33,
             "issue_importance": 5
         }
     },
@@ -8404,7 +8434,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 727,
             "issue": 2,
-            "issue_score": 0.33,
+            "issue_score": -0.33,
             "issue_importance": 5
         }
     },
@@ -8414,7 +8444,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 727,
             "issue": 3,
-            "issue_score": 0.33,
+            "issue_score": -0.33,
             "issue_importance": 5
         }
     },
@@ -8424,7 +8454,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 727,
             "issue": 4,
-            "issue_score": 0.33,
+            "issue_score": -0.33,
             "issue_importance": 5
         }
     },
@@ -8434,7 +8464,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 727,
             "issue": 5,
-            "issue_score": 0.33,
+            "issue_score": -0.33,
             "issue_importance": 5
         }
     },
@@ -8444,7 +8474,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 728,
             "issue": 1,
-            "issue_score": 0.2,
+            "issue_score": 0.1,
             "issue_importance": 10
         }
     },
@@ -8454,7 +8484,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 729,
             "issue": 1,
-            "issue_score": 0.6,
+            "issue_score": -0.1,
             "issue_importance": 10
         }
     },
@@ -8464,7 +8494,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 729,
             "issue": 2,
-            "issue_score": 0.6,
+            "issue_score": -0.2,
             "issue_importance": 10
         }
     },
@@ -8474,7 +8504,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 729,
             "issue": 3,
-            "issue_score": 0.6,
+            "issue_score": -0.1,
             "issue_importance": 10
         }
     },
@@ -8484,7 +8514,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 729,
             "issue": 4,
-            "issue_score": 0.6,
+            "issue_score": -0.2,
             "issue_importance": 10
         }
     },
@@ -8494,7 +8524,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 729,
             "issue": 5,
-            "issue_score": 0.6,
+            "issue_score": -0.1,
             "issue_importance": 10
         }
     },
@@ -8504,7 +8534,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 728,
             "issue": 2,
-            "issue_score": 0.4,
+            "issue_score": 0.2,
             "issue_importance": 8
         }
     },
@@ -8514,7 +8544,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 728,
             "issue": 3,
-            "issue_score": 0,
+            "issue_score": 0.1,
             "issue_importance": 8
         }
     },
@@ -8524,7 +8554,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 728,
             "issue": 4,
-            "issue_score": 0.2,
+            "issue_score": 0.1,
             "issue_importance": 6
         }
     },
@@ -8534,7 +8564,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 728,
             "issue": 5,
-            "issue_score": 0.33,
+            "issue_score": 0.2,
             "issue_importance": 10
         }
     }
@@ -10539,7 +10569,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 726,
             "candidate": 16,
-            "answer_feedback": "Sometimes, when the economy's not doing so great, it might feel like we have to go all out to fix things, like using scorched earth tactics. But hey, don't forget to hold on to a dash of your own special optimism while you're at it!\n"
+            "answer_feedback": "This is surely a negative route, but Warner's poll numbers do look scary, and knocking him down a peg might be the move here. \n"
         }
     },
     {
@@ -10548,7 +10578,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 727,
             "candidate": 16,
-            "answer_feedback": "Choosing the high road is always a smart move. Talk about the real issues, and remember, you've got friends who've got your back, even if they're not in the fanciest positions.\n"
+            "answer_feedback": "This is certaintly a scare tactic, and slightly unbecoming, but approaching the election through this lens could be the smart move here. \n"
         }
     },
     {
@@ -10557,7 +10587,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 728,
             "candidate": 16,
-            "answer_feedback": "While some folks might like what you're saying, it's important to consider if you'll have enough support from the middle-of-the-road voters come November. They're the ones who could swing the outcome, so it's crucial to keep them in mind as well.\n"
+            "answer_feedback": "It's true, early in your term you were able to get some legislation passed, and signed, but in the last few years, the naiton has been deep in deadlock. This is probably not the right tone.\n"
         }
     },
     {
@@ -10566,7 +10596,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 729,
             "candidate": 16,
-            "answer_feedback": "Getting your excited supporters to show up big time could be a winning move, especially in a year like 2012. It's a strategy worth thinking about for sure! "
+            "answer_feedback": "The nation has been mirred in gridlock, and adopting a sort of Truman-esque, populist tone on the issue seems like a smart idea. Good move, sir! "
         }
     },
     {
