@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 3,
         "fields": {
             "year": 2012,
-            "summary": "<p><strong>Barack Obama</strong> wants to win again, while <strong>Mitt Romney</strong> hopes to bring a more conservative vibe to the White House. The not-so-great economy and Obama's big health care plans are super important in the 2012 election.</p>\n\n<p>Obama will say he stopped the economy from falling apart after the 2008 money mess. Romney will talk about his business and boss skills, trying to show he's different from Obama.</p>",
+            "summary": "<p>John McCain attempts to win re-election, running on his sound economic management and the steady recovery while criticizing the Democratic-controlled Congress and Senate. Meanwhile, Mark Warner aims to run an economy-focused, moderate campaign against the President, portraying him as out of touch.</p><ul><li>McCain will make the case that he is a tested hand, the economy is recovering, and that a change in course could risk another Great Depression.</p><ul><li>Warner, on the other hand, will argue that the recovery has been too slow and has ignored working- and middle-class citizens</p>",
             "image_url": "https://i.imgur.com/MIYj2cE.jpeg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/carville-rove.jpg",
