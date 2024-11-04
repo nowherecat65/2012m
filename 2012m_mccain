@@ -10845,15 +10845,8 @@ campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6ZF6ToQ.jpeg';
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
-  background-color: #C02732;
-  border-color: #380b0c;
-}
-style.innerHTML = 
-  .inner_window_question h3 {
-    background-color: #e91717;
-  }
-  .overlay_window h3 {
-    background-color: #2e0404;
+  background-color: #e91717;
+  border-color: #2e0404;
 }`
 ;
 document.head.appendChild(style_overwrite);
