@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 93,
         "fields": {
             "priority": 0,
-            "description": "What big idea are you going to talk about the most when you give your speech at the Democratic Convention? It's like the main message that you really want everyone to remember and understand.\n",
+            "description": "What will be the overriding theme of your re-nomination speech at the Republican Convention?\n",
             "likelihood": 1
         }
     },
@@ -389,10 +389,10 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 93,
+        "pk": 933,
         "fields": {
             "question": 24,
-            "description": "The answer seems pretty clear. When we keep using energy sources like coal, oil, and natural gas that won't last forever, we're setting ourselves up for problems in the future, like running out of energy when we need it. Plus, it's making the Earth get warmer, which isn't good for anyone."
+            "description": "My friends, we cannot go back to the tax-and-spend liberal agenda of the past. I know these last 4 years have been tough, but we have been making real tangible progress, and the Democrats can and will undo that. "
         }
     },
     {
@@ -6499,7 +6499,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 42,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": -0.02
@@ -6697,10 +6697,10 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 93,
+        "pk": 933,
         "fields": {
             "answer": 168,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": -0.005
         }
@@ -7499,10 +7499,10 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 393,
         "fields": {
-            "answer": 93,
-            "candidate": 17,
+            "answer": 933,
+            "candidate": 16,
             "affected_candidate": 18,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.005
         }
     },
     {
@@ -7800,7 +7800,7 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 93,
+        "pk": 933,
         "fields": {
             "answer": 98,
             "issue": 1,
@@ -9000,66 +9000,66 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 100,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 5,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": 0.02
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 101,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 37,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": 0.02
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 102,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 34,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": -0.02
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": -0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 103,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 36,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 104,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 43,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 105,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 51,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.002
         }
     },
     {
@@ -9902,55 +9902,55 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1011,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 37,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.02
+            "state_multiplier": 0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 1012,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 34,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 1013,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 36,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 1014,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 43,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.002
         }
     },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 1015,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "state": 51,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": -0.02
+            "state_multiplier": -0.002
         }
     },
     {
@@ -10715,9 +10715,9 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 440,
         "fields": {
-            "answer": 93,
+            "answer": 933,
             "candidate": 17,
-            "answer_feedback": "Bad answer for a Republican candidate -- too environmentalist."
+            "answer_feedback": "The crowd eats up your words. But the reality is that Warner is not running on a tax-and-spend agenda. Regardless, this will fire up your base. "
         }
     },
     {
