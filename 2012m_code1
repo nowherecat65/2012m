@@ -158,7 +158,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 28,
+        "pk": 30,
         "fields": {
             "first_name": "Amy",
             "last_name": "Klobuchar",
@@ -181,7 +181,7 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 30,
+        "pk": 28,
         "fields": {
             "first_name": "Joe",
             "last_name": "Lieberman",
