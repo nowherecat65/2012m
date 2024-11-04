@@ -10762,6 +10762,8 @@ campaignTrail_temp.answer_feedback_json = [
 
 campaignTrail_temp.candidate_last_name = 'Warner';
 
+campaignTrail_temp.candidate_first_name = 'Mark';
+
 campaignTrail_temp.running_mate_last_name = 'Klobuchar';
 
 campaignTrail_temp.running_mate_state_id = '203';
