@@ -12,7 +12,7 @@ campaignTrail_temp.election_json = [
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "creator": ".theanswerisme",
-            "display_year": "2012"
+            "display_year": "2012m"
         }
     }
 ]
