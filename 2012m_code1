@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 3,
         "fields": {
             "year": 2012,
-            "summary": "<p>John McCain seeks re-election, running on his steady hand and the ongoing economic recovery while criticizing the Democratic-controlled Congress. Meanwhile, Mark Warner runs an inequality, and jobs focused, moderate campaign, portraying McCain as out of touch.</p><ul><li>McCain will make the case that he is a tested, and trusted leader, the economy is recovering, and that a change in course could risk another Great Depression.</p><ul><li>Warner, on the other hand, will argue that the recovery has been too slow and has ignored working- and middle-class citizens</p>",
+            "summary": "<p>John McCain seeks re-election, running on his steady hand and the ongoing economic recovery while criticizing the Democratic-controlled Congress. Meanwhile, Mark Warner runs an inequality, and jobs focused, moderate campaign, portraying McCain as out of touch.</p><ul><li>McCain will make the case that he is a tested, and trusted leader, the economy is recovering, and that a change in course could risk another Great Depression.</p><ul><li>Warner, on the other hand, will argue that the recovery has been too slow and has neglected working- and middle-class citizens, while attacking the GOP's 12-year hold on the White House. </p>",
             "image_url": "https://i.imgur.com/MIYj2cE.jpeg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/carville-rove.jpg",
