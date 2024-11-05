@@ -391,7 +391,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 933,
         "fields": {
-            "question": 24,
+            "question": 933,
             "description": "My friends, we cannot go back to the tax-and-spend liberal agenda of the past. I know these last 4 years have been tough, but we have been making real tangible progress, and the Democrats can and will undo that. "
         }
     },
@@ -815,7 +815,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 330,
         "fields": {
-            "question": 93,
+            "question": 933,
             "description": "I'm going to spend a lot of time talking about how we've moved away from some really important ideas about helping people, like what Roosevelt, Johnson, and Humphrey believed in. In my next term, I'll make sure to remind everyone how important these ideas are and that I'm still dedicated to them.\n"
         }
     },
@@ -823,7 +823,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 331,
         "fields": {
-            "question": 93,
+            "question": 933,
             "description": "I'm going to talk about all the different ways the Republicans try to split our country apart. I'll make sure everyone remembers that Democrats are the ones who really care about regular people, no matter where they come from or how much money they have.\n"
         }
     },
@@ -831,16 +831,8 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 332,
         "fields": {
-            "question": 93,
+            "question": 933,
             "description": "I want to make sure everyone knows the truth about the people we're up against. I'm going to talk a lot about how their ideas could really hurt Medicare, not help the economy, and just make wealthy people even richer.\n\n"
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 333,
-        "fields": {
-            "question": 93,
-            "description": "I'm going to talk openly about the tough stuff I had to deal with back in 2009, what I did to try to fix things, and how the other party stopped some of my plans from working. I'll also talk about the new ideas I have for creating jobs if I get another term.\n\n"
         }
     },
     {
