@@ -816,7 +816,7 @@ campaignTrail_temp.answers_json = [
         "pk": 330,
         "fields": {
             "question": 933,
-            "description": "I'm going to spend a lot of time talking about how we've moved away from some really important ideas about helping people, like what Roosevelt, Johnson, and Humphrey believed in. In my next term, I'll make sure to remind everyone how important these ideas are and that I'm still dedicated to them.\n"
+            "description": "I want to make it clear: under my presidency, the Republican Party is a big tent. We're here for anyone who works hard and wants to get ahead in America. \n"
         }
     },
     {
@@ -824,7 +824,7 @@ campaignTrail_temp.answers_json = [
         "pk": 331,
         "fields": {
             "question": 933,
-            "description": "I'm going to talk about all the different ways the Republicans try to split our country apart. I'll make sure everyone remembers that Democrats are the ones who really care about regular people, no matter where they come from or how much money they have.\n"
+            "description": " I want my speech to center around my experience, and my record. I am a steady hand for this nation, and reasonable people see this. We have made progress in these last 4 years, and we can't change horses now. \n"
         }
     },
     {
@@ -832,7 +832,7 @@ campaignTrail_temp.answers_json = [
         "pk": 332,
         "fields": {
             "question": 933,
-            "description": "I want to make sure everyone knows the truth about the people we're up against. I'm going to talk a lot about how their ideas could really hurt Medicare, not help the economy, and just make wealthy people even richer.\n\n"
+            "description": "Mark Warner is completely untrustworthy. The Democratic congress, and Senate will force his hand and introduce socialism in this country. We have to stand against this, my friends.\n\n"
         }
     },
     {
@@ -6932,9 +6932,29 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 244,
         "fields": {
             "answer": 330,
-            "candidate": 16,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.041
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 244,
+        "fields": {
+            "answer": 330,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 244,
+        "fields": {
+            "answer": 330,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.005
+            "global_multiplier": -0.015
         }
     },
     {
@@ -6942,9 +6962,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 245,
         "fields": {
             "answer": 331,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": 0.01
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.021
         }
     },
     {
@@ -6952,9 +6972,29 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 246,
         "fields": {
             "answer": 332,
-            "candidate": 16,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.022
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 246,
+        "fields": {
+            "answer": 332,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 246,
+        "fields": {
+            "answer": 332,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -8256,8 +8296,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 330,
             "issue": 1,
-            "issue_score": 0.7,
-            "issue_importance": 8
+            "issue_score": 0.4,
+            "issue_importance": 5
         }
     },
     {
@@ -8266,8 +8306,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 330,
             "issue": 2,
-            "issue_score": 0.7,
-            "issue_importance": 8
+            "issue_score": 0.3,
+            "issue_importance": 5
         }
     },
     {
@@ -8277,7 +8317,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 330,
             "issue": 3,
             "issue_score": 0.7,
-            "issue_importance": 8
+            "issue_importance": 3
         }
     },
     {
@@ -8287,7 +8327,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 330,
             "issue": 4,
             "issue_score": 0.7,
-            "issue_importance": 8
+            "issue_importance": 2
         }
     },
     {
@@ -8297,7 +8337,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 330,
             "issue": 5,
             "issue_score": 0.7,
-            "issue_importance": 8
+            "issue_importance": 5
         }
     },
     {
@@ -8306,8 +8346,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 331,
             "issue": 1,
-            "issue_score": 0.5,
-            "issue_importance": 12
+            "issue_score": -0.5,
+            "issue_importance": 5
         }
     },
     {
@@ -8316,8 +8356,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 331,
             "issue": 2,
-            "issue_score": 0.4,
-            "issue_importance": 8
+            "issue_score": -0.4,
+            "issue_importance": 5
         }
     },
     {
@@ -8326,8 +8366,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 331,
             "issue": 4,
-            "issue_score": 0.5,
-            "issue_importance": 10
+            "issue_score": -0.5,
+            "issue_importance": 5
         }
     },
     {
@@ -8336,8 +8376,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 331,
             "issue": 5,
-            "issue_score": 0.7,
-            "issue_importance": 10
+            "issue_score": -0.7,
+            "issue_importance": 5
         }
     },
     {
@@ -8346,8 +8386,18 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 332,
             "issue": 1,
-            "issue_score": 0.65,
+            "issue_score": -0.65,
             "issue_importance": 10
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 271,
+        "fields": {
+            "answer": 933,
+            "issue": 1,
+            "issue_score": -0.51,
+            "issue_importance": 20
         }
     },
     {
@@ -8356,7 +8406,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 332,
             "issue": 2,
-            "issue_score": 0.55,
+            "issue_score": -0.55,
             "issue_importance": 10
         }
     },
@@ -8457,7 +8507,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 727,
             "issue": 1,
             "issue_score": -0.33,
-            "issue_importance": 5
+            "issue_importance": 1
         }
     },
     {
@@ -8467,7 +8517,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 727,
             "issue": 2,
             "issue_score": -0.33,
-            "issue_importance": 5
+            "issue_importance": 1
         }
     },
     {
@@ -10565,7 +10615,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 330,
             "candidate": 16,
-            "answer_feedback": "Going all in on liberalism might be a bit risky in America back in 2012, but hey, at least you've got a fired-up base behind you. It's definitely a bold move!\n"
+            "answer_feedback": "Are you trying to be inflammatory? This only riles up Santorum's delegates, and unfortunately the TV microphones picked up some booing from the crowd. Quite a start, sir.\n"
         }
     },
     {
@@ -10574,7 +10624,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 331,
             "candidate": 16,
-            "answer_feedback": "Here's something to think about: when it comes to winning over those undecided voters, you've got a pretty good shot at coming out on top in the personality department, especially when up against someone like Romney. That could make a big difference!\n"
+            "answer_feedback": "This is a good speech, sir, and the audience cheers, but the reality is that conservatives already aren’t too keen on your candidacy. And this isn’t helping. \n"
         }
     },
     {
@@ -10583,7 +10633,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 332,
             "candidate": 16,
-            "answer_feedback": "It's good to show a bit of fight, but remember, voters also want to hear about positive solutions. Offering up those hopeful answers could really win them over.\n"
+            "answer_feedback": "The delegates and audience members roar! This is an aggressive and personal line to take, but it may be necessary, Mr. President.\n"
         }
     },
     {
@@ -10709,7 +10759,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 933,
             "candidate": 17,
-            "answer_feedback": "The crowd eats up your words. But the reality is that Warner is not running on a tax-and-spend agenda. Regardless, this will fire up your base. "
+            "answer_feedback": "The delegates, and audience members eats up your words. But the reality is that Warner is not running on a tax-and-spend agenda. Regardless, this will fire up your base. "
         }
     },
     {
