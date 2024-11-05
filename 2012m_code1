@@ -505,6 +505,7 @@ campaignTrail_temp.opponents_default_json = [
             17,
             16,
             19
+            18
         ]
     }
 ]
@@ -516,6 +517,7 @@ campaignTrail_temp.opponents_weighted_json = [
             17,
             16,
             19
+            18
         ]
     }
 ]
