@@ -1,3 +1,28 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 26,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
 campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
@@ -439,42 +464,10 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 9,
-        "fields": {
-            "candidate": 27,
-            "running_mate": 33
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 10,
         "fields": {
             "candidate": 27,
             "running_mate": 40
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 16,
-        "fields": {
-            "candidate": 29,
-            "running_mate": 33
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 17,
-        "fields": {
-            "candidate": 29,
-            "running_mate": 31
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 11,
-        "fields": {
-            "candidate": 27,
-            "running_mate": 31
         }
     },
     {
@@ -503,39 +496,14 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits =  ".theanswerisme";
-  
-campaignTrail_temp.global_parameter_json = [
-    {
-        "model": "campaign_trail.global_parameter",
-        "pk": 1,
-        "fields": {
-            "vote_variable": 1.125,
-            "max_swing": 0.12,
-            "start_point": 0.94,
-            "candidate_issue_weight": 10,
-            "running_mate_issue_weight": 3,
-            "issue_stance_1_max": -0.71,
-            "issue_stance_2_max": -0.3,
-            "issue_stance_3_max": -0.125,
-            "issue_stance_4_max": 0.125,
-            "issue_stance_5_max": 0.3,
-            "issue_stance_6_max": 0.71,
-            "global_variance": 0.01,
-            "state_variance": 0.005,
-            "question_count": 25,
-            "default_map_color_hex": "#C9C9C9",
-            "no_state_map_color_hex": "#999999"
-        }
-    }
-]
+campaignTrail_temp.credits = ".theanswerisme"
 
 campaignTrail_temp.opponents_default_json = [
     {
         "election": 3,
         "candidates": [
-            16,
             17,
+            16,
             19
         ]
     }
@@ -545,8 +513,8 @@ campaignTrail_temp.opponents_weighted_json = [
     {
         "election": 3,
         "candidates": [
-            16,
             17,
+            16,
             19
         ]
     }
@@ -557,7 +525,7 @@ campaignTrail_temp.temp_election_list = [
         "id": 3,
         "year": 2012,
         "is_premium": 0,
-        "display_year": "2012"
+        "display_year": "2012m"
     }
 ]
 
@@ -569,11 +537,14 @@ jet_data = {
     "bannerImageUrl": "https://cdn.discordapp.com/attachments/1186700569654603789/1239397411340812440/image.png?ex=6642c649&is=664174c9&hm=f1e02bbec9c9a011aafc77c8e45b183668786f7ff211c2b37679e47c2e95b4b1&",
     "backgroundImageUrl": "https://cdn.discordapp.com/attachments/1186700569654603789/1239397688122937395/120505064140-obama-rally-ohio-wide.jpg?ex=6642c68b&is=6641750b&hm=9932db09959ef448faadda59c4c2c817dc3daf857b781e64683bccab831b98b1&",
     "endingTextColor": "#000000",
-    "customQuote": ""
+    "customQuote": "",
+    "gameTitle": "2012m"
 }
 
 //#startcode
 
+
+corrr = '\n              <h2>2012m</h2>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
