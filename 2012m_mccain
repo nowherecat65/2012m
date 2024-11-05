@@ -4383,7 +4383,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 18,
             "issue": 1,
-            "issue_score": -0.8
+            "issue_score": -0.4
         }
     },
     {
@@ -4392,7 +4392,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 18,
             "issue": 2,
-            "issue_score": -0.8
+            "issue_score": -0.6
         }
     },
     {
@@ -4401,7 +4401,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 18,
             "issue": 3,
-            "issue_score": 0.75
+            "issue_score": 0.25
         }
     },
     {
@@ -4410,7 +4410,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 18,
             "issue": 4,
-            "issue_score": 0.8
+            "issue_score": 0.3
         }
     },
     {
@@ -4419,7 +4419,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 18,
             "issue": 5,
-            "issue_score": 0.8
+            "issue_score": -0.9
         }
     },
     {
