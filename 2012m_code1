@@ -500,24 +500,22 @@ campaignTrail_temp.credits = ".theanswerisme"
 
 campaignTrail_temp.opponents_default_json = [
     {
-        "election": 4,
+        "election": 3,
         "candidates": [
             17,
             16,
             19
-            18
         ]
     }
 ]
 
 campaignTrail_temp.opponents_weighted_json = [
     {
-        "election": 4,
+        "election": 3,
         "candidates": [
             17,
             16,
             19
-            18
         ]
     }
 ]
