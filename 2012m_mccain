@@ -5370,7 +5370,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 44,
-            "state_multiplier": 1.45
+            "state_multiplier": 1.48
         }
     },
     {
@@ -5442,7 +5442,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 1,
-            "state_multiplier": 0.03125
+            "state_multiplier": 0.05125
         }
     },
     {
@@ -5469,7 +5469,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 4,
-            "state_multiplier": 0.03125
+            "state_multiplier": 0.04625
         }
     },
     {
@@ -5586,7 +5586,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 17,
-            "state_multiplier": 0.03125
+            "state_multiplier": 0.05325
         }
     },
     {
@@ -5649,7 +5649,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 24,
-            "state_multiplier": 0.03125
+            "state_multiplier": 0.04825
         }
     },
     {
@@ -5757,7 +5757,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 36,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.04422
         }
     },
     {
@@ -5829,7 +5829,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 44,
-            "state_multiplier": 0.03125
+            "state_multiplier": 0.02125
         }
     },
     {
@@ -5874,7 +5874,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 49,
-            "state_multiplier": 0.03125
+            "state_multiplier": 0.09625
         }
     },
     {
