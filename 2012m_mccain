@@ -10614,7 +10614,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 412,
         "fields": {
             "answer": 330,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "Are you trying to be inflammatory? This only riles up Santorum's delegates, and unfortunately the TV microphones picked up some booing from the crowd. Quite a start, sir.\n"
         }
     },
@@ -10623,7 +10623,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 413,
         "fields": {
             "answer": 331,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "This is a good speech, sir, and the audience cheers, but the reality is that conservatives already aren’t too keen on your candidacy. And this isn’t helping. \n"
         }
     },
@@ -10632,7 +10632,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 414,
         "fields": {
             "answer": 332,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "The delegates and audience members roar! This is an aggressive and personal line to take, but it may be necessary, Mr. President.\n"
         }
     },
