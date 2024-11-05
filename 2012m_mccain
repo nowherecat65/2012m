@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 933,
         "fields": {
             "priority": 0,
-            "description": "What will be the overriding theme of your re-nomination speech at the Republican Convention?\n",
+            "description": "You've just been re-nominated for President after facing a primary challenge this year from the very conservative Rick Santorum. With tensions higher than usual, what will be the overriding theme of your re-nomination speech? \n",
             "likelihood": 1
         }
     },
