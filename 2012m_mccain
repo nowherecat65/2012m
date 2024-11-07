@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 7,
         "fields": {
             "priority": 1,
-            "description": "A recent decision by the Supreme Court said it's okay for police in Arizona to check people they think might be in the country illegally. What do you think about this law? Do you think it's a good idea?",
+            "description": "What is your guiding foreign policy philosophy?",
             "likelihood": 1
         }
     },
@@ -288,7 +288,7 @@ campaignTrail_temp.answers_json = [
         "pk": 28,
         "fields": {
             "question": 7,
-            "description": "The reason Arizona made this law is because they feel like the government at the big national level hasn't been strict enough about making sure people follow the rules for a long time."
+            "description": "American Exceptionalism -- Providence has given America to the world as an inspiration, and we must vigorously defend the ideals of peace and freedom wherever they may be threatened."
         }
     },
     {
