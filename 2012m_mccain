@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 113,
         "fields": {
             "priority": 0,
-            "description": "What will be the overriding theme of your nomination speech at the Republican Convention?",
+            "description": "What will be the overriding theme of your re-nomination speech at the Republican Convention?",
             "likelihood": 1
         }
     },
