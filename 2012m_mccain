@@ -10056,7 +10056,26 @@ campaignTrail_temp.answer_feedback_json = [
         }
     }
 ]
+campaignTrail_temp.candidate_last_name = 'McCain';
 
+campaignTrail_temp.candidate_first_name = 'John';
+
+campaignTrail_temp.running_mate_last_name = 'Lieberman';
+
+campaignTrail_temp.running_mate_state_id = '7';
+
+campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HGQxTxI.jpeg';
+
+campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6ZF6ToQ.jpeg';
+
+const style_overwrite = document.createElement("style");
+style_overwrite.innerHTML = 
+`#campaign_sign {
+  background-color: #e91717;
+  border-color: #2e0404;
+}`
+;
+document.head.appendChild(style_overwrite);
 
 
 campaignTrail_temp.jet_data = [{}
