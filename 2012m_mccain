@@ -10171,6 +10171,15 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
+            "answer": 733,
+            "candidate": 17,
+            "answer_feedback": "This is clearly a conservative line to take, and it should certainly rile up your base. But, sir, most voters don’t see Mark Warner as overly liberal, especially given his battle with Bernie Sanders for the Democratic nomination.."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
             "answer": 732,
             "candidate": 17,
             "answer_feedback": "This is plainly a moderate line to take and, in many ways, the expected approach. But it also risks, in not-so subtle ways, driving former Santorum supporters away from your campaign."
