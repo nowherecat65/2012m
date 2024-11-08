@@ -912,7 +912,7 @@ campaignTrail_temp.answers_json = [
         "pk": 730,
         "fields": {
             "question": 131,
-            "description": "We will attack Barack Obama relentlessly. He has gone back on his pledge to clean up our political system, he has destroyed hundreds of thousands of jobs in his first term, his values are out of touch with those of most Americans, and his health care reform is disastrous."
+            "description": "Mark Warner is simply untrustworthy. With a Democratic Congress and Senate, they’ll force his hand and bring socialism into this country. We have to stand together against this, my friends, to protect the values we as Americans hold dear."
         }
     },
     {
@@ -920,7 +920,7 @@ campaignTrail_temp.answers_json = [
         "pk": 731,
         "fields": {
             "question": 131,
-            "description": "My surrogates have plenty of points to make about the failure of the Obama Administration. As the nominee, I will take the high road and stick to a message of optimism and American renewal."
+            "description": "I want to focus on my experience and my record. I’m the Maverick President and a steady hand for this nation, and I believe reasonable people see that. We’ve made real progress over these last four years, and we simply can’t afford to change horses midstream now."
         }
     },
     {
@@ -928,7 +928,7 @@ campaignTrail_temp.answers_json = [
         "pk": 732,
         "fields": {
             "question": 131,
-            "description": "I will reach out to moderates and conservative Democrats and attempt to build an all-encompassing coalition. It's time that America had a true leader in charge."
+            "description": "Well, let’s be clear: under my presidency, the Republican Party is a big tent. We’re here for anyone who works hard, who believes in America, and who wants to build a better future for themselves and their families.."
         }
     },
     {
@@ -936,7 +936,7 @@ campaignTrail_temp.answers_json = [
         "pk": 733,
         "fields": {
             "question": 131,
-            "description": "I will emphasize the conservatism of my views and my governing philosophy. I will remind the American people that I am strong on defense and that I'm pro-life, pro-free market, pro-business, and deeply religious."
+            "description": "My friends, we cannot go back to the tax-and-spend liberal agenda of the past. I know these last 4 years have been tough, but we have been making real tangible progress, and the Democrats can and will undo that."
         }
     }
 ]
@@ -7105,7 +7105,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 731,
             "candidate": 17,
-            "affected_candidate": 17,
+            "affected_candidate": 18,
             "global_multiplier": 0.0333
         }
     },
@@ -7115,8 +7115,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 732,
             "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": 0.02
+            "affected_candidate": 18,
+            "global_multiplier": 0.05
         }
     },
     {
@@ -8198,7 +8198,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 730,
             "issue": 1,
-            "issue_score": -0.5,
+            "issue_score": -0.9,
             "issue_importance": 8
         }
     },
@@ -8208,7 +8208,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 730,
             "issue": 2,
-            "issue_score": -0.5,
+            "issue_score": -0.6,
             "issue_importance": 8
         }
     },
@@ -8218,7 +8218,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 730,
             "issue": 3,
-            "issue_score": -0.5,
+            "issue_score": -0.7,
             "issue_importance": 8
         }
     },
@@ -8248,7 +8248,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 731,
             "issue": 1,
-            "issue_score": -0.33,
+            "issue_score": -0.18,
             "issue_importance": 5
         }
     },
@@ -8258,7 +8258,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 731,
             "issue": 2,
-            "issue_score": -0.33,
+            "issue_score": -0.22,
             "issue_importance": 5
         }
     },
@@ -8298,7 +8298,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 732,
             "issue": 1,
-            "issue_score": -0.15,
+            "issue_score": 0.1,
             "issue_importance": 10
         }
     },
@@ -8308,7 +8308,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 732,
             "issue": 2,
-            "issue_score": -0.15,
+            "issue_score": 0.15,
             "issue_importance": 10
         }
     },
@@ -8318,7 +8318,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 732,
             "issue": 3,
-            "issue_score": -0.15,
+            "issue_score": -0.1,
             "issue_importance": 10
         }
     },
@@ -8338,7 +8338,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 732,
             "issue": 5,
-            "issue_score": -0.15,
+            "issue_score": -0.1,
             "issue_importance": 10
         }
     },
@@ -10155,7 +10155,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 730,
             "candidate": 17,
-            "answer_feedback": "Obama's popularity numbers are lukewarm, and the economy is bad. This could work for you."
+            "answer_feedback": "This is an aggressive, partisan and personal line to take, Mr. President, but one that may well be necessary, especially considering your current standing in the polls."
         }
     },
     {
@@ -10164,7 +10164,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 731,
             "candidate": 17,
-            "answer_feedback": "Everyone knows that conservative activists are fantastic at negative advertising. Let them do their thing while you give positive, uplifting solutions."
+            "answer_feedback": "Despite conservative whining, at the end of the day, the average American does generally trust you, just not necessarily your administration or policies. Leaning in on your 'steady hand' is probably smart.."
         }
     },
     {
@@ -10173,7 +10173,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 732,
             "candidate": 17,
-            "answer_feedback": "You already have a reputation as a moderate, and plenty of voters are looking for a new start. Make sure you get some conservative support though."
+            "answer_feedback": "This is plainly a moderate line to take and, in many ways, the expected approach. But it also risks, in not-so subtle ways, driving former Santorum supporters away from your campaign."
         }
     },
     {
@@ -10182,7 +10182,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 733,
             "candidate": 17,
-            "answer_feedback": "It sounds like you want to stick to the basics and win a real mandate this fall. "
+            "answer_feedback": "This is clearly a conservative line to take, and it should certainly rile up your base. But, sir, most voters don’t see Mark Warner as overly liberal, especially given his battle with Bernie Sanders for the Democratic nomination. "
         }
     }
 ]
