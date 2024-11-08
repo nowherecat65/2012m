@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 113,
         "fields": {
             "priority": 0,
-            "description": "What will be the overriding theme of your nomination speech at the Republican Convention?",
+            "description": "Now, four years after a narrow victory against Hillary Clinton and fresh from a primary battle with Rick Santorum, what will be the overriding theme of your re-nomination speech at the Republican Convention?",
             "likelihood": 1
         }
     },
@@ -816,7 +816,7 @@ campaignTrail_temp.answers_json = [
         "pk": 391,
         "fields": {
             "question": 113,
-            "description": "I will hammer on the theme that Obama has completely failed the United States as President. He has presided over the largest deficit increases and highest unemployment rate in almost a hundred years."
+            "description": "Mark Warner is nothing but a liberal. If he ever got into power, the Democratic Party would go wild with pork, and spending in general. In these past 4 years I've been proud to stand in their way, and I'll keep standing in there way."
         }
     },
     {
@@ -824,7 +824,7 @@ campaignTrail_temp.answers_json = [
         "pk": 392,
         "fields": {
             "question": 113,
-            "description": "My message will be a message of hope. After four years of economic blight the American people need to feel good about themselves, and they need to know that their efforts will be rewarded with material prosperity."
+            "description": "It's simple. We are dealing with a Do-Nothing congress. During my entire term I've worked with my team of advisors to sculpt plans, and bills that would help our recovery. The Democratic Party though, is more focused on fighting us at every step."
         }
     },
     {
@@ -832,7 +832,7 @@ campaignTrail_temp.answers_json = [
         "pk": 393,
         "fields": {
             "question": 113,
-            "description": "I will emphasize the point that the Republican Party has a big tent. We are the party for anyone who tries to work hard and get ahead in America."
+            "description": "During these last 4 years I have been able to sit down with my Democrat, and Republican friends, and simply get to work. We passed the FSAA last year, and we can, and we will do more. I promise you that."
         }
     },
     {
@@ -840,7 +840,7 @@ campaignTrail_temp.answers_json = [
         "pk": 394,
         "fields": {
             "question": 113,
-            "description": "I will address the long-term danger that liberalism has to create an ossified, uncreative society. I will also emphasize the danger to our individual and collective rights that is inherent Obama's philosophy."
+            "description": "You know, it might be a little cynical, but it's completely neccessary. I want to point out the failures of the Democratic Party, and the fact that if the American people elected them, we have a good chance of stepping into another Great Depression."
         }
     },
     {
@@ -6956,7 +6956,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 391,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.015
+            "global_multiplier": -0.052
         }
     },
     {
@@ -6966,7 +6966,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 392,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.025
+            "global_multiplier": -0.04
         }
     },
     {
@@ -6976,7 +6976,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 393,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.03
+            "global_multiplier": -0.036
         }
     },
     {
@@ -6986,7 +6986,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 394,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.046
         }
     },
     {
@@ -7357,6 +7357,76 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 18,
             "global_multiplier": 0.0625
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1257,
+        "fields": {
+            "answer": 392,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.15
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1258,
+        "fields": {
+            "answer": 391,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0175
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1259,
+        "fields": {
+            "answer": 391,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.13
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1260,
+        "fields": {
+            "answer": 393,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1261,
+        "fields": {
+            "answer": 393,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.13
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1262,
+        "fields": {
+            "answer": 394,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1263,
+        "fields": {
+            "answer": 394,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.137
         }
     }
 ]
@@ -7928,7 +7998,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 393,
             "issue": 1,
-            "issue_score": -0.6,
+            "issue_score": 0.3,
             "issue_importance": 8
         }
     },
@@ -7938,7 +8008,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 393,
             "issue": 2,
-            "issue_score": -0.6,
+            "issue_score": 0.3,
             "issue_importance": 8
         }
     },
@@ -9989,7 +10059,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 391,
             "candidate": 17,
-            "answer_feedback": "As bad as things are, you might have a shot with a negative message towards the incumbent. Make sure you offer your own solutions too."
+            "answer_feedback": "This is surely a negative route, but Warner's poll numbers do look scary, and knocking him down a peg might be the move here."
         }
     },
     {
@@ -9998,7 +10068,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 392,
             "candidate": 17,
-            "answer_feedback": "This could work very well for you. Make sure you also offer some policy specifics to keep your base fired up."
+            "answer_feedback": "It's true, early in your term you were able to get some legislation passed, and signed, but in the last few years, the nation has been deep in deadlock. This is probably not the right tone"
         }
     },
     {
@@ -10007,7 +10077,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 393,
             "candidate": 17,
-            "answer_feedback": "You will need to win some swing states this fall. It sounds like you're trying to strike a good balance between electability and the demands of your conservative base."
+            "answer_feedback": " It's true, early in your term you were able to get some legislation passed, and signed, but in the last few years, the naiton has been deep in deadlock. This is probably not the right tone."
         }
     },
     {
@@ -10016,7 +10086,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 394,
             "candidate": 17,
-            "answer_feedback": "There are enough concrete problems for you to focus on. It seems like a bit of a detour to attack liberalism as a theory, instead of focusing on your own solutions."
+            "answer_feedback": "This is certaintly a scare tactic, and slightly unbecoming, but approaching the election through this lens could be the smart move here"
         }
     },
     {
