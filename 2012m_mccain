@@ -7406,7 +7406,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 392,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.16998
+            "global_multiplier": 0.192998
         }
     },
     {
@@ -7426,7 +7426,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 394,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.1695
+            "global_multiplier": 0.177685
         }
     },
     {
@@ -10128,7 +10128,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 392,
             "candidate": 17,
-            "answer_feedback": "It's true, early in your term you were able to get some legislation passed, and signed, but in the last few years, the nation has been deep in deadlock. This is probably not the right tone"
+            "answer_feedback": "The nation has been mirred in gridlock, and adopting a sort of Truman-esque, populist tone on the issue seems like a smart idea. Good move, sir!"
         }
     },
     {
