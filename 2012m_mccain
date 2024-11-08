@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22,
         "fields": {
             "priority": 1,
-            "description": "What is your position on gay marriage?",
+            "description": "Donald Trump, the famous businessman and reality star, has officially launched an independent bid for the presidency following your renomination. Trump has been among your critics from the right and was a prominent supporter of Santorum’s primary challenge against you. The hard-right Congressman Steve King has endorsed him and has been announced as his VP pick. How should we respond? ",
             "likelihood": 1
         }
     },
