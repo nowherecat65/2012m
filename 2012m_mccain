@@ -1,3 +1,22 @@
+campaignTrail_temp.cyoa = true
+cyoAdventure = function(a) {
+ ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+    if(ans == 86){
+       console.log("done");
+       campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
+    }
+    if(ans == 87){
+       console.log("done");
+       campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
+    }
+    if(ans == 88){
+       console.log("done");
+       campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
+    }
+
+}
+
+
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
