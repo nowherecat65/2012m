@@ -840,7 +840,7 @@ campaignTrail_temp.answers_json = [
         "pk": 394,
         "fields": {
             "question": 113,
-            "description": "You know, it might be a little cynical, but it's completely neccessary. I want to point out the failures of the Democratic Party, and the fact that if the American people elected them, we have a good chance of stepping into another Great Depression.."
+            "description": "You know, it might be a little cynical, but it's completely neccessary. I want to point out the failures of the Democratic Party, and the fact that if the American people elected them, we have a good chance of stepping into another Great Depression."
         }
     },
     {
@@ -7234,7 +7234,7 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 394,
+        "pk": 3941,
         "fields": {
             "answer": 394,
             "candidate": 17,
