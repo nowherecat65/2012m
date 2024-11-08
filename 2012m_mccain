@@ -10511,6 +10511,9 @@ campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6ZF6ToQ.jpeg';
 
 campaignTrail_temp.candidate_json[2]["fields"].last_name = "Draft Trump";
 
+campaignTrail_temp.cyoa = true
+
+
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
@@ -10519,4 +10522,8 @@ style_overwrite.innerHTML =
 }`
 ;
 document.head.appendChild(style_overwrite);
+
+}
+    if(ans == 7831){
+        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Donald";
 
