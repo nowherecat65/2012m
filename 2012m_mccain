@@ -10204,7 +10204,7 @@ campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HGQxTxI.jpeg';
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6ZF6ToQ.jpeg';
 
-campaignTrail_temp.candidate_json[4]["fields"].last_name = "Draft Trump";
+campaignTrail_temp.candidate_json[2]["fields"].last_name = "Draft Trump";
 
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
