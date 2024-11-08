@@ -6899,7 +6899,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 391,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.015
+            "global_multiplier": -0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 279,
+        "fields": {
+            "answer": 391,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.0998
         }
     },
     {
@@ -6909,7 +6919,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 392,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.025
+            "global_multiplier": -0.051
         }
     },
     {
@@ -6919,7 +6929,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 393,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.03
+            "global_multiplier": -0.036
         }
     },
     {
@@ -6929,7 +6939,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 394,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.04
         }
     },
     {
@@ -7189,7 +7199,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 85,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.1
         }
     },
     {
@@ -7199,7 +7209,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 93,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.115
         }
     },
     {
@@ -7209,7 +7219,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 97,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.0375
+            "global_multiplier": 0.1
         }
     },
     {
