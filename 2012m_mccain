@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 131,
         "fields": {
             "priority": 0,
-            "description": "In the most general terms, what will be your overall campaign strategy against Obama?",
+            "description": "In the most general terms, what will be your overall campaign strategy against Warner, and the Democrats?",
             "likelihood": 1
         }
     },
