@@ -10522,9 +10522,3 @@ style_overwrite.innerHTML =
 }`
 ;
 document.head.appendChild(style_overwrite);
-
-}
-    if(ans == 7831){
-        campaignTrail_temp.candidate_json[2]["fields"].first_name = "Donald";
-        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
-
