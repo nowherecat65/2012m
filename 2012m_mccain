@@ -325,18 +325,10 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 85,
-        "fields": {
-            "question": 22,
-            "description": "Gay marriage should be protected at the federal level. The Defense of Marriage Act should be repealed."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 86,
         "fields": {
             "question": 22,
-            "description": "I think civil unions are an acceptable compromise for the majority of mainstream Americans."
+            "description": "I want folks at home to take a good look and compare my record with that of Mr. Trump. I’ve spent my entire life serving America and fighting for her values, while he’s spent his life on the front pages for his debauchery."
         }
     },
     {
@@ -344,7 +336,7 @@ campaignTrail_temp.answers_json = [
         "pk": 87,
         "fields": {
             "question": 22,
-            "description": "I'm opposed this personally. I think that, you know, different states have different opinions on this matter and it's best left to them to decide on the issue."
+            "description": "Look, this guy, Donald Trump, is a clown. I don’t want any statements from our office on his bid or on any of his remarks. Is that clear? "
         }
     },
     {
@@ -352,7 +344,7 @@ campaignTrail_temp.answers_json = [
         "pk": 88,
         "fields": {
             "question": 22,
-            "description": "Under no circumstances should the sacred institution of marriage be undermined. The Defense of Marriage Act was passed specifially to address this issue."
+            "description": "Well, I want conservatives to take a hard look at Donald Trump. For years, he’s been known as a pro-choice Democrat, a poster child for gluttony and wild, liberal values. This is not the kind of man fit to lead us."
         }
     },
     {
@@ -6435,8 +6427,38 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 86,
             "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 88,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.0475
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 87,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 87,
+            "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.005
         }
     },
     {
@@ -7708,8 +7730,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 86,
             "issue": 4,
-            "issue_score": 0.2,
-            "issue_importance": 5
+            "issue_score": -0.23,
+            "issue_importance": 4.2
         }
     },
     {
@@ -7718,8 +7740,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 87,
             "issue": 4,
-            "issue_score": -0.4,
-            "issue_importance": 5
+            "issue_score": 0.1,
+            "issue_importance": 1.5
         }
     },
     {
@@ -7728,8 +7750,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 88,
             "issue": 4,
-            "issue_score": -0.8,
-            "issue_importance": 8
+            "issue_score": -0.46,
+            "issue_importance": 4.2
         }
     },
     {
@@ -10149,17 +10171,17 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 377,
         "fields": {
             "answer": 86,
-            "candidate": 16,
-            "answer_feedback": "A safe response, but your core voters wanted more from you."
+            "candidate": 17,
+            "answer_feedback": "This is all true, Donald Trump, for years, was not considered a conservative. But recently, he’s been making inroads with the conservative infrastructure that has always been lukewarm toward you, cozying up to the same hard-right who didn't want you to run again this year."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 378,
+        "pk": 377,
         "fields": {
             "answer": 87,
-            "candidate": 16,
-            "answer_feedback": "Your personal views come as a surprise to most people, and a disappointing one to your electoral base."
+            "candidate": 17,
+            "answer_feedback": "This is exactly the kind of response many on your staff hoped for: none at all. And it’s likely for the best. That said, Mr. Trump is energizing forces on the right who’ve never really liked you, and he’s building a genuine alliance with them."
         }
     },
     {
@@ -10167,8 +10189,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 379,
         "fields": {
             "answer": 88,
-            "candidate": 16,
-            "answer_feedback": "After all their support, the GLBT community can't believe what you just said. You had better be prepared for a backlash from your liberal base."
+            "candidate": 17,
+            "answer_feedback": "It's true, Donald Trump has long been known for his controversial, often vulgar, and childish statements and history. But he also possesses a certain small-p political, and Hollywood charisma that you’ve never quite had."
         }
     },
     {
@@ -10295,33 +10317,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 85,
             "candidate": 17,
             "answer_feedback": "The Christian right is livid. Already they are talking about fielding a splinter candidate or staying home this fall."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 437,
-        "fields": {
-            "answer": 86,
-            "candidate": 17,
-            "answer_feedback": "This is a break from your previous statements, and an unwelcome one in the eyes of most potential supporters."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 438,
-        "fields": {
-            "answer": 87,
-            "candidate": 17,
-            "answer_feedback": "The conservatives in your party are not looking for someone who wavers on this issue, but this may be a safer response overall."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 439,
-        "fields": {
-            "answer": 88,
-            "candidate": 17,
-            "answer_feedback": "You have fired up the Christian right. This is a key issue to them and they are glad to see that you are on board."
         }
     },
     {
