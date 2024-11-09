@@ -7527,7 +7527,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 393,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.118949899399799939999999929595
+            "global_multiplier": 0.1196149899399799939999999929595
         }
     },
     {
