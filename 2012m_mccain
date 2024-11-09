@@ -176,7 +176,7 @@ campaignTrail_temp.questions_json = [
         "pk": 101,
         "fields": {
             "priority": 2,
-            "description": "Rick Santorum, the former Senator and your primary challenger, has reached out to your team, offering to campaign for the GOP ticket. He’s obviously a polarizing figure, no doubt, but he could chip away at Trump’s numbers and help rally the right-wing base back in our direction. What do you say?",
+            "description": "Rick Santorum, the former Senator and your primary challenger, has reached out to your team, offering to campaign for the GOP ticket. He’s obviously a polarizing figure, no doubt, but he could chip away at Trump’s numbers and help rally the right-wing base back in our direction. Are you going to show? ",
             "likelihood": 1
         }
     },
