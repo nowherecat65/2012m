@@ -200,6 +200,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 105,
+        "fields": {
+            "priority": 2,
+            "description": "The age question keeps coming up, and here we are again. You're already the oldest president to seek re-election, and Warner’s campaign isn’t being subtle, rolling out ads suggesting you're old and out of touch, even quoting disparaging comments from Santorum. How should we respond?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 266,
         "fields": {
             "priority": 2,
@@ -231,15 +240,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 2,
             "description": "Is the United States too reliant on fossil fuels for its energy needs?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 105,
-        "fields": {
-            "priority": 2,
-            "description": "The age question keeps coming up, and here we are again. You're already the oldest president to seek re-election, and Warner’s campaign isn’t being subtle, rolling out ads suggesting you're old and out of touch, even quoting disparaging comments from Santorum. How should we respond?",
             "likelihood": 1
         }
     },
