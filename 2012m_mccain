@@ -700,7 +700,7 @@ campaignTrail_temp.answers_json = [
         "pk": 270,
         "fields": {
             "question": 75,
-            "description": "You know, I am concerned about these polls. Sure, we’ve still got some time, but I’ll be damned if I let these folks shove me out of the White House. It’s time to start an ad blitz against Warner. I know, I know, but if we want a real shot at winning, we’ve got to mobilize."
+            "description": "You know, I am concerned about these polls. Sure, we’ve obviously we still got some time, but I’ll be damned if I let these folks shove me out of the White House. It’s time to start an ad blitz against Warner. I know, I know, but if we want a real shot at winning, we’ve got to mobilize."
         }
     },
     {
@@ -714,14 +714,6 @@ campaignTrail_temp.answers_json = [
     {
         "model": "campaign_trail.answer",
         "pk": 286,
-        "fields": {
-            "question": 80,
-            "description": "Well, you know, we’ve still got troops deployed in Iraq and Afghanistan, and it’s clear we stand against Assad’s regime. We’ve been supporting the rebels where we can, but putting American boots on the ground? That’s a different matter."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 289,
         "fields": {
             "question": 80,
             "description": "Well, you know, we’ve still got troops deployed in Iraq and Afghanistan, and it’s clear we stand against Assad’s regime. We’ve been supporting the rebels where we can, but putting American boots on the ground? That’s a different matter."
