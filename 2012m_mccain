@@ -194,7 +194,7 @@ campaignTrail_temp.questions_json = [
         "pk": 106,
         "fields": {
             "priority": 2,
-            "description": "The time has come, Mr. President. Debates are being organized, and despite some noise from Donald Trump, he won’t be participating. This sets up a direct confrontation between you and Mark Warner. What do you say?",
+            "description": "The time has come, Mr. President. Debates are being organized, and despite some noise from Donald Trump, he won’t be participating. This sets up a direct confrontation between you and Mark Warner. What do you want to touch on? ",
             "likelihood": 1
         }
     },
