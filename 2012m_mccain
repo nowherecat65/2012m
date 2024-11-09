@@ -185,7 +185,7 @@ campaignTrail_temp.questions_json = [
         "pk": 82,
         "fields": {
             "priority": 2,
-            "description": "What do you see as the next steps for Medicare reform, especially as the program faces long-term financial challenges? During your term you haven't put anything forward on the issue?",
+            "description": "What do you see as the next steps for Medicare reform, especially as the program faces long-term financial challenges? During your term you haven't put anything serious forward on the issue.",
             "likelihood": 1
         }
     },
