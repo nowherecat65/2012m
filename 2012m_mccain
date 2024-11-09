@@ -251,6 +251,15 @@ campaignTrail_temp.questions_json = [
             "description": "Would you consider military action in Syria if the impasse between Bashar Assad and the rebels there continues?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 8080,
+        "fields": {
+            "priority": 2,
+            "description": "You’ve got three days left before Election Day, and these final days will close out the last campaign of your entire career. Where do you want to focus your time?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -717,6 +726,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 80,
             "description": "Well, you know, we’ve still got troops deployed in Iraq and Afghanistan, and it’s clear we stand against Assad’s regime. We’ve been supporting the rebels where we can, but putting American boots on the ground? That’s a different matter."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2861,
+        "fields": {
+            "question": 8080,
+            "description": "It's obvious: if we don’t secure Ohio, this campaign is done. I want to spend the next 24 hours there. And a quick stop in Pennsylvania couldn’t hurt either. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2862,
+        "fields": {
+            "question": 8080,
+            "description": "It's already over? Well... Let’s set up some time in Wisconsin, Michigan, and Iowa. These states aren’t exactly leaning our way, but with the right focus, I think we can turn one of them in our favor.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2863,
+        "fields": {
+            "question": 8080,
+            "description": "I've seen the close polling out of Georgia and North Carolina, and frankly, I’m not buying it, but we can’t afford to take any chances. Let’s split our time between the two, and wrap things up in North Florida."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2864,
+        "fields": {
+            "question": 8080,
+            "description": "I want to close out the campaign in the Southwest. Honestly, I don’t believe Warner’s got the support in Nevada and Colorado that the press is claiming. They went for Clinton last time, but I think we’ve got a real shot at flipping both. "
         }
     },
     {
@@ -6915,10 +6956,180 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 37,
         "fields": {
+            "answer": 2861,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2861,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2861,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2861,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2861,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2863,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2863,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2863,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2863,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
             "answer": 26,
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": -0.011846899
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2862,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2862,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2862,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2862,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2864,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2864,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2864,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2864,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.005
         }
     },
     {
@@ -12301,6 +12512,149 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2861,
+            "state": 38,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.01445
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2864,
+            "state": 5,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2864,
+            "state": 31,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.019
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2864,
+            "state": 6,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.018
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2864,
+            "state": 28,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.019
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2863,
+            "state": 33,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.02061
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2863,
+            "state": 9,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.02061
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2863,
+            "state": 10,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.02061
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2862,
+            "state": 22,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.01945
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2862,
+            "state": 50,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.01945
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2862,
+            "state": 15,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.024152
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2861,
+            "state": 22,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.00351
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2861,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.01995
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
         "pk": 1032,
         "fields": {
             "answer": 101,
@@ -12330,6 +12684,50 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1034,
+        "fields": {
+            "answer": 2864,
+            "state": 5,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.006275
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1034,
+        "fields": {
+            "answer": 2863,
+            "state": 5,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.006275
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1034,
+        "fields": {
+            "answer": 2861,
+            "state": 5,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.006275
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1034,
+        "fields": {
+            "answer": 2862,
+            "state": 5,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.006275
         }
     },
     {
@@ -13172,6 +13570,60 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 2912,
             "candidate": 17,
             "answer_feedback": "This approach to Shelby-Bayh is certainly balanced, but the act still has left liberals feeling it didn't go far enough and conservatives thinking it went too far. Ultimately, it seems to have satisfied only a handful of the most centrist folks in D.C. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2861,
+            "candidate": 17,
+            "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2862,
+            "candidate": 17,
+            "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2864,
+            "candidate": 17,
+            "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2863,
+            "candidate": 17,
+            "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2863,
+            "candidate": 17,
+            "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2864,
+            "candidate": 17,
+            "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
         }
     },
     {
