@@ -12352,7 +12352,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 369,
         "fields": {
-            "answer": 47,
+            "answer": 369,
             "candidate": 17,
             "answer_feedback": "From nearly the opening few words, you took an aggressive and intensely serious stance against Warner - but according to many viewers, it came off as too gruff and rude, and he was declared the winner according to many polls."
         }
