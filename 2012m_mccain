@@ -716,7 +716,7 @@ campaignTrail_temp.answers_json = [
         "pk": 286,
         "fields": {
             "question": 80,
-            "description": "I'm not sure if we should commit our troops to additional combat theatres at the present time. We shouldn't be attempting to navigate Syrian politics."
+            "description": "Well, you know, we’ve still got troops deployed in Iraq and Afghanistan, and it’s clear we stand against Assad’s regime. We’ve been supporting the rebels where we can, but putting American boots on the ground? That’s a different matter."
         }
     },
     {
@@ -724,7 +724,7 @@ campaignTrail_temp.answers_json = [
         "pk": 287,
         "fields": {
             "question": 80,
-            "description": "It's something we should keep on the table. The entire idea of our intervention in Iraq was to unleash a wave of democratic movements in the Middle East. Hopefully Syria qualifies as such."
+            "description": "We need to keep all options on the table. Our efforts in Iraq were about more than just one nation, they were about sparking a wave of democratic change across the Middle East. If Syria is heading down that path, it’s worth considering how we might support it."
         }
     },
     {
@@ -732,7 +732,7 @@ campaignTrail_temp.answers_json = [
         "pk": 288,
         "fields": {
             "question": 80,
-            "description": "I will do what is necessary to preserve freedom and human rights in Syria. It's impossible to say whether that means committing the U.S. military or not at this point."
+            "description": "I’m prepared to do what’s necessary to defend freedom and human rights in Syria. If that requires U.S. military commitment down the line, we’ll cross that bridge when we get there—but I'm not going to make any commitments right now, one way or another."
         }
     },
     {
@@ -8062,7 +8062,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 286,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.5
+            "global_multiplier": 0.39
         }
     },
     {
@@ -8072,7 +8072,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 288,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.5
+            "global_multiplier": 0.39
         }
     },
     {
@@ -8082,7 +8082,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 287,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.5
+            "global_multiplier": 0.39
         }
     },
     {
@@ -8102,7 +8102,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 288,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.0065
+            "global_multiplier": 0.0175
         }
     },
     {
@@ -8142,7 +8142,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 287,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.0071
+            "global_multiplier": -0.021
         }
     },
     {
@@ -8242,7 +8242,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 398,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.056
+            "global_multiplier": -0.036
         }
     },
     {
@@ -12462,6 +12462,33 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 440,
+        "fields": {
+            "answer": 286,
+            "candidate": 17,
+            "answer_feedback": "This is a subtle shift to the left on the issue of Syria and Assad, at least in rhetoric, and it’s likely a smart move, given the current national sentiment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 440,
+        "fields": {
+            "answer": 287,
+            "candidate": 17,
+            "answer_feedback": "Stating that 'all options are on the table' certainly rattles some anti-war liberals, but ultimately, this stance aligns with the mainstream views within the GOP."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 440,
+        "fields": {
+            "answer": 288,
+            "candidate": 17,
+            "answer_feedback": "This stance certainly aligns with your foreign policy views, sir, but it's 2012, not 2002. Warner and the Democrats are eager to capitalize on this approach, and it’s playing well for them."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 441,
         "fields": {
             "answer": 95,
@@ -12476,6 +12503,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 97,
             "candidate": 17,
             "answer_feedback": "Vaguely promising to end the Bush tax credits isn’t a great idea, Mr. President, and meanwhile, the Trump campaign is gaining momentum among hard-right conservatives."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 443,
+        "fields": {
+            "answer": 98,
+            "candidate": 17,
+            "answer_feedback": "Some on the right were hoping for a more assertive, right-wing tone, but it’s fine, right? "
         }
     },
     {
