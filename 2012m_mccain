@@ -6466,7 +6466,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1014,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.98
+            "global_multiplier": -1.19
         }
     },
     {
@@ -6476,7 +6476,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1013,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.98
+            "global_multiplier": -1.19
         }
     },
     {
@@ -6486,7 +6486,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1012,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.98
+            "global_multiplier": -1.19
         }
     },
     {
@@ -6496,7 +6496,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1011,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.98
+            "global_multiplier": -1.19
         }
     },
     {
@@ -6506,7 +6506,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1011,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.13
+            "global_multiplier": 0.085
         }
     },
     {
@@ -6516,7 +6516,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1014,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.13
+            "global_multiplier": 0.085
         }
     },
     {
@@ -6526,7 +6526,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1013,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.13
+            "global_multiplier": 0.085
         }
     },
     {
@@ -6536,7 +6536,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1012,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.13
+            "global_multiplier": 0.085
         }
     },
     {
