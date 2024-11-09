@@ -185,7 +185,7 @@ campaignTrail_temp.questions_json = [
         "pk": 82,
         "fields": {
             "priority": 2,
-            "description": "What do you think the next steps should be in regards to Medicare?",
+            "description": "What do you see as the next steps for Medicare reform, especially as the program faces long-term financial challenges? During your term you haven't put anything forward on the issue?",
             "likelihood": 1
         }
     },
@@ -772,7 +772,7 @@ campaignTrail_temp.answers_json = [
         "pk": 293,
         "fields": {
             "question": 82,
-            "description": "There are plenty of ways we can strengthen this system by reducing the role of government within it. For example, younger Americans should have the option to invest in personal health accounts."
+            "description": "There are ways to strengthen Medicare by reducing unnecessary government control. For instance, offering younger Americans the option to invest in personal health accounts could give them more flexibility and help ensure Medicare remains strong for those who truly need it."
         }
     },
     {
@@ -780,7 +780,7 @@ campaignTrail_temp.answers_json = [
         "pk": 294,
         "fields": {
             "question": 82,
-            "description": "Medicare is a good program. We need to find some way of controlling costs and of more effectively managing care, but the overall program is sound."
+            "description": "Medicare is a vital program, and while we need to focus on controlling costs and managing care more efficiently, the core of Medicare is sound. It’s a promise we made to Americans, and we need to keep it strong and sustainable."
         }
     },
     {
@@ -788,7 +788,7 @@ campaignTrail_temp.answers_json = [
         "pk": 296,
         "fields": {
             "question": 82,
-            "description": "We must do whatever it takes to preserve Medicare. This program is one of the most important functions of the federal government."
+            "description": "We have an obligation to preserve Medicare, and I’ll do whatever it takes to keep it strong. This program is one of the most essential services our government provides, and we have to ensure it’s there for generations to come."
         }
     },
     {
@@ -7568,9 +7568,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 223,
         "fields": {
             "answer": 293,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": -0.066
+            "global_multiplier": 0.0225
         }
     },
     {
@@ -7580,7 +7580,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 293,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.0215
         }
     },
     {
@@ -7590,7 +7590,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 294,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.006
         }
     },
     {
@@ -7610,7 +7610,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 296,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.013135
         }
     },
     {
@@ -7620,7 +7620,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 296,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.0098989369
         }
     },
     {
@@ -8678,9 +8678,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 371,
         "fields": {
             "answer": 293,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 19,
-            "global_multiplier": 0.0125
+            "global_multiplier": 0.01
         }
     },
     {
@@ -9543,7 +9543,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 293,
             "issue": 2,
             "issue_score": -0.6,
-            "issue_importance": 2
+            "issue_importance": 1.1
         }
     },
     {
@@ -12861,6 +12861,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 407,
             "candidate": 17,
             "answer_feedback": "This is obviously a diversion, but the question will keep coming up. Despite some goodwill early in your term, it seems folks don’t trust your economic record, and you’re not taking steps to change that... "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 293,
+            "candidate": 17,
+            "answer_feedback": "Are you trying to lose this election? Whatever your philosophy on Medicare, if it’s a potential liability, it’s best to keep it under wraps. Warner's campaign won’t hesitate to paint you as the guy pushing granny off the cliff!"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 294,
+            "candidate": 17,
+            "answer_feedback": "Democrats, and liberals might not like this position, but it’s firmly within the Republican mainstream and generally acceptable to most Americans. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 296,
+            "candidate": 17,
+            "answer_feedback": "This stance is certainly more moderate than the Paul Ryan camp's views on so-called 'entitlements,' but in an election where you're on the defensive, it’s a completely reasonable position to take. "
         }
     },
     {
