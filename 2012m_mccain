@@ -8094,7 +8094,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 354,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.0125
+            "global_multiplier": 0.051
         }
     },
     {
@@ -11371,7 +11371,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 353,
             "candidate": 17,
-            "answer_feedback": "Santorum's disappointed, and some on your team feel you may have missed a real opportunity here. But, at the end of the day, Rick is undeniably a controversial figure."
+            "answer_feedback": "Santorum’s disappointed, and some on your team feel this may have been a missed opportunity to unify the base. Still, given his divisive reputation, keeping your distance might be the wiser move in the end."
         }
     },
     {
@@ -11380,7 +11380,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 354,
             "candidate": 17,
-            "answer_feedback": ""You’ve embraced the polarizing Rick Santorum, who waged an urgent primary campaign against you, managed to pick up a few rural states, and has kept you on your toes since the beginning of the year. This might be smart, but it hurts."
+            "answer_feedback": "You've embraced the polarizing Rick Santorum, who ran an insurgent campaign against you, picked up rural states, and kept you on your toes. It may be a smart move, but it stings. Meanwhile, Trump’s on Twitter, saying Santorum 'signed a deal with the devil.' "
         }
     },
     {
