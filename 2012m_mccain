@@ -104,7 +104,7 @@ campaignTrail_temp.questions_json = [
         "pk": 109,
         "fields": {
             "priority": 2,
-            "description": "Recent reports have highlighted the large amount of money that you and your wife spend on racing horses. Have you ever bet more than $10,000 on a horse race?",
+            "description": "Mr. President, some say your extensive travels abroad in your first term show a focus on foreign alliances over domestic issues. How do you respond to critics who feel this has left you out of touch with the needs of everyday Americans?",
             "likelihood": 1
         }
     },
@@ -860,7 +860,23 @@ campaignTrail_temp.answers_json = [
         "pk": 377,
         "fields": {
             "question": 109,
-            "description": "Sometimes if you feel strongly about something, you have to back that up with a little cash. $10,000 is nothing for someone who's as wealthy as I am."
+            "description": "I've been working hard to keep our country safe, my friend, and frankly, I'm not too concerned with how the media wants to spin it. My focus is on doing the job the American people elected me to do."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3777,
+        "fields": {
+            "question": 109,
+            "description": "Come on now, we've still got time. Let’s put a little more cash into those television ads. I don’t want to go too negative, but a bit of compare-and-contrast never hurt anyone."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3778,
+        "fields": {
+            "question": 109,
+            "description": "In the days ahead, let’s make this clear: Mark Warner is a fantasy. He’s an amateur on the issues that count. I don’t think there’s been an election this important in my lifetime, and this is who the Democrats put up? "
         }
     },
     {
@@ -868,7 +884,7 @@ campaignTrail_temp.answers_json = [
         "pk": 378,
         "fields": {
             "question": 109,
-            "description": "Absolutely not. I wouldn't think of making a bet this large."
+            "description": "Well, you know, maybe the press has a point here. We really haven’t spent enough time rallying our base. I want to go out rallying in those swing states more, focusing on real connections, not just pumping money into ads."
         }
     },
     {
@@ -7583,10 +7599,110 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 274,
         "fields": {
+            "answer": 378,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 378,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 378,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 3777,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.004123519
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 3777,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.0118519
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 3778,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.0198519
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 3778,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.00898519
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 3777,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
             "answer": 377,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.04
+            "global_multiplier": -0.0525
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 377,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0331
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 274,
+        "fields": {
+            "answer": 377,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.0211
         }
     },
     {
@@ -11399,6 +11515,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 86,
             "candidate": 17,
             "answer_feedback": "This is all true, Donald Trump, for years, was not considered a conservative. But recently, he’s been making inroads with the conservative infrastructure that has always been lukewarm toward you, cozying up to the same hard-right who didn't want you to run again this year."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 376,
+        "fields": {
+            "answer": 377,
+            "candidate": 17,
+            "answer_feedback": "You were caught on a live mic sounding, frankly, like a grumpy old man. People are starting to feel a disconnect with the White House, and brushing it off isn’t doing any favors. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 376,
+        "fields": {
+            "answer": 3778,
+            "candidate": 17,
+            "answer_feedback": "You're clearly taking an aggressive, sometimes personal approach against Mark Warner. Though he's generally well-liked, he's looking a bit bruised after a tough primary. Maybe this strategy will work out? "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 376,
+        "fields": {
+            "answer": 3777,
+            "candidate": 17,
+            "answer_feedback": "The ads are swiftly produced, edited, and sent out to television channels. The campaign even persuades you to invest a fair amount in those newfangled internet advertisements. Whether they like it or not, people are going to see your ads! "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 376,
+        "fields": {
+            "answer": 378,
+            "candidate": 17,
+            "answer_feedback": "Though your rallies may not be drawing the same crowds as Trump’s or Warner’s, you’re still the President, and that alone attracts attention. The press is giving you slightly more positive coverage, so perhaps this approach is paying off?  "
         }
     },
     {
