@@ -77,7 +77,7 @@ campaignTrail_temp.questions_json = [
         "pk": 7,
         "fields": {
             "priority": 1,
-            "description": "A recent Supreme Court decision affirmed an Arizona law allowing officers to check suspected illegal immigrants for proof of immigration status. Do you think this law is a good idea?",
+            "description": "A recent Supreme Court decision upheld an Arizona law allowing officers to verify the immigration status of suspected illegal immigrants. Do you believe this law is a good approach?",
             "likelihood": 1
         }
     },
@@ -292,7 +292,7 @@ campaignTrail_temp.answers_json = [
         "pk": 25,
         "fields": {
             "question": 7,
-            "description": "This is an unconscionable violation of civil rights and will certainly lead to racial profiling."
+            "description": "This is an indefensible violation of civil rights, one that’s bound to lead to racial profiling. We can’t let fear compromise the values that make us American."
         }
     },
     {
@@ -300,7 +300,7 @@ campaignTrail_temp.answers_json = [
         "pk": 26,
         "fields": {
             "question": 7,
-            "description": "The proper authority for enforcement rests with the federal government. This law goes further than federal laws and even if constitutional, should be repealed."
+            "description": "Enforcement is ultimately a federal responsibility, and this law oversteps that line. Even if it’s constitutional, it goes too far and ought to be repealed."
         }
     },
     {
@@ -308,7 +308,7 @@ campaignTrail_temp.answers_json = [
         "pk": 27,
         "fields": {
             "question": 7,
-            "description": "I don't want to comment on an issue that is best left to the voters of Arizona."
+            "description": "I believe this is an issue that ultimately should be decided by the voters of Arizona, and I’m going to respect their choice."
         }
     },
     {
@@ -316,7 +316,7 @@ campaignTrail_temp.answers_json = [
         "pk": 28,
         "fields": {
             "question": 7,
-            "description": "The federal government has forced Arizona's hand by being too lax on enforcement for far too long."
+            "description": "You know, this is personal to me, but the federal government has left Arizona with no other choice by neglecting enforcement for far too long."
         }
     },
     {
