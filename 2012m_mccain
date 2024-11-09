@@ -11572,7 +11572,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3778,
             "candidate": 17,
-            "answer_feedback": "You're clearly taking an aggressive, sometimes personal approach against Mark Warner. Though he's generally well-liked, he's looking a bit bruised after a tough primary. Maybe this strategy will work out? "
+            "answer_feedback": "You're clearly taking an aggressive, sometimes personal approach against Mark Warner. But you aren't quite answering the question at hand: your relationship with voters. "
         }
     },
     {
