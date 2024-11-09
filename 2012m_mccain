@@ -167,7 +167,7 @@ campaignTrail_temp.questions_json = [
         "pk": 101,
         "fields": {
             "priority": 2,
-            "description": "Is your campaign planning to allow Ron Paul a high-profile speaking slot at the Republican Convention, in light of the number of delegates that he commands?",
+            "description": "Rick Santorum, the former Senator and your primary challenger, has reached out to your team, offering to campaign for the GOP ticket. He’s obviously a polarizing figure, no doubt, but he could chip away at Trump’s numbers and help rally the right-wing base back in our direction. What do you say?",
             "likelihood": 1
         }
     },
@@ -796,7 +796,7 @@ campaignTrail_temp.answers_json = [
         "pk": 353,
         "fields": {
             "question": 101,
-            "description": "The last thing we need is someone like Ron Paul taking up precious prime time coverage at our convention. We will seat all duly elected delegates, but Ron Paul will never speak at my convention."
+            "description": "Santorum was ruthless in the primaries, and I didn’t give him the time of day then. Nothing has changed. If he wants to campaign, that’s his decision, but there’s going to be no coordination with our team. "
         }
     },
     {
@@ -804,14 +804,14 @@ campaignTrail_temp.answers_json = [
         "pk": 354,
         "fields": {
             "question": 101,
-            "description": "You know, it couldn't hurt to give Mr. Paul a few minutes outside of prime time. Even if his views are a little on the fringe, he does have a very committed following. I'm willing to compromise on a couple of issues if that's what it takes to bring them in."
+            "description": "Ugh... Remember what Ford did in '76? We’ve got to bring this party together. Let’s set up an event with Rick in rural Pennsylvania. I know it’s a tough pill to swallow, but this is really necessary. "
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 355,
         "fields": {
-            "question": 101,
+            "question": 101111111,
             "description": "Give him a good slot. He was one of our most effective primary challengers after all. And I'll even throw a line into my nomination speech praising the zeal and efforts of his supporters."
         }
     },
@@ -8064,7 +8064,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 353,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.0625
+            "global_multiplier": 0.15151
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 425,
+        "fields": {
+            "answer": 353,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.00874
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 425,
+        "fields": {
+            "answer": 353,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0299925
         }
     },
     {
@@ -9085,8 +9105,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 353,
         "fields": {
             "answer": 732,
-            "issue": 3,
-            "issue_score": -0.1,
+            "issue": 2,
+            "issue_score": 0.2,
             "issue_importance": 10
         }
     },
@@ -9095,8 +9115,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 354,
         "fields": {
             "answer": 732,
-            "issue": 4,
-            "issue_score": -0.15,
+            "issue": 2,
+            "issue_score": -0.35,
             "issue_importance": 10
         }
     },
@@ -11321,6 +11341,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 99,
             "candidate": 16,
             "answer_feedback": "Unfortunately for you, most Democrats agree that we should use a combination of revenue increases as well as spending cuts to balance the budget."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 353,
+            "candidate": 17,
+            "answer_feedback": "Santorum's disappointed, and some on your team feel you may have missed a real opportunity here. But, at the end of the day, Rick is undeniably a controversial figure."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 354,
+            "candidate": 17,
+            "answer_feedback": ""You’ve embraced the polarizing Rick Santorum, who waged an urgent primary campaign against you, managed to pick up a few rural states, and has kept you on your toes since the beginning of the year. This might be smart, but it hurts."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 355,
+            "candidate": 17,
+            "answer_feedback": ""You’ve embraced the polarizing Rick Santorum, who waged an urgent primary campaign against you, managed to pick up a few rural states, and has kept you on your toes since the beginning of the year. This might be smart, but it hurts."
         }
     },
     {
