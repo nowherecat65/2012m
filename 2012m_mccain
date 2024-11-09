@@ -239,7 +239,7 @@ campaignTrail_temp.questions_json = [
         "pk": 105,
         "fields": {
             "priority": 2,
-            "description": "You are one of the wealthiest individuals to ever run for President. Does this make it harder for you to understand the concerns of the average American voter?",
+            "description": "The age question keeps coming up, and here we are again. You're already the oldest president to seek re-election, and Warner’s campaign isn’t being subtle, rolling out ads suggesting you're old and out of touch, even quoting disparaging comments from Santorum. How should we respond?",
             "likelihood": 1
         }
     },
@@ -812,7 +812,7 @@ campaignTrail_temp.answers_json = [
         "pk": 366,
         "fields": {
             "question": 105,
-            "description": "Not at all. I grew up in (somewhat) modest circumstances and I know what it's like to work your way up through life."
+            "description": "Are you kidding me? The press has been watching me for fucking years, and now they’re pulling the age card? This is just more bias from a media that’s all too cozy with the Democrats. "
         }
     },
     {
@@ -820,7 +820,7 @@ campaignTrail_temp.answers_json = [
         "pk": 367,
         "fields": {
             "question": 105,
-            "description": "Why do people keep asking me this? Aren't Barack Obama, John Kerry, Bill Clinton, and Al Gore all millionaires? Everyone who runs for President is wealthy."
+            "description": "I’m not going to dignify this with a response. President Reagan did a great job despite what the liberal pundits said about his age, and I’m no different. I want the White House to highlight my energy, my strength, and my packed schedule."
         }
     },
     {
@@ -828,7 +828,7 @@ campaignTrail_temp.answers_json = [
         "pk": 368,
         "fields": {
             "question": 105,
-            "description": "Ann and I lived in a basement apartment and ate tuna fish. I wasn't rich until my success in business, which I make no apology for."
+            "description": "Haven't they ever heard of Winston Churchill? Look, I may be older, but I'm sharp, engaged, and optimistic about the future. I’m an active president, I stand by that, ask anyone on my staff, or in our cabinet. "
         }
     },
     {
@@ -7549,10 +7549,60 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 267,
         "fields": {
+            "answer": 366,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0325
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 366,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0225
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 366,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
             "answer": 367,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.0085
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 367,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 367,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -7592,7 +7642,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 368,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.008
         }
     },
     {
@@ -11597,18 +11647,27 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 367,
         "fields": {
-            "answer": 45,
-            "candidate": 16,
-            "answer_feedback": "The Democrats have spent years trying to erase the stigma that they are soft on defense. This won't help."
+            "answer": 367,
+            "candidate": 17,
+            "answer_feedback": "This isn't a good issue to ignore, sir, and though it's not the biggest deal in the world, the Democrats are eager to exploit it. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 367,
+        "fields": {
+            "answer": 366,
+            "candidate": 17,
+            "answer_feedback": "TThe next day, you hold a press conference and are asked directly about your age. You come across as visibly angry and resentful toward the press, and it’s clear this issue is only growing larger. "
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 368,
         "fields": {
-            "answer": 46,
-            "candidate": 16,
-            "answer_feedback": "Good response. It's important to stand by your policies."
+            "answer": 368,
+            "candidate": 17,
+            "answer_feedback": "This is a good response. At the end of the day, people may see you as a bit disconnected, but no one doubts your mental competence or wit. "
         }
     },
     {
