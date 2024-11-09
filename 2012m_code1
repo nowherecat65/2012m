@@ -605,11 +605,11 @@ async function appendStyle() {
 
 
 
-        document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 1em 0 !important;padding-top: 0.5em !important;}", 0);
-        document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 1em .7em !important;padding-top: 0.35em !important;}", 0);
+        document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 1em 0 !important;padding-top: 0.51em !important;}", 0);
+        document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 1em .7em !important;padding-top: 0.41em !important;}", 0);
         document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
-        document.styleSheets[0].insertRule(".game_header{ height:4.1em !important;}", 0);
-        document.styleSheets[0].insertRule("#game_window{ height:41em !important;}", 0);
+        document.styleSheets[0].insertRule(".game_header{ height:4.3em !important;}", 0);
+        document.styleSheets[0].insertRule("#game_window{ height:43em !important;}", 0);
         resultsTableHolder.classList.add("done");
         document.getElementById("overall_details_container").children[2].children[5].remove()
         document.getElementById("overall_details_container").children[2].children[4].remove()
