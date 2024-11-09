@@ -6575,9 +6575,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 45,
         "fields": {
             "answer": 97,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.03167
         }
     },
     {
@@ -6587,7 +6587,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 97,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.04
+            "global_multiplier": 0.01755
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 46,
+        "fields": {
+            "answer": 97,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.02653
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 46,
+        "fields": {
+            "answer": 97,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": -0.01356
         }
     },
     {
@@ -6595,9 +6615,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 47,
         "fields": {
             "answer": 100,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": -0.04
+            "candidate": 17,
+            "affected_candidate": 15,
+            "global_multiplier": 0.015
         }
     },
     {
@@ -6758,6 +6778,26 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": 0.009898951
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 126,
+        "fields": {
+            "answer": 98,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0101
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 126,
+        "fields": {
+            "answer": 98,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.079898951
         }
     },
     {
@@ -7477,7 +7517,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 97,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.0375
+            "global_multiplier": 0.0275
         }
     },
     {
@@ -7889,7 +7929,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 99,
             "issue": 1,
-            "issue_score": 0,
+            "issue_score": 0.1,
             "issue_importance": 3
         }
     },
@@ -10870,7 +10910,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 97,
             "candidate": 17,
-            "answer_feedback": "Did you seriously just say on a live mic that you favor raising the income tax? And you're a Republican? Your chances of winning this election may have just gone up in smoke."
+            "answer_feedback": "Vaguely promising to end the Bush tax credits isn’t a great idea, Mr. President, and meanwhile, the Trump campaign is gaining momentum among hard-right conservatives."
         }
     },
     {
@@ -10879,7 +10919,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 98,
             "candidate": 17,
-            "answer_feedback": "Your base is hoping to hear something more forceful on the taxation issue."
+            "answer_feedback": "Some on the right were hoping for a more assertive, right-wing tone, but it’s fine, right? "
         }
     },
     {
@@ -10888,7 +10928,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 99,
             "candidate": 17,
-            "answer_feedback": "This answer strikes a good balance between appealing to your base and winning the undecided voter."
+            "answer_feedback": "This is certainly a balanced approach."
         }
     },
     {
@@ -10897,7 +10937,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 100,
             "candidate": 17,
-            "answer_feedback": "This response is a bit of a gamble for you. You've certainly fired up your conservative base, but what will the rest of the country think."
+            "answer_feedback": "This certainly appeals to Santorum supporters, but, sir, at the end of the day, it’s a gamble. It makes people wonder, 'Why didn’t you do it in your first term?'"
         }
     },
     {
