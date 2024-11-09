@@ -551,6 +551,8 @@ corrr = '\n              <h2>2012m</h2>\n            ';
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
 
+document.getElementById("header").src = "https://i.imgur.com/X2q9iJd.png";
+
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
@@ -558,8 +560,6 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_st
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
 $(".container")[0].style.backgroundColor = "#FFFFFF";
-
-document.getElementById("header").src = "https://cdn.discordapp.com/attachments/1186700569654603789/1239397411340812440/image.png?ex=6642c649&is=664174c9&hm=f1e02bbec9c9a011aafc77c8e45b183668786f7ff211c2b37679e47c2e95b4b1&";
 
 document.body.background = "https://cdn.discordapp.com/attachments/1186700569654603789/1239397688122937395/120505064140-obama-rally-ohio-wide.jpg?ex=6642c68b&is=6641750b&hm=9932db09959ef448faadda59c4c2c817dc3daf857b781e64683bccab831b98b1&";
 
