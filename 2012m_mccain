@@ -12359,6 +12359,15 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
+        "pk": 369,
+        "fields": {
+            "answer": 370,
+            "candidate": 17,
+            "answer_feedback": "You appeared notably energetic to the television audience, perhaps aiming to counter any perceptions about age or fatigue. Warner started strong but stumbled in a few confrontations with you, even losing his train of thought at a couple of points. To most, it was a decisive win in your favor."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
         "pk": 370,
         "fields": {
             "answer": 48,
