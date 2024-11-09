@@ -7546,7 +7546,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 391,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.041
+            "global_multiplier": -0.031
         }
     },
     {
@@ -7556,7 +7556,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 392,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0255
+            "global_multiplier": 0.0361
         }
     },
     {
@@ -7566,7 +7566,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 393,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.0579989364989867999986688
+            "global_multiplier": -0.0558989364989867999986688
         }
     },
     {
@@ -7576,7 +7576,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 394,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.03471
+            "global_multiplier": -0.02451
         }
     },
     {
@@ -11267,6 +11267,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 28,
             "candidate": 17,
             "answer_feedback": "This stance is far more conservative than many expected, especially given your failed immigration bill back in that disastrous 2009. Will this pivot work? That’s anyone's guess."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 362,
+        "fields": {
+            "answer": 27,
+            "candidate": 17,
+            "answer_feedback": "You've given the Warner campaign an opening to deliver a punch to your administration on the border issue, and it looks like they’re ready to take full advantage."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 362,
+        "fields": {
+            "answer": 26,
+            "candidate": 17,
+            "answer_feedback": "This response comes off as overly moderate and conciliatory. It aligns with the rhetoric surrounding your failed 2009 immigration bill, but it still doesn’t strike the right chord."
         }
     },
     {
