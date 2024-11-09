@@ -6426,7 +6426,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.03511
+            "global_multiplier": -0.06511
         }
     },
     {
@@ -6436,7 +6436,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.14
         }
     },
     {
@@ -6446,7 +6446,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.01552
+            "global_multiplier": 0.0511552
         }
     },
     {
@@ -6786,7 +6786,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 28,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.0071846899
+            "global_multiplier": 0.0051846899
         }
     },
     {
@@ -8329,7 +8329,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 28,
             "issue": 5,
             "issue_score": -0.75,
-            "issue_importance": 2
+            "issue_importance": 6
         }
     },
     {
@@ -11227,8 +11227,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 360,
         "fields": {
             "answer": 25,
-            "candidate": 16,
-            "answer_feedback": "This is just what the liberal wing of your party wants to hear."
+            "candidate": 17,
+            "answer_feedback": "This is an absurdly liberal stance, taking you even further from the rhetoric surrounding your failed 2009 immigration bill. Nice job alienating the base! "
         }
     },
     {
@@ -11236,8 +11236,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 361,
         "fields": {
             "answer": 27,
-            "candidate": 16,
-            "answer_feedback": "Many of your supporters were hoping for a more vigorous stance."
+            "candidate": 17,
+            "answer_feedback": "Many were hoping for a more passionate, or intentioned answer from the President of the United States."
         }
     },
     {
@@ -11364,6 +11364,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 353,
             "candidate": 17,
             "answer_feedback": "Santorum’s disappointed, and some on your team feel this may have been a missed opportunity to unify the base. Still, given his divisive reputation, keeping your distance might be the wiser move in the end."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 26,
+            "candidate": 17,
+            "answer_feedback": "You've given the Warner campaign an opening to deliver a punch to your administration on the border issue, and it looks like they’re ready to take full advantage. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 27,
+            "candidate": 17,
+            "answer_feedback": "You've given the Warner campaign an opening to deliver a punch to your administration on the border issue, and it looks like they’re ready to take full advantage. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 28,
+            "candidate": 17,
+            "answer_feedback": "This stance is far more conservative than many expected, especially given your failed immigration bill back in that disastrous 2009 session. Will this pivot work? That’s anyone's guess. "
         }
     },
     {
