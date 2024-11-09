@@ -12371,7 +12371,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 370,
         "fields": {
             "answer": 371,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "Warner seemed eager to focus on issues of age and connecting with the American people's concerns, while you concentrated on criticizing the 'Do-Nothing' Congress and the ongoing gridlock. In the end, he was considered the winner, though by a close margin. "
         }
     },
@@ -12380,7 +12380,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 370,
         "fields": {
             "answer": 372,
-            "candidate": 16,
+            "candidate": 17,
             "answer_feedback": "You spent substantial time with your team, and it showed. You appeared remarkably well-versed on specific issues of the day rather than just overarching points. Still, Warner had the upper hand in rhetoric, and most saw it as a clear, and clean draw."
         }
     },
