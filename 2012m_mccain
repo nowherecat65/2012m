@@ -104,7 +104,7 @@ campaignTrail_temp.questions_json = [
         "pk": 109,
         "fields": {
             "priority": 2,
-            "description": "Mr. President, some say your extensive travels abroad in your first term show a focus on foreign alliances over domestic issues. How do you respond to critics who feel this has left you out of touch with the needs of everyday Americans?",
+            "description": "Some in that press have said that your extensive travels abroad in your first term show a focus on foreign alliances over domestic issues. How do you respond to critics who feel this has left you out of touch with the needs of everyday Americans?",
             "likelihood": 1
         }
     },
