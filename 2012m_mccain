@@ -628,7 +628,7 @@ campaignTrail_temp.answers_json = [
         "pk": 172,
         "fields": {
             "question": 43,
-            "description": "This has been your firm position since the news of Citizens United broke, and it’s one of the areas where your ‘Maverick’ agenda genuinely stands out as more than just a superficial, plastic label."
+            "description": "I’ve said it before, and I’ll say it again, this is one of the worst decisions the Supreme Court has made in recent history. If they can’t recognize that reasonable campaign finance regulation is constitutional, then yes, I believe we may need to pursue an Amendment."
         }
     },
     {
@@ -11374,7 +11374,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 172,
             "candidate": 17,
-            "answer_feedback": "This is probably the best approach for handling this issue, pushing it forward to a second term is likely the most strategic move you can make. "
+            "answer_feedback": "This has been your firm position since the news of Citizens United broke, and it’s one of the areas where your ‘Maverick’ agenda genuinely stands out as more than just a superficial, plastic label. "
         }
     },
     {
