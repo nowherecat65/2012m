@@ -29,6 +29,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 1277,
+        "fields": {
+            "priority": 2,
+            "description": "The time has come for a final stamp of approval. In one of your thrice-weekly lunches, just before the convention, Vice President Lieberman openly mentioned he’d be willing to step down from the ticket if you believe it would be strategic. What do you say? ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 131,
         "fields": {
             "priority": 0,
@@ -525,6 +534,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 33,
             "description": "This is a good idea and it should be expanded."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1277,
+        "fields": {
+            "question": 33,
+            "description": "No. Joe is staying on the ticket. Kicking him off be a mistake."
         }
     },
     {
