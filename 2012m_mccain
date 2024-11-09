@@ -7831,6 +7831,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 309,
+        "fields": {
+            "answer": 28,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 320,
         "fields": {
             "answer": 24,
@@ -11235,7 +11245,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 361,
         "fields": {
-            "answer": 27,
+            "answer": 25,
             "candidate": 17,
             "answer_feedback": "Many were hoping for a more passionate, or intentioned answer from the President of the United States."
         }
@@ -11370,7 +11380,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 383,
         "fields": {
-            "answer": 26,
+            "answer": 25,
             "candidate": 17,
             "answer_feedback": "You've given the Warner campaign an opening to deliver a punch to your administration on the border issue, and it looks like they’re ready to take full advantage. "
         }
@@ -11379,7 +11389,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 383,
         "fields": {
-            "answer": 27,
+            "answer": 25,
             "candidate": 17,
             "answer_feedback": "You've given the Warner campaign an opening to deliver a punch to your administration on the border issue, and it looks like they’re ready to take full advantage. "
         }
