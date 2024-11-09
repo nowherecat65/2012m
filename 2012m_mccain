@@ -158,7 +158,7 @@ campaignTrail_temp.questions_json = [
         "pk": 67,
         "fields": {
             "priority": 2,
-            "description": "Should military spending be cut to help reduce the deficit? If so, by how much?",
+            "description": "Do you think that military spending should be reduced to help cut the deficit? And if so, by how much?",
             "likelihood": 1
         }
     },
@@ -660,7 +660,7 @@ campaignTrail_temp.answers_json = [
         "pk": 243,
         "fields": {
             "question": 67,
-            "description": "Undermining our national security is not the best way to address our government deficit. I support a strong defense under any circumstances."
+            "description": "Cutting our military budget isn’t the answer to reducing our deficit. We can tackle our budget without compromising national security. I’ll always stand for a strong and well-prepared defense."
         }
     },
     {
@@ -668,7 +668,7 @@ campaignTrail_temp.answers_json = [
         "pk": 244,
         "fields": {
             "question": 67,
-            "description": "Compared to our potential adversaries, we spend a colossal amount on our military infrastructure. Certainly any attempt to reduce our deficit should include a few cuts in the military."
+            "description": "It’s true; our defense spending is substantial compared to other nations, and there are areas where we can responsibly trim back without compromising our core strength. If we're serious about reducing the deficit, then some careful adjustments to military spending are worth considering. "
         }
     },
     {
@@ -676,7 +676,7 @@ campaignTrail_temp.answers_json = [
         "pk": 245,
         "fields": {
             "question": 67,
-            "description": "How can Republicans talk about cutting the size of the federal government without supporting a dime of military cuts? In a post-Cold War environment, it makes absolutely no sense for us to spend what we do on defense. Military spending should be cut drastically."
+            "description": "We need to be smart, not reckless, when it comes to our defense budget. I’m open to efficiency reforms, but not at the expense of our readiness or global commitments. America’s strength isn’t something I’m willing to gamble with for the sake of temporary cuts."
         }
     },
     {
@@ -7237,12 +7237,42 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 165,
+        "fields": {
+            "answer": 243,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0043
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 165,
+        "fields": {
+            "answer": 243,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0063
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 166,
         "fields": {
             "answer": 244,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.0197
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 166,
+        "fields": {
+            "answer": 244,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.03
         }
     },
     {
@@ -7262,7 +7292,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 244,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.02874
         }
     },
     {
@@ -8297,6 +8327,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 415,
+        "fields": {
+            "answer": 246,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 424,
         "fields": {
             "answer": 288,
@@ -8915,7 +8955,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 244,
             "issue": 3,
             "issue_score": 0.4,
-            "issue_importance": 1
+            "issue_importance": 1.5
         }
     },
     {
@@ -8975,7 +9015,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 290,
             "issue": 1,
             "issue_score": -0.3,
-            "issue_importance": 1
+            "issue_importance": 1.7
         }
     },
     {
@@ -12026,6 +12066,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 172,
             "candidate": 17,
             "answer_feedback": "This has been your firm position since the news of Citizens United broke, and it’s one of the areas where your ‘Maverick’ agenda genuinely stands out as more than just a superficial, plastic label. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 244,
+            "candidate": 17,
+            "answer_feedback": "Wow, this stance is a more liberal step than many expected from you, maybe not radical, but certainly surprising. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 245,
+            "candidate": 17,
+            "answer_feedback": "This is close to the standard plank of the GOP, but it's a little bit more liberal than some were expecting from John McCain. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 243,
+            "candidate": 17,
+            "answer_feedback": "This is essentially the standard plank of the GOP, and perfectly in line with your beliefs. "
         }
     },
     {
