@@ -6478,7 +6478,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1011,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.3651
+            "global_multiplier": 0.425
         }
     },
     {
@@ -6488,7 +6488,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1014,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.3651
+            "global_multiplier": 0.425
         }
     },
     {
@@ -6498,7 +6498,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1013,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.3651
+            "global_multiplier": 0.425
         }
     },
     {
@@ -6508,7 +6508,47 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1012,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.3651
+            "global_multiplier": 0.425
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1012,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1011,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1013,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1014,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.1
         }
     },
     {
