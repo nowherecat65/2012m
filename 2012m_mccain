@@ -59,7 +59,7 @@ campaignTrail_temp.questions_json = [
         "pk": 25,
         "fields": {
             "priority": 1,
-            "description": "Do you support allowing the Bush Tax Cuts to expire for high-income households at the end of 2012?",
+            "description": "Do you support letting the Bush Tax Cuts expire for high-income households at the end of 2012, given your 2009 middle-class tax cut?",
             "likelihood": 1
         }
     },
@@ -403,7 +403,7 @@ campaignTrail_temp.answers_json = [
         "pk": 97,
         "fields": {
             "question": 25,
-            "description": "I support letting the cuts expire. It's time that wealthy Americans paid their fair share for the opportunities our society gives to them."
+            "description": "I believe it’s time high-earners pay their fair share, and we can do it in a smart, measured way. I’m ready to work with both parties on this, once we get past the gridlock and back to serving the American people."
         }
     },
     {
@@ -411,7 +411,7 @@ campaignTrail_temp.answers_json = [
         "pk": 98,
         "fields": {
             "question": 25,
-            "description": "Perhaps we can consider letting these expire at some point in the future, but for now we are mired in a stagnant economy and need to avoid tax increases."
+            "description": "We might revisit this later in my next term, but with the economy moving out of a recession, tax hikes aren’t the answer. Right now, we need to focus on getting America back on its feet."
         }
     },
     {
@@ -419,7 +419,7 @@ campaignTrail_temp.answers_json = [
         "pk": 99,
         "fields": {
             "question": 25,
-            "description": "We should keep the tax cuts as is for the foreseeable future. I don't think it's sound economics to rise taxes on this group."
+            "description": "Now isn’t the time for tax hikes. Let’s keep the current cuts and focus on growth, not stalling it with more taxes."
         }
     },
     {
@@ -427,7 +427,7 @@ campaignTrail_temp.answers_json = [
         "pk": 100,
         "fields": {
             "question": 25,
-            "description": "Our most productive citizens need further tax cuts to stimulate business confidence, investment, and further job creation."
+            "description": "I believe in cutting taxes for our job creators, you know in my next term, it builds confidence, spurs investment, and creates jobs. That’s how we strengthen America."
         }
     },
     {
@@ -6748,6 +6748,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 126,
+        "fields": {
+            "answer": 98,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.009898951
         }
     },
     {
