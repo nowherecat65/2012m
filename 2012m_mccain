@@ -200,6 +200,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 266,
+        "fields": {
+            "priority": 2,
+            "description": "An NBC contact has reached out to your campaign leadership about an Access Hollywood video featuring Trump on a bus, for an Access Hollywood video shoot, discussing women in explicit and vulgar sexual detail. The story is reportedly about to go live. Do you have a response in mind? ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 33,
         "fields": {
             "priority": 2,
@@ -436,6 +445,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 26,
             "description": "The U.S.-China relationship has destroyed middle class jobs for close to three decades. We need drastic changes including more protection for American manufacturing."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1011,
+        "fields": {
+            "question": 266,
+            "description": "This only reinforces what I’ve been saying about Mr. Trump: he is completely unprepared, and frankly, it’s laughable to even consider him a serious candidate for the presidency. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1012,
+        "fields": {
+            "question": 266,
+            "description": "Uhh... Let’s stay clear of this. I’ve been steering away from his antics since the start of this race, and I don’t see any reason to change course now.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1013,
+        "fields": {
+            "question": 266,
+            "description": "These comments are absolutely disgusting and wrong, and I believe every American understands they make Donald Trump fundamentally unfit for the White House. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1014,
+        "fields": {
+            "question": 266,
+            "description": "Donald Trump's comments are disgraceful and unchristian. Do folks honestly believe this man reflects their values? Is this really where they want to lead our nation? "
         }
     },
     {
@@ -6392,6 +6433,86 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1014,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.74
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1013,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.74
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1012,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.74
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1011,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.74
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1011,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1014,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1013,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 1012,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 15,
         "fields": {
             "answer": 45,
@@ -11059,6 +11180,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 731,
             "candidate": 17,
             "answer_feedback": "Despite conservative whining, at the end of the day, the average American does generally trust you, just not necessarily your administration or policies. Leaning in on your 'steady hand' is probably smart."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 1011,
+            "candidate": 17,
+            "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 1012,
+            "candidate": 17,
+            "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 1014,
+            "candidate": 17,
+            "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 1013,
+            "candidate": 17,
+            "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
         }
     },
     {
