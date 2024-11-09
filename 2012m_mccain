@@ -86,7 +86,7 @@ campaignTrail_temp.questions_json = [
         "pk": 43,
         "fields": {
             "priority": 2,
-            "description": "Would you support a Constitutional Amendment to overturn some provisions of the <em>Citizens United</em> ruling, affecting campaign finance by PAC's?",
+            "description": "Mr. President, given your strong opposition to the Citizens United decision and your long-standing commitment to curbing the influence of money in politics, would you support further steps, including a Constitutional Amendment, to limit Super PACs and require full transparency in political spending?",
             "likelihood": 1
         }
     },
@@ -604,7 +604,7 @@ campaignTrail_temp.answers_json = [
         "pk": 169,
         "fields": {
             "question": 43,
-            "description": "Absolutely not. The right to disseminate one's political viewpoints freely is central to American democracy."
+            "description": "No, I don’t support that. The right for Americans to express their political viewpoints freely is a cornerstone of our democracy."
         }
     },
     {
@@ -612,7 +612,7 @@ campaignTrail_temp.answers_json = [
         "pk": 170,
         "fields": {
             "question": 43,
-            "description": "Perhaps not a Constitutional Amendment. These should be reserved for the most serious of issues. I think we can investigate maybe other ways to prevent money from having an undue influence in politics."
+            "description": "I don’t think a Constitutional Amendment is necessary for this. Those should be used sparingly, for the most significant issues. But I am open to exploring other ways to curb the outsized influence of money in our politics."
         }
     },
     {
@@ -620,7 +620,7 @@ campaignTrail_temp.answers_json = [
         "pk": 171,
         "fields": {
             "question": 43,
-            "description": "I would be happy to disavow the use of Super PAC advertising if my opponent would as well. Unfortunately the other side will do anything to win this election, regardless of how it aligns with the will of the public."
+            "description": "I’d be more than willing to disavow Super PAC spending if my opponent would commit to doing the same. But as it stands, the other side seems intent on using every advantage they can to win, regardless of the public’s will. That said, if re-elected, I'll keep working on this issue. "
         }
     },
     {
@@ -628,7 +628,7 @@ campaignTrail_temp.answers_json = [
         "pk": 172,
         "fields": {
             "question": 43,
-            "description": "This is one of the worst decisions in the history of the court. If they can't see that campaign finance regulation is entirely constitutional, then we do need to have an Amendment in place."
+            "description": "This has been your firm position since the news of Citizens United broke, and it’s one of the areas where your ‘Maverick’ agenda genuinely stands out as more than just a superficial, plastic label."
         }
     },
     {
@@ -6916,9 +6916,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 95,
         "fields": {
             "answer": 169,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": -0.005
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.02
         }
     },
     {
@@ -6926,7 +6926,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 96,
         "fields": {
             "answer": 170,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": 0.003
         }
@@ -6943,12 +6943,42 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 97,
+        "fields": {
+            "answer": 171,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 98,
+        "fields": {
+            "answer": 172,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 98,
         "fields": {
             "answer": 172,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.019
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 98,
+        "fields": {
+            "answer": 172,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0092
         }
     },
     {
@@ -7067,8 +7097,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 245,
             "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": -0.066
+            "affected_candidate": 16,
+            "global_multiplier": 0.0251
         }
     },
     {
@@ -11309,6 +11339,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 1011,
             "candidate": 17,
             "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 169,
+            "candidate": 17,
+            "answer_feedback": "This represents a real shift from your longstanding policy on this matter. It might be necessary to put it on the backburner for now, but, sir, flip-flopping here isn’t a great look."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 170,
+            "candidate": 17,
+            "answer_feedback": "This may come across as a bit of a flip-flop, but committing yourself to pushing for a constitutional amendment is, at the end of the day, a serious and weighty promise. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 171,
+            "candidate": 17,
+            "answer_feedback": "This is probably the best approach for handling this issue, pushing it forward to a second term is likely the most strategic move you can make. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 172,
+            "candidate": 17,
+            "answer_feedback": "This is probably the best approach for handling this issue, pushing it forward to a second term is likely the most strategic move you can make. "
         }
     },
     {
