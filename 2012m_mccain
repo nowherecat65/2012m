@@ -191,6 +191,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 106,
+        "fields": {
+            "priority": 2,
+            "description": "The time has come, Mr. President. Debates are being organized, and despite some noise from Donald Trump, he won’t be participating. This sets up a direct confrontation between you and Mark Warner. What do you say?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 6,
         "fields": {
             "priority": 2,
@@ -222,15 +231,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 2,
             "description": "What is your opinion on directing some Department of Education funding towards a school voucher program?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 106,
-        "fields": {
-            "priority": 2,
-            "description": "During your tenure, Bain Capital laid off thousands of workers at various companies that it purchased. Are you proud of your work at that company?",
             "likelihood": 1
         }
     },
@@ -836,7 +836,7 @@ campaignTrail_temp.answers_json = [
         "pk": 369,
         "fields": {
             "question": 106,
-            "description": "Joseph Schumpeter coined the term of \"creative destruction\". Society will never evolve if some people aren't relocated into more productive pursuits from time to time."
+            "description": "You bet I'll be there. I want to show the American people that I’m the seasoned, tested President they can trust, while Warner is, frankly, just a liberal amateur."
         }
     },
     {
@@ -844,7 +844,7 @@ campaignTrail_temp.answers_json = [
         "pk": 370,
         "fields": {
             "question": 106,
-            "description": "We created numerous companies like Staples, which are American success stories employing thousands of people."
+            "description": "I’d like nothing more than to debate Mark Warner. My goal is to come across as measured and presidential. We can’t afford to seem too rigid or overly emotional, this is serious business. "
         }
     },
     {
@@ -852,7 +852,15 @@ campaignTrail_temp.answers_json = [
         "pk": 371,
         "fields": {
             "question": 106,
-            "description": "We all made mistakes when we were younger. I'm no exception."
+            "description": "Of course, we'll be there. I want to focus on the fact that over the last four years, our nation has faced serious tests, but we've kept America safe. And I want folks at home to know I've played a key role in making that happen. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 372,
+        "fields": {
+            "question": 106,
+            "description": "Yes, yes, we'll be there. I want my team to get me up to speed on the big issues folks are talking about. The presidency can be a bit insulating, I’ve got the facts down, but I know how easy it is to lose track of the narrative out there. "
         }
     },
     {
@@ -7747,12 +7755,92 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 370,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0284
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 370,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.0264
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 372,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.003
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 372,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 371,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0384
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 371,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 268,
         "fields": {
             "answer": 368,
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": 0.01498998
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 369,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.017
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 369,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0425
         }
     },
     {
@@ -7807,12 +7895,52 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 372,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.35
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 270,
         "fields": {
             "answer": 370,
             "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": 0.01
+            "affected_candidate": 19,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 270,
+        "fields": {
+            "answer": 371,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 270,
+        "fields": {
+            "answer": 372,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 270,
+        "fields": {
+            "answer": 369,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7822,7 +7950,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 371,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.066
+            "global_multiplier": -0.0066
         }
     },
     {
@@ -12225,8 +12353,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 369,
         "fields": {
             "answer": 47,
-            "candidate": 16,
-            "answer_feedback": "This isn't what you did in 2011. Have you had a change of heart?"
+            "candidate": 17,
+            "answer_feedback": "From nearly the opening few words, you took an aggressive and intensely serious stance against Warner - but according to many viewers, it came off as too gruff and rude, and he was declared the winner according to many polls."
         }
     },
     {
@@ -12236,6 +12364,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 48,
             "candidate": 16,
             "answer_feedback": "You may be right, but <em>you</em> were one of the people who allowed this to happen. Republicans now have ammunition to brand you as a 'flip-flopper'. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 370,
+        "fields": {
+            "answer": 371,
+            "candidate": 16,
+            "answer_feedback": "Warner seemed eager to focus on issues of age and connecting with the American people's concerns, while you concentrated on criticizing the 'Do-Nothing' Congress and the ongoing gridlock. In the end, he was considered the winner, though by a close margin. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 370,
+        "fields": {
+            "answer": 372,
+            "candidate": 16,
+            "answer_feedback": "You spent substantial time with your team, and it showed. You appeared remarkably well-versed on specific issues of the day rather than just overarching points. Still, Warner had the upper hand in rhetoric, and most saw it as a clear, and clean draw."
         }
     },
     {
