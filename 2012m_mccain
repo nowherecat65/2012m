@@ -122,7 +122,7 @@ campaignTrail_temp.questions_json = [
         "pk": 81,
         "fields": {
             "priority": 2,
-            "description": "The passage of the Shelby-Bayh Financial Integrity Act in 2010 was one of your administration’s landmark achievements, introducing stricter oversight on banks. It established guidelines for accountability, requiring banks to hold more capital to reduce risky lending while streamlining regulatory processes to encourage market stability. Critics, including many Democrats, and Trump alike argue it doesn’t go far enough to fully curb risky banking practices. How should we respond?",
+            "description": "The 2010 Shelby-Bayh Financial Integrity Act was a landmark achievement for your administration, seeking to prevent another Great Recession. It set accountability guidelines, required banks to hold more capital to limit risky lending, and streamlined regulatory processes to support market stability. Critics, including Democrats and Trump, claim it doesn’t go far enough to curb risky banking practices. How should we respond?",
             "likelihood": 1
         }
     },
@@ -765,6 +765,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 81,
             "description": "We don’t need a mountain of regulations to keep Wall Street in check. Shelby-Bayh is a framework of responsibility that banks can work within, giving us stability without sacrificing growth. That’s the balance Americans expect."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2912,
+        "fields": {
+            "question": 81,
+            "description": "With Shelby-Bayh, we struck a necessary balance, holding banks accountable while preserving the free market principles that drive our economy. Americans deserve a system that protects their savings without strangling growth, and that’s what this act is all about."
         }
     },
     {
@@ -7485,6 +7493,26 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 216,
         "fields": {
+            "answer": 2912,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2912,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
             "answer": 292,
             "candidate": 17,
             "affected_candidate": 18,
@@ -7549,6 +7577,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": -0.0041
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2912,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.14217
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2912,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0181
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2912,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.001
         }
     },
     {
@@ -9930,7 +9988,17 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 289,
             "issue": 1,
-            "issue_score": -0.17,
+            "issue_score": -0.19,
+            "issue_importance": 1.9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 341,
+        "fields": {
+            "answer": 2912,
+            "issue": 1,
+            "issue_score": -0.05,
             "issue_importance": 1.9
         }
     },
@@ -13103,7 +13171,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 289,
             "candidate": 17,
-            "answer_feedback": "This is a solid defense, but it doesn’t change the reality that many liberals—and increasingly some moderates—see Shelby-Bayh as falling short of being meaningful reform. "
+            "answer_feedback": "This is a solid defense, but it doesn’t change the reality that many liberals, and increasingly most Democrats, see Shelby-Bayh as falling short of meaningful reform, viewing it as too lenient on Wall Street and insufficient. "
         }
     },
     {
@@ -13113,6 +13181,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 2911,
             "candidate": 17,
             "answer_feedback": "This appeals to some conservatives who feel Shelby-Bayh went too far, but keep in mind that most people, especially those you need to win over, either feel it didn’t go far enough or simply aren’t too familiar with the specifics."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2912,
+            "candidate": 17,
+            "answer_feedback": "This approach to Shelby-Bayh is certainly balanced, but the act still has left liberals feeling it didn't go far enough and conservatives thinking it went too far. Ultimately, it seems to have satisfied only a handful of the most centrist folks in D.C. "
         }
     },
     {
