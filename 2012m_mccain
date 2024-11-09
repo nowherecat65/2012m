@@ -7472,6 +7472,16 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 402,
+        "fields": {
+            "answer": 167,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.001534
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 403,
         "fields": {
             "answer": 168,
