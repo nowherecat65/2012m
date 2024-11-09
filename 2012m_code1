@@ -565,4 +565,59 @@ document.body.background = "https://cdn.discordapp.com/attachments/1186700569654
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
 
+RecReading = true
+
+async function appendStyle() {
+    var metaTag=document.createElement('meta');
+    metaTag.name = "viewport";
+    metaTag.content = "width=device-width, initial-scale=1";
+    document.getElementsByTagName('head')[0].appendChild(metaTag);
+
+    if (!document.querySelector('#radio-option-style')) {
+        let style = document.createElement('style');
+        style.type = 'text/css';
+        style.id = 'radio-option-style';
+        style.innerHTML = `
+        .inner_inner_window {
+        display: flex;
+        flex-direction: column;
+        }
+        .inner_inner_window h3{
+            padding: 5px;
+        }
+
+        .inner_window_sign_display {
+            padding: -5px;
+        }
+
+        #candidate_pic,
+        #running_mate_pic,
+        .inner_window_sign_display {
+            height: 150px;
+        }
+        #candidate_pic {
+            margin-left: 175px;
+        }
+        #running_mate_pic {
+            margin-right: 175px;
+        }
+        `;
+
+
+
+        document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 1em 0 !important;padding-top: 0.5em !important;}", 0);
+        document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 1em .7em !important;padding-top: 0.3em !important;}", 0);
+        document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
+        document.styleSheets[0].insertRule(".game_header{ height:4.1em !important;}", 0);
+        document.styleSheets[0].insertRule("#game_window{ height:41em !important;}", 0);
+        resultsTableHolder.classList.add("done");
+        document.getElementById("overall_details_container").children[2].children[5].remove()
+        document.getElementById("overall_details_container").children[2].children[4].remove()
+        document.getElementById("overall_details_container").children[2].children[3].style.marginBottom = "0.4em"
+        console.log("DANXV FIX YOUR CODE")
+        document.head.appendChild(style);
+    }
+}
+appendStyle();
+
 //#endcode
