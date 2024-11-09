@@ -50,7 +50,7 @@ campaignTrail_temp.questions_json = [
         "pk": 42,
         "fields": {
             "priority": 1,
-            "description": "The Affordable Care Act (i.e. 'Obamacare') will cap annual premiums, require minimum coverage levels, and outlaw discrimination against people with pre-existing conditions. What do you think?",
+            "description": "Your Health Choice Act, or 'HealthChoice,' proposed replacing the employer insurance tax break with a $2,500 credit for individuals and $5,000 for families, allowing insurance purchases across state lines, and supporting high-risk individuals through state-based pools. However, Democrats in Congress defeated the bill in 2010. Are you going to bring this up on the trail?",
             "likelihood": 1
         }
     },
@@ -531,7 +531,7 @@ campaignTrail_temp.answers_json = [
         "pk": 165,
         "fields": {
             "question": 42,
-            "description": "This program will be a disaster. Not only is it an unconstitutional violation of personal freedom, but it will lead to a decline in American health care and will prove to be financially impossible to maintain without socializing the health care system."
+            "description": "You know, I’m not one to dwell on the past. But if Mark Warner were ever to take office, he’d likely waste no time signing a single-payer, socialized healthcare bill, maybe in his very first week. We can’t stand by and let that happen."
         }
     },
     {
@@ -539,7 +539,7 @@ campaignTrail_temp.answers_json = [
         "pk": 166,
         "fields": {
             "question": 42,
-            "description": "This is the wrong way to reform the American health care system. We should be focusing on malpractice reform and on cutting red tape for private insurers."
+            "description": "No, no, I still stand by the bill, I believe it’s good policy. But let’s be realistic. It failed to pass, and frankly, we’re not looking at a majority in either the House or the Senate this cycle, either."
         }
     },
     {
@@ -547,7 +547,7 @@ campaignTrail_temp.answers_json = [
         "pk": 167,
         "fields": {
             "question": 42,
-            "description": "I'm convinced that this program will work. This is a good compromise allowing private insurers to conduct business, while securing access to health insurance for more Americans. If anything, the increased transparency will reduce insurance costs."
+            "description": "You know, once we break this deadlock, we can finally start making real progress for the American people, I’m confident of that. I’d be glad to see my HealthChoice bill signed into law; it’ll make a real difference for folks. But right now, the Democrats just keep standing in our way."
         }
     },
     {
@@ -555,7 +555,7 @@ campaignTrail_temp.answers_json = [
         "pk": 168,
         "fields": {
             "question": 42,
-            "description": "There should be a public insurance company offering health care to all Americans. Private insurers are simply too greedy and too likely to turn down people with pre-existing health conditions."
+            "description": "There’s got to be a real solution on healthcare, and I’m determined to see it through. The system we have right now just isn’t fair. - But I’m not locked into any one plan at the moment"
         }
     },
     {
@@ -6646,8 +6646,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 165,
             "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": 0.005
+            "affected_candidate": 16,
+            "global_multiplier": -0.005
         }
     },
     {
@@ -6655,9 +6655,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 91,
         "fields": {
             "answer": 166,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": -0.066
+            "global_multiplier": 0.01
         }
     },
     {
@@ -6667,7 +6667,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 167,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.02
+            "global_multiplier": 0.01
         }
     },
     {
@@ -6677,7 +6677,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 168,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.005
         }
     },
     {
@@ -6687,7 +6687,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 168,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.01
         }
     },
     {
@@ -6766,8 +6766,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 243,
             "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": 0.01
+            "affected_candidate": 18,
+            "global_multiplier": 0.0043
         }
     },
     {
@@ -7357,7 +7357,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 165,
             "candidate": 16,
             "affected_candidate": 19,
-            "global_multiplier": 0.0125
+            "global_multiplier": 0.005125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 348,
+        "fields": {
+            "answer": 166,
+            "candidate": 16,
+            "affected_candidate": 19,
+            "global_multiplier": 0.004125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 348,
+        "fields": {
+            "answer": 164,
+            "candidate": 16,
+            "affected_candidate": 19,
+            "global_multiplier": 0.003125
         }
     },
     {
@@ -7447,7 +7467,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 167,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01734
         }
     },
     {
@@ -7457,7 +7477,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 168,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.023
         }
     },
     {
@@ -7969,7 +7989,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 166,
             "issue": 2,
-            "issue_score": -0.25,
+            "issue_score": -0.14,
             "issue_importance": 4
         }
     },
@@ -7979,8 +7999,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 167,
             "issue": 2,
-            "issue_score": 0.44,
-            "issue_importance": 4
+            "issue_score": 0.33,
+            "issue_importance": 5
         }
     },
     {
@@ -7989,7 +8009,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 168,
             "issue": 2,
-            "issue_score": 0.66,
+            "issue_score": 0.41,
             "issue_importance": 4
         }
     },
@@ -10597,8 +10617,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 399,
         "fields": {
             "answer": 166,
-            "candidate": 16,
-            "answer_feedback": "This is a bad answer for you, considering that it's your own health care plan."
+            "candidate": 17,
+            "answer_feedback": "The Warner campaign is actively promoting their healthcare plans, while you appear to lack a clear stance, apart from distancing yourself from your own (albeit unsuccessful) healthcare bill. This isn’t a smart strategy, sir."
         }
     },
     {
@@ -10724,16 +10744,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 165,
             "candidate": 17,
-            "answer_feedback": "Keep throwing the red meat to your supporters."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 465,
-        "fields": {
-            "answer": 166,
-            "candidate": 17,
-            "answer_feedback": "This is a decent response for you if you're trying to appeal to a larger base."
+            "answer_feedback": "You're not diving into specifics, but focusing your attacks on Warner is a smart move. Keep serving up the red meat to your supporters."
         }
     },
     {
@@ -10742,7 +10753,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 167,
             "candidate": 17,
-            "answer_feedback": "You've spent years convincing your Republican base that you had changed your mind on this issue. What gives?"
+            "answer_feedback": "While you’ve stood by your bill, let’s not forget, folks, that a lot of the bipartisan legislation you signed, or attempted to sign, early in your term is part of what fueled Santorum’s challenge in the primary. "
         }
     },
     {
@@ -10751,7 +10762,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 168,
             "candidate": 17,
-            "answer_feedback": "How can you even say something like this? You've placed yourself to the left of Barack Obama on health care..."
+            "answer_feedback": "This response is overly cautious and, at the same time, perhaps leans a bit left on healthcare. Most voters expect you to stand firm on your healthcare bill, even if it didn’t pass. "
         }
     },
     {
