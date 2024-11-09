@@ -212,7 +212,7 @@ campaignTrail_temp.questions_json = [
         "pk": 26,
         "fields": {
             "priority": 2,
-            "description": "Overall, are you satisfied with the trade relationship between the U.S. and China?",
+            "description": "Are you satisfied with the current trade relationship between the United States and China, or do you see areas where changes are needed?",
             "likelihood": 1
         }
     },
@@ -444,7 +444,7 @@ campaignTrail_temp.answers_json = [
         "pk": 101,
         "fields": {
             "question": 26,
-            "description": "The U.S.-China relationship has destroyed middle class jobs for close to three decades. We need drastic changes including more protection for American manufacturing."
+            "description": "The U.S.-China trade relationship has put real pressure on American manufacturing jobs over the years. We need to take smart, measured steps to protect American workers and ensure fair competition, while still keeping our place as a leader in the global economy."
         }
     },
     {
@@ -484,7 +484,7 @@ campaignTrail_temp.answers_json = [
         "pk": 102,
         "fields": {
             "question": 26,
-            "description": "I'm not very satisfied at all. Off the record, however, we cannot change much without risking a Chinese flight from our Treasuries and a possible trade war."
+            "description": "We need a steady hand here. Pushing too hard could lead to China pulling back on U.S. Treasury investments or even sparking a trade war. We have to strike a balance, keeping China accountable while protecting American jobs."
         }
     },
     {
@@ -492,7 +492,7 @@ campaignTrail_temp.answers_json = [
         "pk": 103,
         "fields": {
             "question": 26,
-            "description": "This relationship has its pros and cons. China should be doing more to live up to their end of our trade agreements, and they must stop manipulating their currency."
+            "description": "Well, we need to be clear here, China needs to step up and honor their commitments in our trade agreements and stop manipulating their currency. Fair trade means everyone plays by the same rules."
         }
     },
     {
@@ -500,7 +500,7 @@ campaignTrail_temp.answers_json = [
         "pk": 104,
         "fields": {
             "question": 26,
-            "description": "This should be a model for other trade agreements as the developing world continues to seek the benefits of globalization."
+            "description": "We passed a trade deal with Korea last year, my friends, and it’s a solid example of how open markets can drive growth and opportunity. Trade fuels prosperity, and agreements like this should set the benchmark for future deals. We need trade that creates jobs and strengthens our alliances."
         }
     },
     {
@@ -6517,6 +6517,36 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 10,
         "fields": {
+            "answer": 104,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 104,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 104,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.115
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
             "answer": 1011,
             "candidate": 17,
             "affected_candidate": 18,
@@ -11454,9 +11484,9 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 104,
             "state": 22,
-            "candidate": 16,
+            "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.04
+            "state_multiplier": 0.012
         }
     },
     {
@@ -12182,7 +12212,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 22,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": -0.04
+            "state_multiplier": -0.041
         }
     },
     {
@@ -12564,6 +12594,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 354,
             "candidate": 17,
             "answer_feedback": "You've embraced the polarizing Rick Santorum, who ran an insurgent campaign against you, picked up rural states, and kept you on your toes. It may be a smart move, but it stings. Meanwhile, Trump’s on Twitter, saying Santorum 'signed a deal with the devil.' "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 101,
+            "candidate": 17,
+            "answer_feedback": "Well, it seems you've been taking notes from Bernie Sanders and Donald Trump this year. This is definitely a shift to the left for you, even if you’re keeping it at least sounding fairly moderate. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 103,
+            "candidate": 17,
+            "answer_feedback": "This is a small shift to the left for you, but it's hardly an unworkable move or seen as too much of a flip-flop. Given Trump's appeal and Democrats hitting you hard on the ongoing recession, this approach might be exactly what's needed. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 104,
+            "candidate": 17,
+            "answer_feedback": "You picked up where Bush left off on free-trade agreements, Mr. President. But let’s be honest, this is part of why Bernie Sanders did so well and why Trump is running as an independent. Embracing free trade this openly might not be the most strategic choice right now. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 102,
+            "candidate": 17,
+            "answer_feedback": "This is certainly straddling the middle ground, sir. Not much else to say here."
         }
     },
     {
