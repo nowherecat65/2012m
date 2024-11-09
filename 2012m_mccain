@@ -122,7 +122,7 @@ campaignTrail_temp.questions_json = [
         "pk": 81,
         "fields": {
             "priority": 2,
-            "description": "The passage of the Shelby-Bayh Financial Integrity Act in 2010 was one of your administration’s landmark achievements, aimed at preventing another financial crisis through measured reforms. Critics, including Warner, argue it doesn’t go far enough to regulate risky banking behavior. How should we respond?",
+            "description": "The passage of the Shelby-Bayh Financial Integrity Act in 2010 was one of your administration’s landmark achievements, introducing stricter oversight on banks. It established guidelines for accountability, requiring banks to hold more capital to reduce risky lending while streamlining regulatory processes to encourage market stability. Critics, including many Democrats, and Trump alike argue it doesn’t go far enough to fully curb risky banking practices. How should we respond?",
             "likelihood": 1
         }
     },
