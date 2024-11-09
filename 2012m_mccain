@@ -122,7 +122,7 @@ campaignTrail_temp.questions_json = [
         "pk": 81,
         "fields": {
             "priority": 2,
-            "description": "After episodes such as the 'flash crash' in 2010, would you support a small financial transactions tax, with the sole purpose being to target high-frequency trading systems?",
+            "description": "The passage of the Shelby-Bayh Financial Integrity Act in 2010 was one of your administration’s landmark achievements, aimed at preventing another financial crisis through measured reforms. Critics, including Warner, argue it doesn’t go far enough to regulate risky banking behavior. How should we respond?",
             "likelihood": 1
         }
     },
@@ -721,6 +721,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 289,
+        "fields": {
+            "question": 80,
+            "description": "Well, you know, we’ve still got troops deployed in Iraq and Afghanistan, and it’s clear we stand against Assad’s regime. We’ve been supporting the rebels where we can, but putting American boots on the ground? That’s a different matter."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 287,
         "fields": {
             "question": 80,
@@ -740,30 +748,30 @@ campaignTrail_temp.answers_json = [
         "pk": 289,
         "fields": {
             "question": 81,
-            "description": "A financial transactions tax would surely portend even more inept government meddling in the financial sector."
+            "description": "Shelby-Bayh wasn’t about overburdening banks or stifling growth; it was about common-sense accountability. We need transparency, not red tape, to keep our economy strong and protect taxpayers from risky practices."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 290,
         "fields": {
-            "question": 81,
+            "question": 81111,
             "description": "I'm opposed to this idea. The last thing we need to right now is create new forms of taxation."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 291,
+        "pk": 2911,
         "fields": {
             "question": 81,
-            "description": "I'm confident that the Financial Stability Oversight Council, created by the Dodd-Frank bill, will be effective in preventing excessive risk in the financial sector."
+            "description": "We don’t need a mountain of regulations to keep Wall Street in check. Shelby-Bayh is a framework of responsibility that banks can work within, giving us stability without sacrificing growth. That’s the balance Americans expect."
         }
     },
     {
         "model": "campaign_trail.answer",
         "pk": 292,
         "fields": {
-            "question": 81,
+            "question": 81111,
             "description": "Automated high-frequency trading serves no purpose in our financial system. Such trading houses are parasitic in nature and a financial transactions tax on them is entirely appropriate."
         }
     },
@@ -7449,8 +7457,28 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 289,
             "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": 0.005
+            "affected_candidate": 18,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2911,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.016
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2911,
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -7480,7 +7508,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 289,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.117
+            "global_multiplier": 0.11998
         }
     },
     {
@@ -7491,6 +7519,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": 0.01694
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2911,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.11217
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2911,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.01998998998
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 216,
+        "fields": {
+            "answer": 2911,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0041
         }
     },
     {
@@ -9864,6 +9922,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 1,
             "issue_score": -0.9,
             "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 341,
+        "fields": {
+            "answer": 289,
+            "issue": 1,
+            "issue_score": -0.17,
+            "issue_importance": 1.9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 341,
+        "fields": {
+            "answer": 2911,
+            "issue": 1,
+            "issue_score": -0.34,
+            "issue_importance": 1.9
         }
     },
     {
@@ -13017,6 +13095,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 245,
             "candidate": 17,
             "answer_feedback": "This is close to the standard plank of the GOP, but it's a little bit more liberal than some were expecting from John McCain. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 289,
+            "candidate": 17,
+            "answer_feedback": "This is a solid defense, but it doesn’t change the reality that many liberals—and increasingly some moderates—see Shelby-Bayh as falling short of being meaningful reform. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2911,
+            "candidate": 17,
+            "answer_feedback": "This appeals to some conservatives who feel Shelby-Bayh went too far, but keep in mind that most people, especially those you need to win over, either feel it didn’t go far enough or simply aren’t too familiar with the specifics."
         }
     },
     {
