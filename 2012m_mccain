@@ -588,7 +588,7 @@ campaignTrail_temp.answers_json = [
         "pk": 166,
         "fields": {
             "question": 42,
-            "description": "No, no, I still stand by the bill, I believe it’s good policy. But let’s be realistic. It failed to pass, and frankly, we’re not looking at a majority in either the House or the Senate this cycle, either."
+            "description": "C'mon! Of course, I still stand by the bill, I believe it’s good policy. But let’s be realistic. It failed to pass, and frankly, we’re not looking at a majority in either the House or the Senate this cycle, either."
         }
     },
     {
