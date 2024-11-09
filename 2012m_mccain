@@ -113,7 +113,7 @@ campaignTrail_temp.questions_json = [
         "pk": 75,
         "fields": {
             "priority": 2,
-            "description": "The most recent poll showed you slipping by a couple of percentage points. Are you planning on making any changes in your campaign to address this?",
+            "description": "Mr. President, with both Mr. Trump and Mark Warner actively gunning for you, coupled with your current unpopularity, your standing in the polls is, frankly, dire. How would you like to address this? Any changes in mind? ",
             "likelihood": 1
         }
     },
@@ -684,7 +684,7 @@ campaignTrail_temp.answers_json = [
         "pk": 268,
         "fields": {
             "question": 75,
-            "description": "We don't pay attention to things like polls and focus groups. We just go out every day and present our message to the American people. Everything else will take care of itself."
+            "description": "We don’t waste our time worrying about polls or focus groups. I’m not Clinton, and I’m not Bush. We’re out there every day sharing our message directly with the American people, and I believe the rest will take care of itself."
         }
     },
     {
@@ -692,7 +692,7 @@ campaignTrail_temp.answers_json = [
         "pk": 269,
         "fields": {
             "question": 75,
-            "description": "The only day that matters is election day. I think the fundamental incompetence of my opponent will be obvious by that point."
+            "description": "The only day that truly matters is Election Day, and by then, I believe the American people will see my opponent’s lack of real, meaningful experience for what it is. Frankly, he's just a celebrity, and that’s not what this country needs in a President."
         }
     },
     {
@@ -700,7 +700,15 @@ campaignTrail_temp.answers_json = [
         "pk": 270,
         "fields": {
             "question": 75,
-            "description": "I'm very concerned about these numbers. If they don't improve we might have to fire our campaign manager and start from scratch."
+            "description": "You know, I am concerned about these polls. Sure, we’ve still got some time, but I’ll be damned if I let these folks shove me out of the White House. It’s time to start an ad blitz against Warner. I know, I know, but if we want a real shot at winning, we’ve got to mobilize."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2701,
+        "fields": {
+            "question": 75,
+            "description": "I want to bring back the Straight Talk Express. Let’s start calling Air Force One that, and have banners at the rallies to remind folks. Look, I know people are uncertain, but we’ve made real progress these past four years, and I’m going to be out there telling Americans how and why."
         }
     },
     {
@@ -7166,7 +7174,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 270,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.02
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 199,
+        "fields": {
+            "answer": 2701,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0107
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 199,
+        "fields": {
+            "answer": 2701,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0077
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 199,
+        "fields": {
+            "answer": 2701,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0161
         }
     },
     {
@@ -7317,6 +7355,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 268,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 269,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0175
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 270,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0166
         }
     },
     {
