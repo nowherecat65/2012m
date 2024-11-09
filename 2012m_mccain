@@ -140,7 +140,7 @@ campaignTrail_temp.questions_json = [
         "pk": 117,
         "fields": {
             "priority": 2,
-            "description": "It has now been four years since the financial crisis plunged this country into a steep recession. Do you attribute current economic conditions more to Obama or to Bush?",
+            "description": "It’s been four years since the financial crisis pushed this country into a deep recession. Throughout your presidency, some on your team have subtly pointed fingers at the Bush administration, perhaps to distinguish your own economic record. You’re being questioned on your views regarding Bush. How would do you want to address this?",
             "likelihood": 1
         }
     },
@@ -956,7 +956,7 @@ campaignTrail_temp.answers_json = [
         "pk": 405,
         "fields": {
             "question": 117,
-            "description": "This is mostly a result of Bush's failed policies. Regulatory failures allowed too many bad loans to make their way into the financial system. We will not repeat this mistake."
+            "description": "George Bush was a good man, but folks remember I ran against him in 2000. I have my disagreements with how he handled the economy, and some of his decisions. I am my own person."
         }
     },
     {
@@ -964,7 +964,7 @@ campaignTrail_temp.answers_json = [
         "pk": 406,
         "fields": {
             "question": 117,
-            "description": "George Bush was a decent president, but in certain areas unfortunately he was too liberal on economic issues. By failing to rein in the power of Fannie Mae and Freddie Mac, he ensured that a housing crisis would eventually envelop the American economy."
+            "description": " I believe this recession goes beyond George Bush or Bill Clinton, it's about the way both parties have operated for far too long. My friends, I’ve been a critic of this culture from the start, and I’m not a part of it. I never have been.  "
         }
     },
     {
@@ -972,7 +972,7 @@ campaignTrail_temp.answers_json = [
         "pk": 407,
         "fields": {
             "question": 117,
-            "description": "Obama has completely failed to energize our economy. His failed stimulus package and reliance on monetary easing have contributed greatly to our stagnation. On the other hand, I will add 10 million jobs in my first Administration."
+            "description": "Well, President Bush kept us safe, and I think we’re all thankful for his leadership after 9/11. That said, I am my own person, and I’d like to think my record reflects that. "
         }
     },
     {
@@ -980,7 +980,7 @@ campaignTrail_temp.answers_json = [
         "pk": 408,
         "fields": {
             "question": 117,
-            "description": "Barack Obama has presided over the highest unemployment rate and largest deficit increases in nearly a century. His management style has clearly been a total failure."
+            "description": "Since I’ve been in office, I’ve worked hard to push through common-sense economic legislation. Unfortunately, the Do-Nothing Democratic Congress has made that near impossible. Folks, we need to break this deadlock, with a Republican Congress working hard!"
         }
     },
     {
@@ -7902,7 +7902,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 406,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.066
+            "global_multiplier": 0.0057
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 294,
+        "fields": {
+            "answer": 406,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.0025
         }
     },
     {
@@ -7912,7 +7922,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 407,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.015
+            "global_multiplier": -0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 295,
+        "fields": {
+            "answer": 407,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0021
         }
     },
     {
@@ -7922,7 +7942,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 408,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.00186
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 296,
+        "fields": {
+            "answer": 408,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.00711
         }
     },
     {
@@ -9184,7 +9214,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 406,
             "issue": 1,
-            "issue_score": -0.8,
+            "issue_score": 0.1,
             "issue_importance": 2
         }
     },
@@ -11942,6 +11972,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 170,
             "candidate": 17,
             "answer_feedback": "This may come across as a bit of a flip-flop, but committing yourself to pushing for a constitutional amendment is, at the end of the day, a serious and weighty promise. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 407,
+            "candidate": 17,
+            "answer_feedback": "This is obviously a diversion, but the question will keep coming up. Despite some goodwill early in your term, it seems folks don’t trust your economic record, and you’re not taking steps to change that... "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 406,
+            "candidate": 17,
+            "answer_feedback": "You seem to be leaning into your 'Maverick President' persona, but that only goes so far. The fact is, you do have longstanding ties to Washington and, in some ways, to big money and lobbying interests. Despite being a critic. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 405,
+            "candidate": 17,
+            "answer_feedback": " Distancing yourself from President Bush is a smart move, given that people still hold him accountable for the downturn, but they’re also faulting you for not doing enough to drive the recovery, despite some signed legislation and high approval early in your term.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 408,
+            "candidate": 17,
+            "answer_feedback": "Blaming the Democrats for the recession only goes so far; folks still hold Bush accountable for the downturn, and they blame you for not doing a good enough job at the recovery, despite some early actions and the pretty high approval you had at the start of your term.  "
         }
     },
     {
