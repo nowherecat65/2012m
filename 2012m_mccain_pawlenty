@@ -13852,7 +13852,7 @@ campaignTrail_temp.candidate_first_name = 'John';
 
 campaignTrail_temp.running_mate_last_name = 'Pawlenty';
 
-campaignTrail_temp.running_mate_state_id = '7';
+campaignTrail_temp.running_mate_state_id = '23';
 
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HGQxTxI.jpeg';
 
