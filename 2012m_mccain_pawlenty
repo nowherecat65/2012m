@@ -239,7 +239,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24,
         "fields": {
             "priority": 2,
-            "description": "Is the United States too reliant on fossil fuels for its energy needs?",
+            "description": "Would you say the United States is overly reliant on fossil fuels to meet its energy needs?",
             "likelihood": 1
         }
     },
@@ -395,34 +395,26 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 93,
+        "pk": 933,
         "fields": {
             "question": 24,
-            "description": "The answer is obvious. By continuing to rely on non-renewable energy sources, we place ourselves at greater risk for future energy shocks and we contribute to global warming."
+            "description": "Look, it’s clear that relying on non-renewable energy sources puts our country at risk—both economically and environmentally. We need to take serious steps to diversify our energy mix and invest in sustainable options. That’s the smart, responsible path forward."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 94,
+        "pk": 9334,
         "fields": {
             "question": 24,
-            "description": "Yes. We need to combine the use of these sources with further research into solar and wind power."
+            "description": "Fossil fuels remain a vital part of our energy infrastructure. We can’t just cut ourselves off overnight. We need to be realistic about our current options and make sure any transition is gradual and doesn’t destabilize our economy."
         }
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 95,
+        "pk": 966,
         "fields": {
             "question": 24,
-            "description": "Fossil fuels and coal are the backbone of our energy supply. If we got rid of those, what would we have left? We have to be realistic and realize that our options are limited."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 96,
-        "fields": {
-            "question": 24,
-            "description": "Just drill baby. We need more development of our fossil fuels to reduce foreign dependence."
+            "description": "We have to focus on American energy. Yes, that means more drilling to cut down foreign dependence, but let’s not overlook new technologies in solar and wind. We need to secure a balanced mix, keeping jobs and national security front and center."
         }
     },
     {
@@ -7331,10 +7323,100 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 37,
         "fields": {
+            "answer": 9334,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0061
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 9334,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 9334,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.111
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
             "answer": 2862,
             "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 933,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.01185
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 933,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.01889
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 933,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.033
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 966,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.026
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 966,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0375
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 966,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.06
         }
     },
     {
@@ -7454,7 +7536,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 93,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.0033
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42,
+        "fields": {
+            "answer": 93,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 42,
+        "fields": {
+            "answer": 93,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.11
         }
     },
     {
@@ -9003,8 +9105,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 93,
             "candidate": 17,
-            "affected_candidate": 18,
-            "global_multiplier": -0.14
+            "affected_candidate": 19,
+            "global_multiplier": -0.051
         }
     },
     {
@@ -9852,6 +9954,16 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
+        "pk": 25,
+        "fields": {
+            "answer": 98,
+            "issue": 1,
+            "issue_score": 0.42,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
         "pk": 26,
         "fields": {
             "answer": 26,
@@ -10582,6 +10694,36 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
+        "pk": 305,
+        "fields": {
+            "answer": 933,
+            "issue": 1,
+            "issue_score": 0.311,
+            "issue_importance": 1.75
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 305,
+        "fields": {
+            "answer": 9334,
+            "issue": 1,
+            "issue_score": 0.1,
+            "issue_importance": 1.75
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 305,
+        "fields": {
+            "answer": 966,
+            "issue": 1,
+            "issue_score": -0.41,
+            "issue_importance": 1.75
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
         "pk": 306,
         "fields": {
             "answer": 394,
@@ -10596,6 +10738,16 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 394,
             "issue": 4,
+            "issue_score": -0.75,
+            "issue_importance": 8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 307,
+        "fields": {
+            "answer": 93,
+            "issue": 1,
             "issue_score": -0.75,
             "issue_importance": 8
         }
@@ -13439,7 +13591,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1010,
         "fields": {
-            "answer": 93,
+            "answer": 9334,
             "state": 5,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13450,7 +13602,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1011,
         "fields": {
-            "answer": 93,
+            "answer": 9334,
             "state": 37,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13461,7 +13613,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1012,
         "fields": {
-            "answer": 93,
+            "answer": 9334,
             "state": 34,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13472,7 +13624,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1013,
         "fields": {
-            "answer": 93,
+            "answer": 9334,
             "state": 36,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13483,7 +13635,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1014,
         "fields": {
-            "answer": 93,
+            "answer": 9334,
             "state": 43,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13494,7 +13646,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1015,
         "fields": {
-            "answer": 93,
+            "answer": 9334,
             "state": 51,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13505,7 +13657,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1016,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 5,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13516,7 +13668,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1017,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 37,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13527,7 +13679,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1018,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 2,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13538,7 +13690,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1019,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 34,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13549,7 +13701,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1020,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 36,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13560,7 +13712,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1021,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 43,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13571,7 +13723,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1022,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 49,
             "candidate": 17,
             "affected_candidate": 17,
@@ -13582,7 +13734,7 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 1023,
         "fields": {
-            "answer": 95,
+            "answer": 966,
             "state": 51,
             "candidate": 17,
             "affected_candidate": 17,
@@ -15095,9 +15247,18 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 440,
         "fields": {
-            "answer": 93,
+            "answer": 9334,
             "candidate": 17,
-            "answer_feedback": "Bad answer for a Republican candidate -- too environmentalist."
+            "answer_feedback": "You've been privately hesitant to endorse offshore trade agreements, so this stance marks a subtle shift to the right. Any remaining goodwill from some liberals is starting to fade. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 440,
+        "fields": {
+            "answer": 966,
+            "candidate": 17,
+            "answer_feedback": "This is a middle-ground position to take on the issue. Still, some liberals are frustrated, viewing your lack of a push on the issue as a bit of a betrayal. "
         }
     },
     {
@@ -15323,6 +15484,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 296,
             "candidate": 17,
             "answer_feedback": "This stance is certainly more moderate than the Paul Ryan camp's views on so-called 'entitlements,' but in an election where you're on the defensive, it’s a completely reasonable position to take. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 96,
+            "candidate": 17,
+            "answer_feedback": "You've been privately hesitant to endorse offshore trade agreements, so this stance marks a subtle shift to the right. Any remaining goodwill from some liberals is starting to fade. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 95,
+            "candidate": 17,
+            "answer_feedback": "You've been privately hesitant to endorse offshore trade agreements, so this stance marks a subtle shift to the right. Any remaining goodwill from some liberals is starting to fade. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 933,
+            "candidate": 17,
+            "answer_feedback": "This is another area where your 'Maverick' reputation shines. During your administration, you've provided incentives for renewable energy development and discussed a cap-and-trade proposal. Obviously, this has ruffled feathers among some in the GOP coalition, while pleasing most liberals and moderates "
         }
     },
     {
