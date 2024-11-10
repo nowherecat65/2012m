@@ -222,7 +222,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>Tim Pawlenty, the former governor of Minnesota and co-chair of the 2008 McCain campaign, has long been seen as a rising star in the GOP, admired for his approachable, good-natured personality and strong conservative track record in a traditionally blue state. </p><p> With Vice President Joe Lieberman’s popularity hitting record lows and his open offer to step down, Governor Pawlenty stands out as the natural choice for the role. He’s unlikely to alienate Santorum’s base and could offer a refreshing new face for the McCain campaign moving forward.</p>",
+            "description_as_running_mate": "<p>Tim Pawlenty, the former governor of Minnesota and co-chair of the 2008 McCain campaign, has long been seen as a rising star in the GOP, admired for his approachable, good-natured personality and strong conservative track record in a traditionally blue state. </p><p> With Vice President Joe Lieberman’s popularity hitting record lows and his open offer to step down, Governor Pawlenty stands out as the natural choice to fill in the role. He’s unlikely to alienate Santorum’s base and could offer a refreshing new face for the McCain campaign moving forward.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
