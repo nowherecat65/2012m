@@ -898,6 +898,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 3677,
+        "fields": {
+            "question": 105,
+            "description": "Whatever. Let’s have Governor Pawlenty make the rounds and highlight the energy I bring out there, the real connection we share with Americans across this country. This talk about my age? It’s just a load of baloney."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 368,
         "fields": {
             "question": 105,
@@ -8040,6 +8048,16 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 267,
         "fields": {
+            "answer": 3677,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
             "answer": 366,
             "candidate": 17,
             "affected_candidate": 17,
@@ -8104,6 +8122,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": 0.04
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 3677,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 3677,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 267,
+        "fields": {
+            "answer": 3677,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -13057,6 +13105,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 367,
             "candidate": 17,
             "answer_feedback": "This isn't a good issue to ignore, sir, and though it's not the biggest deal in the world, the Democrats are eager to exploit it. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 367,
+        "fields": {
+            "answer": 3677,
+            "candidate": 17,
+            "answer_feedback": "Though Pawlenty may not be 'Mr. Charisma,' his folksy likability resonates well with a broad range of voters. Having him back you up certainly helps stop the bleeding on the age issue.  "
         }
     },
     {
