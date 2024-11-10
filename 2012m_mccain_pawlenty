@@ -398,7 +398,7 @@ campaignTrail_temp.answers_json = [
         "pk": 933,
         "fields": {
             "question": 24,
-            "description": "Look, it’s clear that relying on non-renewable energy sources puts our country at risk—both economically and environmentally. We need to take serious steps to diversify our energy mix and invest in sustainable options. That’s the smart, responsible path forward."
+            "description": "Look, it’s clear that relying on non-renewable energy sources puts our country at risk, both economically and environmentally. We need to take serious steps to diversify our energy mix and invest in sustainable options. That’s the smart, responsible path forward."
         }
     },
     {
