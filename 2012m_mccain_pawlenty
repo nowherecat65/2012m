@@ -56,6 +56,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 4215,
+        "fields": {
+            "priority": 1,
+            "description": "During this year’s convention, Governor Tim Pawlenty was introduced to the nation as your new running mate, while Vice President Joe Lieberman cheered from the stands. Why did you decide to make the switch, and what do you hope Pawlenty will bring to the campaign? ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 25,
         "fields": {
             "priority": 1,
@@ -662,6 +671,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 54,
             "description": "We need to consider all options. A controlled debt writedown just might be the best way to reignite the world economy, which is suffering from an abundance of bad debt at the current moment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42151,
+        "fields": {
+            "question": 4215,
+            "description": "Look, off the record, I think folks understand why we made the change. I have a lot of respect for Joe, but his numbers were rough, and we couldn't ignore that. As for Pawlenty, let him run wild in the Midwest."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42153,
+        "fields": {
+            "question": 4215,
+            "description": "Well, I did my share of the late-night circuit back in 2007 and 2008, but honestly, I'm done with it. Let's get Governor Pawlenty out there in front of the media, on those shows. Folks need to get a feel for him, see who he really is. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 42152,
+        "fields": {
+            "question": 4215,
+            "description": "Vice President Lieberman is a good man, and he’s done a lot for this administration, but he wanted to spend more time with family, and I respect that choice. As for Governor Pawlenty, I see him as a vital partner, and I want him by my side as much as possible. "
         }
     },
     {
@@ -12677,6 +12710,105 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42151,
+            "state": 23,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.01321
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42151,
+            "state": 15,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42151,
+            "state": 22,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.0052
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42151,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.0053
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42152,
+            "state": 23,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.02122
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42153,
+            "state": 23,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42152,
+            "state": 23,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42151,
+            "state": 23,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42153,
+            "state": 23,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.02152
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
         "pk": 1034,
         "fields": {
             "answer": 101,
@@ -13579,6 +13711,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 2861,
             "candidate": 17,
             "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 42151,
+            "candidate": 17,
+            "answer_feedback": "Tim Pawlenty ‘going wild’ isn’t exactly something you picture, but jokes aside, he’s got a certain vigor and approachability that brings something fresh to the ticket. This was likely a smart call."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 42152,
+            "candidate": 17,
+            "answer_feedback": "Tim Pawlenty has been right by your side at most rallies, but recently, he made a stop at the White House and was photographed sitting in the Oval Office alongside you and Joe Lieberman. It seems the goodwill between all parties remains intact. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 42153,
+            "candidate": 17,
+            "answer_feedback": "Fair enough. So far, the Democrats have mostly cornered the ‘Gone-on-Letterman’ demographic, but Pawlenty’s making strides. He connects well with the average voter, coming across as down-to-earth and, naturally, younger and more relatable than Lieberman or Cheney."
         }
     },
     {
