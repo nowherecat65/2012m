@@ -15399,7 +15399,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 440,
         "fields": {
-            "answer": 9334,
+            "answer": 966,
             "candidate": 17,
             "answer_feedback": "You've been privately hesitant to endorse offshore trade agreements, so this stance marks a subtle shift to the right. Any remaining goodwill from some liberals is starting to fade. "
         }
@@ -15408,7 +15408,7 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 440,
         "fields": {
-            "answer": 966,
+            "answer": 9334,
             "candidate": 17,
             "answer_feedback": "This is a middle-ground position to take on the issue. Still, some liberals are frustrated, viewing your lack of a push on the issue as a bit of a betrayal. "
         }
