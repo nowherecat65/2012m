@@ -269,7 +269,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21,
         "fields": {
             "question": 6,
-            "description": "The Department of Homeland Security is deporting hundreds of thousands of illegal immigrants each year. How can anyone suggest that we're not trying to address this issue? "
+            "description": "The Department of Homeland Security has been deporting hundreds of thousands of illegal immigrants every year under my administration. How can anyone say we're not taking real action on this issue? That's just a lie. "
         }
     },
     {
@@ -277,7 +277,7 @@ campaignTrail_temp.answers_json = [
         "pk": 22,
         "fields": {
             "question": 6,
-            "description": "The flow of illegal immigrants into the U.S. has slowed in recent years. We should be focusing more on expanding legal opportunities and bringing immigrants out of the shadows."
+            "description": "The flow of illegal immigrants has slowed during my term, and now it’s time to focus on common sense, bipartisan legislation, working to expand legal pathways and bringing immigrants out of the shadows. My friends, this is the right thing to do. "
         }
     },
     {
@@ -285,7 +285,7 @@ campaignTrail_temp.answers_json = [
         "pk": 23,
         "fields": {
             "question": 6,
-            "description": "E-Verify is a good start, but too many companies don't use it. It should be mandatory for any employer hiring more than a few employees."
+            "description": "Programs like E-Verify are a solid start, though I’ll admit, this new-fangled tech still baffles some folks. But the fact is, too many businesses just aren’t using it. It ought to be mandatory for any employer with more than a handful of employees."
         }
     },
     {
@@ -293,7 +293,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24,
         "fields": {
             "question": 6,
-            "description": "Not at all. Even companies that have been caught red-handed hiring illegals have gotten away with token fines. This happens all of the time in the meat processing industry, for instance."
+            "description": "Frankly, no. Even companies caught red-handed hiring illegals often just get a slap on the wrist—a token fine. You see this time and again. I think, yes, there is room for tough legislation on this matter, as soon as gridlock is over."
         }
     },
     {
@@ -6791,7 +6791,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 22,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.11
+            "global_multiplier": 0.1351
         }
     },
     {
@@ -7011,7 +7011,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 2861,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.0125
+            "global_multiplier": 0.032
         }
     },
     {
@@ -7061,7 +7061,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 2863,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.0125
+            "global_multiplier": 0.032
         }
     },
     {
@@ -7091,7 +7091,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 2862,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.015
+            "global_multiplier": 0.032
         }
     },
     {
@@ -7111,7 +7111,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 2862,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.0125
+            "global_multiplier": 0.032
         }
     },
     {
@@ -7151,7 +7151,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 2864,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.0125
+            "global_multiplier": 0.032
         }
     },
     {
@@ -13049,8 +13049,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 359,
         "fields": {
             "answer": 24,
-            "candidate": 16,
-            "answer_feedback": "Your party is supposed to be making appeals to the Hispanic voting block -- not alienating them."
+            "candidate": 17,
+            "answer_feedback": "The press and voters are seeing this as a slight shift to the right on immigration. Given the rhetoric coming from Trump and most Democrats these days, this move might be necessary. "
         }
     },
     {
@@ -13419,7 +13419,25 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22,
             "candidate": 17,
-            "answer_feedback": "This is what many of your supporters call “amnesty”. Many of them are upset with this response."
+            "answer_feedback": "This stance is consistent with your immigration initiatives from your Senate days and early in your presidency. But, sir, that’s precisely what’s given Rick Santorum, and now Donald Trump, room to resonate with certain voters. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 423,
+        "fields": {
+            "answer": 21,
+            "candidate": 17,
+            "answer_feedback": "Yes, your administration has indeed deported many illegal immigrants, but let’s not forget you also pushed hard in 2009 for broad, bipartisan immigration reform, a plan ultimately defeated by hardliners and populists from both parties. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 423,
+        "fields": {
+            "answer": 23,
+            "candidate": 17,
+            "answer_feedback": "Your 'old-man'-ness is showing here, sir, but this stance is broadly acceptable to most on the immigration issue. That said, Trump, and the hard right are definitely taking things a step further. "
         }
     },
     {
