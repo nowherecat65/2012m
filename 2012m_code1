@@ -3,7 +3,7 @@ campaignTrail_temp.global_parameter_json = [
         "model": "campaign_trail.global_parameter",
         "pk": 1,
         "fields": {
-            "vote_variable": 1.12949,
+            "vote_variable": 1.12885,
             "max_swing": 0.12495,
             "start_point": 0.94,
             "candidate_issue_weight": 10,
