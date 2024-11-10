@@ -14283,7 +14283,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 18,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.01511198775
+            "state_multiplier": 0.018981198775
         }
     },
     {
@@ -14294,7 +14294,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 18,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.01511198775
+            "state_multiplier": 0.018981198775
         }
     },
     {
@@ -14305,7 +14305,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 18,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.01511198775
+            "state_multiplier": 0.018981198775
         }
     },
     {
@@ -14316,7 +14316,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 18,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.01511198775
+            "state_multiplier": 0.018981198775
         }
     },
     {
@@ -14866,7 +14866,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 4,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0118989898
+            "state_multiplier": 0.0148989898
         }
     },
     {
@@ -14877,7 +14877,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 4,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0118989898
+            "state_multiplier": 0.0148989898
         }
     },
     {
@@ -14888,7 +14888,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 4,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0118989898
+            "state_multiplier": 0.0148989898
         }
     },
     {
@@ -14899,7 +14899,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 4,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0118989898
+            "state_multiplier": 0.0148989898
         }
     },
     {
@@ -14910,7 +14910,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0118989898
+            "state_multiplier": 0.0148989898
         }
     },
     {
@@ -14921,7 +14921,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0118989898
+            "state_multiplier": 0.0148989898
         }
     },
     {
