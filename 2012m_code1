@@ -206,6 +206,29 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
+        "pk": 288,
+        "fields": {
+            "first_name": "Tim",
+            "last_name": "Pawlenty",
+            "election": 3,
+            "party": "Republican",
+            "state": "Minnesota",
+            "priority": 8,
+            "description": "<p>V.P.</p>",
+            "color_hex": "#E91717",
+            "secondary_color_hex": "#ed4545",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/6ZF6ToQ.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Tim Pawlenty, the former governor of Minnesota and co-chair of the 2008 McCain campaign, has long been seen as a rising star in the GOP, admired for his approachable, good-natured personality and strong conservative track record in a traditionally blue state. </p><p> With Vice President Joe Lieberman’s popularity hitting record lows and his open offer to step down, Governor Pawlenty stands out as the natural choice for the role. He’s unlikely to alienate Santorum’s base and could offer a refreshing new face for the McCain campaign moving forward.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
         "pk": 28,
         "fields": {
             "first_name": "Joe",
@@ -222,7 +245,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>Joe Lieberman, the incumbent Vice President, has reluctantly agreed to stay on the ticket with McCain, not wanting to abandon his friend and partner in the final political battle of his career. Long despised by progressive Democrats for his unabashed centrism, Lieberman isn't exactly popular with many Republicans either, especially since being elected.</p><p>At the same time, however, replacing him would likely hurt the McCain campaign more than help, and the President himself is eager to keep his co-captain aboard.</p>",
+            "description_as_running_mate": "<p>Joe Lieberman, the incumbent Vice President, has reluctantly agreed to stay on the ticket with McCain, not wanting to abandon his friend and partner in the final political battle of his career. Long despised by progressive Democrats for his unabashed centrism, Lieberman isn't exactly popular with many Republicans either, especially since being elected.</p><p>At the same time, however, some advisors view the cost of replacing him as more hurtful than helpful, and the President himself remains eager to keep his co-captain aboard.<p>",
             "candidate_score": 0,
             "running_mate": true
         }
