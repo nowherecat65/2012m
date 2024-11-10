@@ -53,7 +53,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "Arizona",
             "priority": 2,
-            "description": "<p>After some speculation, President John McCain is seeking a second term. Elected four years ago on a moderate, maverick platform against Hillary Clinton, McCain has achieved some bipartisan success, including the passage of the Financial Stability and Accountability Act (FSAA) in 2010. However, he’s had to contend with an increasingly large Democratic Congress and Senate throughout his term. </p><p> McCain is currently down in the polls, but he's expected to run a focused, ''experience counts'' campaign, targeting the ''Do-Nothing Congress.'' Some in the press are already comparing him to Harry Truman, and given his odds, the comparison doesn’t seem far off.",
+            "description": "<p>After some speculation, President John McCain is seeking a second term. Elected four years ago on a moderate, maverick platform against Hillary Clinton, McCain has achieved some bipartisan success, including the passage of the Shelby-Bayh Financial Integrity Act in 2010. However, he’s had to contend with an increasingly large Democratic Congress and Senate throughout his term. </p><p> McCain is currently down in the polls, but he's expected to run a focused, ''experience counts'' campaign, targeting the ''Do-Nothing Congress.'' Some in the press are already comparing him to Harry Truman, and given his odds, the comparison doesn’t seem far off.",
             "color_hex": "#E91717",
             "secondary_color_hex": "#D51414",
             "is_active": 1,
