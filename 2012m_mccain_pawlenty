@@ -13850,7 +13850,7 @@ campaignTrail_temp.candidate_last_name = 'McCain';
 
 campaignTrail_temp.candidate_first_name = 'John';
 
-campaignTrail_temp.running_mate_last_name = 'Lieberman';
+campaignTrail_temp.running_mate_last_name = 'Pawlenty';
 
 campaignTrail_temp.running_mate_state_id = '7';
 
