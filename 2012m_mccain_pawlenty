@@ -140,7 +140,7 @@ campaignTrail_temp.questions_json = [
         "pk": 12,
         "fields": {
             "priority": 2,
-            "description": "Should the United States have been so quick to drop its support for Hosni Mubarak in 2011, given recent events in Egypt?",
+            "description": "As of today, U.S. troops are still stationed in both Afghanistan and Iraq, with no official plans to bring them home. Mark Warner is hitting hard on Iraq, in particular, which is clearly a weak spot for our campaign. How should we handle this? ",
             "likelihood": 1
         }
     },
@@ -332,7 +332,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 45,
         "fields": {
-            "question": 12,
+            "question": 1555555555,
             "description": "Decades of meddling by the U.S. has created these unstable situations in the Middle East. We should have withheld our support for Mubarak when he first took office, instead of giving him billions in military aid."
         }
     },
@@ -341,7 +341,7 @@ campaignTrail_temp.answers_json = [
         "pk": 46,
         "fields": {
             "question": 12,
-            "description": "That's a great question. It's hard to speculate on what might have been, but it at time it seemed clear that Mubarak had to go."
+            "description": "Listen, I'm not here to apologize for ensuring American strength in Iraq, or Afghanistan. We've committed blood, treasure, and sacrifice to see a stable, democratic Iraq. Warner wants to pull the rug out and leave chaos in our wake? Not on my watch. "
         }
     },
     {
@@ -349,7 +349,7 @@ campaignTrail_temp.answers_json = [
         "pk": 47,
         "fields": {
             "question": 12,
-            "description": "We should have been more active in brokering a compromise solution between Mubarak and the protestors."
+            "description": "Warner can criticize all he wants, but let’s be clear: a premature withdrawal would create a vacuum for terrorists.  Our role is to prevent threats, not to sit back and hope for the best. We’ll bring our troops home, but responsibly, with American safety in mind."
         }
     },
     {
@@ -357,7 +357,7 @@ campaignTrail_temp.answers_json = [
         "pk": 48,
         "fields": {
             "question": 12,
-            "description": "We have allowed one of the last moderate regimes in the Middle East to be replaced by Muslim fundamentalists. This is an unconscionable betrayal of our ally Israel and will harm American security."
+            "description": "I get that people are weary, but leadership demands we follow through. Iraq and Afghanistan need a stable foundation to avoid becoming future threats. Warner might prefer a quick exit, but that’s not what will keep America secure in the long run."
         }
     },
     {
@@ -9561,6 +9561,36 @@ campaignTrail_temp.answer_score_issue_json = [
         "model": "campaign_trail.answer_score_issue",
         "pk": 43,
         "fields": {
+            "answer": 47,
+            "issue": 3,
+            "issue_score": -0.23,
+            "issue_importance": 3.8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 43,
+        "fields": {
+            "answer": 46,
+            "issue": 3,
+            "issue_score": -0.58,
+            "issue_importance": 3.8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 43,
+        "fields": {
+            "answer": 48,
+            "issue": 3,
+            "issue_score": -0.34,
+            "issue_importance": 3.8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 43,
+        "fields": {
             "answer": 45,
             "issue": 3,
             "issue_score": 0.8,
@@ -13869,7 +13899,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 47,
             "candidate": 17,
-            "answer_feedback": "Did you watch the protests at all? What kind of compromise are you suggesting?"
+            "answer_feedback": "This is a fair response and reflects your policy, but activists are still deeply upset about your stance on Iraq, and they're likely to turn out in force for Warner, and the Democrats. "
         }
     },
     {
@@ -14212,6 +14242,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 2861,
             "candidate": 17,
             "answer_feedback": "You’re flying back to campaign headquarters in Arlington, Virginia, just outside D.C., as the results are about to start rolling in. Good luck, Mr. President. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 46,
+            "candidate": 17,
+            "answer_feedback": "This aligns with your administration's stance, but it’s bound to provoke activists and protesters who are already fired up to see you out of office. "
         }
     },
     {
