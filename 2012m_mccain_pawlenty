@@ -230,7 +230,7 @@ campaignTrail_temp.questions_json = [
         "pk": 3344,
         "fields": {
             "priority": 2,
-            "description": "The Vice Presidential debate is approaching, and Tim Pawlenty has been deep into debate prep these past few days. Ultimately, though, his strategy is in your hands and the team’s. What approach would you like him to take?",
+            "description": "The Vice Presidential debate, between Pawlenty, and Amy Klobuchar is approaching, and the Governor has been deep into debate prep these past few days. Ultimately, though, his strategy is in your hands and the team’s. What approach would you like him to take?",
             "likelihood": 1
         }
     },
