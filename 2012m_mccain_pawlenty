@@ -10257,7 +10257,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 369,
             "issue": 3,
             "issue_score": -0.15,
-            "issue_importance": 1
+            "issue_importance": 2.7
         }
     },
     {
@@ -10267,7 +10267,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 371,
             "issue": 3,
             "issue_score": -0.1,
-            "issue_importance": 1
+            "issue_importance": 2.7
         }
     },
     {
@@ -10277,7 +10277,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 372,
             "issue": 4,
             "issue_score": 0.1,
-            "issue_importance": 1
+            "issue_importance": 2.7
         }
     },
     {
@@ -10287,7 +10287,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 370,
             "issue": 1,
             "issue_score": 0.07,
-            "issue_importance": 1
+            "issue_importance": 2.7
         }
     },
     {
