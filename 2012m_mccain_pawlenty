@@ -1078,7 +1078,7 @@ campaignTrail_temp.answers_json = [
         "pk": 405,
         "fields": {
             "question": 117,
-            "description": "George Bush was a good man, but folks remember I ran against him in 2000. I have my disagreements with how he handled the economy, and some of his decisions. I am my own person."
+            "description": "George Bush is a good man, and was a good President, but folks remember I ran against him in 2000. I have my disagreements with how he handled the economy, and some of his decisions. I am my own person."
         }
     },
     {
