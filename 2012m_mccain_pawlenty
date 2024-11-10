@@ -13710,7 +13710,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42151,
             "candidate": 17,
-            "answer_feedback": "Tim Pawlenty ‘going wild’ isn’t exactly something you picture, but jokes aside, he’s got a certain vigor and approachability that brings something fresh to the ticket. This was likely a smart call."
+            "answer_feedback": "Tim Pawlenty doing anything 'wild’ isn’t exactly something you picture, but jokes aside, he’s got a certain vigor and approachability that brings something fresh to the ticket. This was likely a smart call."
         }
     },
     {
