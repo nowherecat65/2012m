@@ -14247,8 +14247,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 370,
         "fields": {
             "answer": 48,
-            "candidate": 16,
-            "answer_feedback": "You may be right, but <em>you</em> were one of the people who allowed this to happen. Republicans now have ammunition to brand you as a 'flip-flopper'. "
+            "candidate": 17,
+            "answer_feedback": " You've stood by your administration’s stance on the War on Terror, but bare in mind, the Democrats are going to keep hitting hard on this, and public sentiment is on their side. "
         }
     },
     {
