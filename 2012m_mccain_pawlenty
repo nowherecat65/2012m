@@ -221,7 +221,7 @@ campaignTrail_temp.questions_json = [
         "pk": 266,
         "fields": {
             "priority": 2,
-            "description": "An NBC contact has reached out to your campaign leadership about an Access Hollywood video featuring Donald Trump on a bus, for a 2005 Access Hollywood video shoot, discussing women in explicit and vulgar sexual detail. The story is reportedly about to go live. Do you have a response in mind? ",
+            "description": "An NBC contact has reached out to your campaign leadership about a recording featuring Donald Trump on a bus, for a 2005 Access Hollywood TV show shoot, discussing women in explicit and vulgar sexual detail. The story is reportedly about to go live. Do you have a response in mind? ",
             "likelihood": 1
         }
     },
