@@ -733,7 +733,7 @@ campaignTrail_temp.answers_json = [
         "pk": 270,
         "fields": {
             "question": 75,
-            "description": "You know, I am concerned about these polls. Sure, we’ve obviously we still got some time, but I’ll be damned if I let these folks shove me out of the White House. It’s time to start an ad blitz against Warner. I know, I know, but if we want a real shot at winning, we’ve got to mobilize."
+            "description": "You know, I am concerned about these polls, if you want me to be entirely honest. But I’ll be damned if I let these folks shove me out of the White House. It’s time to start an ad blitz against Warner. I know, I know, but if we want a real shot at winning, we’ve got to mobilize."
         }
     },
     {
