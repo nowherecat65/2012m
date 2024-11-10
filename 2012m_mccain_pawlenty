@@ -227,10 +227,10 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 33,
+        "pk": 3344,
         "fields": {
             "priority": 2,
-            "description": "What is your opinion on directing some Department of Education funding towards a school voucher program?",
+            "description": "The Vice Presidential debate is approaching, and Tim Pawlenty has been deep in preparation doing debate prep these past few days Ultimately, though, his strategy is in your hands and the team’s. What approach would you like him to take?",
             "likelihood": 1
         }
     },
@@ -258,6 +258,15 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 2,
             "description": "You’ve got three days left before Election Day, and these final days will close out the last campaign of your entire career. Where do you want to focus your time?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 33,
+        "fields": {
+            "priority": 2,
+            "description": "What is your opinion on directing some Department of Education funding towards a school voucher program?",
             "likelihood": 1
         }
     }
@@ -518,6 +527,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 33,
             "description": "This practice undermines our public education system, and should not be permitted."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12919,
+        "fields": {
+            "question": 3344,
+            "description": "I held back a bit on Warner in my debate, but I want Tim to go all-in on Klobuchar. He needs to hit hard on their plans for big-government liberalism, and make it clear that we stand against massive bureaucratic overreach. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12920,
+        "fields": {
+            "question": 3344,
+            "description": "The Governor’s won two tough races, I trust his judgment. But I'll give him a call before the debate, just in case there’s anything specific I want him to hit on... "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 12921,
+        "fields": {
+            "question": 3344,
+            "description": "Well, you know, Pawlenty’s a good man, and he’s well-respected. I want him to keep it civil, something more in the spirit of how Lieberman and Bayh’s debate went back in 2008."
         }
     },
     {
@@ -7062,6 +7095,26 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": 0.021846899
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 12919,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0223448846899
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 12919,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0178248846899
         }
     },
     {
@@ -14338,6 +14391,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 42153,
             "candidate": 17,
             "answer_feedback": "Fair enough. So far, the Democrats have mostly cornered the ‘Gone-on-Letterman’ demographic, but Pawlenty’s making strides. He connects well enough with the average voter, coming across as down-to-earth and, naturally, younger and more relatable than Lieberman or Cheney."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 12919,
+            "candidate": 17,
+            "answer_feedback": "This didn't work out well. Senator Klobuchar came across as measured, experienced, and even funny during the debate, while your running mate, fellow Minnesotan Tim Pawlenty, appeared uncharacteristically angry. Most think she won.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 12920,
+            "candidate": 17,
+            "answer_feedback": "The debate ended in a draw according to the polls, with both Klobuchar and Pawlenty keeping things calm and civil, if a bit dull. In fact, it reportedly had some of the lowest ratings in modern VP debate history. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 12921,
+            "candidate": 17,
+            "answer_feedback": "Good call, sir. Governor Pawlenty kept his cool while Klobuchar leaned into a more populist, almost combative strategy, taking shots at the McCain administration and the GOP. Most polls are saying Pawlenty came out on top. "
         }
     },
     {
