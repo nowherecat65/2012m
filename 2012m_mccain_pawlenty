@@ -41,7 +41,7 @@ campaignTrail_temp.questions_json = [
         "pk": 22,
         "fields": {
             "priority": 1,
-            "description": "Donald Trump, the famous businessman and reality star, has officially launched an independent bid for the presidency following your renomination. Trump has been among your critics from the right and was a prominent supporter of Santorum’s primary challenge against you. The hard-right Congressman Steve King has endorsed him and has been announced as his VP pick. How should we respond? ",
+            "description": "Donald Trump, the well-known businessman and reality star, has launched an independent bid for the presidency following your renomination. He's been a vocal critic from the right and backed Santorum in the primary season. With hard-right Congressman Steve King as his VP pick, he's gaining traction in the polls. What should we do? ",
             "likelihood": 1
         }
     },
