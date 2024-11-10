@@ -218,7 +218,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#E91717",
             "secondary_color_hex": "#ed4545",
             "is_active": 0,
-            "image_url": "https://i.imgur.com/6ZF6ToQ.jpeg",
+            "image_url": "https://i.imgur.com/xBthGvM.jpeg",
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
@@ -507,6 +507,14 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 16,
             "running_mate": 34
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 6,
+        "fields": {
+            "candidate": 17,
+            "running_mate": 288
         }
     },
     {
