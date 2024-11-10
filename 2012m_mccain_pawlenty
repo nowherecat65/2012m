@@ -13706,7 +13706,7 @@ campaignTrail_temp.running_mate_state_id = '7';
 
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HGQxTxI.jpeg';
 
-campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6ZF6ToQ.jpeg';
+campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/xBthGvM.jpeg';
 
 campaignTrail_temp.candidate_json[2]["fields"].last_name = "Draft Trump";
 
