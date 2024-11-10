@@ -155,15 +155,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 54,
-        "fields": {
-            "priority": 2,
-            "description": "Would you consider a default on some U.S. debt obligations if the financial situation of the country continues to deteriorate?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 105,
         "fields": {
             "priority": 2,
