@@ -358,7 +358,7 @@ campaignTrail_temp.answers_json = [
         "pk": 47,
         "fields": {
             "question": 12,
-            "description": "Warner can criticize all he wants, but let’s be clear: a premature withdrawal would create a vacuum for terrorists.  Our role is to prevent threats, not to sit back and hope for the best. We’ll bring our troops home, but responsibly, with American safety in mind."
+            "description": "Warner can play Monday morning quarterback all he wants, but let’s be clear: a premature withdrawal would create a vacuum for terrorists.  Our role is to prevent threats, not to sit back and hope for the best. We’ll bring our troops home, but responsibly, with American safety in mind."
         }
     },
     {
@@ -366,7 +366,7 @@ campaignTrail_temp.answers_json = [
         "pk": 48,
         "fields": {
             "question": 12,
-            "description": "I get that people are weary, but leadership demands we follow through. Iraq and Afghanistan need a stable foundation to avoid becoming future threats. Warner might prefer a quick exit, but that’s not what will keep America secure in the long run."
+            "description": "I understand that people are weary, but leadership demands we follow through. Iraq and Afghanistan need a stable foundation to avoid becoming future threats. Warner might prefer a quick exit, but that’s not what will keep America secure in the long run."
         }
     },
     {
