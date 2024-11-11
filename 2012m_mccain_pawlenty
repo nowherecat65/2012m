@@ -1038,7 +1038,7 @@ campaignTrail_temp.answers_json = [
         "pk": 395,
         "fields": {
             "question": 114,
-            "description": "American Exceptionalism -- America is a force for good in this world. We have a responsibility to defend peace and freedom whenever they’re under threat. That’s our role, and we won’t back down."
+            "description": "American Exceptionalism, and Freedom -- America is a force for good in this world. We have a responsibility to defend peace and freedom whenever they’re under threat. That’s our role, and we won’t back down."
         }
     },
     {
@@ -1046,7 +1046,7 @@ campaignTrail_temp.answers_json = [
         "pk": 396,
         "fields": {
             "question": 114,
-            "description": "Human Rights -- America should stand with those fighting for freedom. It’s time we backed democracies and stopped propping up dictators. Our values have to lead the way. "
+            "description": "Human Rights, and Democracy. -- America should stand with those fighting for freedom. It’s time we backed democracies and stopped propping up dictators. Our values have to lead the way. "
         }
     },
     {
@@ -1054,7 +1054,7 @@ campaignTrail_temp.answers_json = [
         "pk": 397,
         "fields": {
             "question": 114,
-            "description": "Pragmatism -- Our foreign policy works because it’s built on American principles. Guiding nations toward democracy and open markets isn’t just smart – it’s our path to a safer, more prosperous world."
+            "description": "Pragmatism -- Our foreign policy works because it’s built on American principles. Guiding nations toward democracy and open markets goes beyond our values, it’s our path to a safer, more prosperous world."
         }
     },
     {
@@ -1062,7 +1062,7 @@ campaignTrail_temp.answers_json = [
         "pk": 398,
         "fields": {
             "question": 114,
-            "description": "Non-Intervention -- Let’s be smart about where we deploy. We’ve got to focus on our own challenges, but that doesn’t mean abandoning our commitments. America leads best when it’s strong and wise."
+            "description": "Tough But Humble -- Let’s be smart about where we deploy. We’ve got to focus on our own challenges, but that doesn’t mean abandoning our commitments. America leads best when it’s strong and wise."
         }
     },
     {
