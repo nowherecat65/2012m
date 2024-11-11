@@ -16765,7 +16765,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 167,
             "candidate": 17,
-            "answer_feedback": "While you’ve stood by your bill, let’s not forget, folks, that a lot of the bipartisan legislation you signed, or attempted to sign, early in your term is part of what fueled Santorum’s challenge in the primary. "
+            "answer_feedback": "While you’ve stood by your bill, let’s not forget that a lot of the bipartisan legislation you signed, or attempted to sign, early in your term is part of what fueled Santorum’s challenge in the primary. "
         }
     },
     {
