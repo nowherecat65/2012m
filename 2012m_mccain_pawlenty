@@ -149,7 +149,7 @@ campaignTrail_temp.questions_json = [
         "pk": 117,
         "fields": {
             "priority": 2,
-            "description": "It’s been four years since the financial crisis pushed this country into a deep recession. Throughout your presidency, some on your team have subtly pointed fingers at the Bush administration, perhaps to distinguish your own economic record. You’re being questioned on your views regarding Bush. How would do you want to address this?",
+            "description": "It’s been four years since the financial crisis pushed this country into a deep recession. Throughout your presidency, some on your team have subtly pointed fingers at the Bush administration, perhaps to distinguish your own economic record. You’re being questioned on your views regarding Bush. How do you want to address this?",
             "likelihood": 1
         }
     },
