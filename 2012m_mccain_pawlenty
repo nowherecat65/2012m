@@ -1062,7 +1062,7 @@ campaignTrail_temp.answers_json = [
         "pk": 398,
         "fields": {
             "question": 114,
-            "description": "Tough But Humble -- Let’s be smart about where we deploy. We’ve got to focus on our own challenges, but that doesn’t mean abandoning our commitments. America leads best when it’s strong and wise."
+            "description": "Tough But Humble -- Let’s be smart about where we deploy. We’ve got to focus on our own challenges, but that doesn’t mean abandoning our commitments, and deployments. America leads best when it’s strong and wise."
         }
     },
     {
