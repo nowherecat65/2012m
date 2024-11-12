@@ -20,6 +20,15 @@ cyoAdventure = function(a) {
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
+        "pk": 1133,
+        "fields": {
+            "priority": 0,
+            "description": "You’ve been standing by the TV in your New Hampshire campaign office. Thanks to Rick Santorum, you’ve found yourself in another nomination battle. ​Just then, your campaign manager, Rick Davis, walks in to tell you that the AP is about to call New Hampshire in your favor by a sizable margin.​ -- It's time for the victory speech. ",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 113,
         "fields": {
             "priority": 0,
@@ -999,6 +1008,22 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 109,
             "description": "Well, you know, maybe the press has a point here. We really haven’t spent enough time rallying our base. I want to go out rallying in those swing states more, focusing on real connections, not just pumping money into ads."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3991,
+        "fields": {
+            "question": 1133,
+            "description": "You know what? I'm not even going to dignify Santroum, or this primary with a speech. We'll release a memo thanking the staff, volunteers, and voters, but that's it. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3992,
+        "fields": {
+            "question": 1133,
+            "description": "Let's head out. We ought to thank our supporters at the very least, and the TV cameras will be on us. A big win in New Hampshire should settle those pundits down, right? "
         }
     },
     {
@@ -7817,6 +7842,66 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 3992,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.01865
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 3991,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.01865
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 3992,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.004665
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 3991,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.004665
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 3992,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 3991,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0125
         }
     },
     {
@@ -16972,6 +17057,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 1011,
             "candidate": 17,
             "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 3991,
+            "candidate": 17,
+            "answer_feedback": "Despite their pleas, nobody on your staff is going to make the President give a speech. The rented venue goes unused, and you soon board Air Force One. You soon see on the TV news that Independent Senator, Bernie Sanders, has won the New Hampshire Democratic Primary...  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 3992,
+            "candidate": 17,
+            "answer_feedback": "You soon arrive at the Crowne Plaza Hotel and speak to your numerous supporters and staff. The crowd goes cheers as they see you smile and thank them for their hard work. But now your headed to South Carolina, and Florida, and your numbers don't look great there... "
         }
     },
     {
