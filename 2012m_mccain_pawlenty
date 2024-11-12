@@ -9,6 +9,22 @@ cyoAdventure = function(a) {
        console.log("done");
        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
     }
+    if(ans == 730){
+       console.log("done");
+       campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
+    }
+    if(ans == 731){
+       console.log("done");
+       campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
+    }
+    if(ans == 732){
+       console.log("done");
+       campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
+    }
+    if(ans == 733){
+       console.log("done");
+       campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
+    }
     if(ans == 3991){
         e.election_json[0].fields.has_visits = 1;
     }
@@ -17630,6 +17646,8 @@ campaignTrail_temp.running_mate_state_id = '23';
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HGQxTxI.jpeg';
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/xBthGvM.jpeg';
+
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Generic Democrat";
 
 campaignTrail_temp.candidate_json[2]["fields"].last_name = "Draft Trump";
 
