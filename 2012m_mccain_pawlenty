@@ -138,7 +138,7 @@ campaignTrail_temp.questions_json = [
         "pk": 38,
         "fields": {
             "priority": 2,
-            "description": "What is your opinion on the 'gunwalking' tactics that led to the 'Fast and Furious' scandal?",
+            "description": "You're on the campaign trail, addressing what is, to you, a big crowd. What message do you want to touch on today?",
             "likelihood": 1
         }
     },
@@ -616,7 +616,7 @@ campaignTrail_temp.answers_json = [
         "pk": 149,
         "fields": {
             "question": 38,
-            "description": "It makes sense to track gun sales over a period of time, to get a better picture of who is buying them, and to try and arrest more important cartel leaders."
+            "description": "The fact of the matter is, my friends, that our economy is on the path to recovery. We have made necessary adjustments and changes, but the American worker has never given up, and neither has our great spirit. "
         }
     },
     {
@@ -624,7 +624,7 @@ campaignTrail_temp.answers_json = [
         "pk": 150,
         "fields": {
             "question": 38,
-            "description": "This is a specialized occupational question that can best be answered by the ATF and the Department of Justice."
+            "description": "I want to talk about how out of touch, and frankly, how extreme, the Democrats have become. Now, I respect Bernie, but folks like him are going to be the backbone of the Warner cabinet, not to mention Pelosi's Congress. "
         }
     },
     {
@@ -632,7 +632,7 @@ campaignTrail_temp.answers_json = [
         "pk": 151,
         "fields": {
             "question": 38,
-            "description": "Perhaps in limited cases. I am skeptical of these programs because they place too much faith in Mexican authorities to pursue cases once they cross the border."
+            "description": "You know, I get it hasn't been in the news much, but our nation is still in danger. The War on Terror is still being fought every single day, and our brave men and women are on the frontlines. Can we truly, honestly, trust the Democrats judgement on these issues?"
         }
     },
     {
@@ -640,7 +640,7 @@ campaignTrail_temp.answers_json = [
         "pk": 152,
         "fields": {
             "question": 38,
-            "description": "The tactic of 'gunwalking' led directly to the death of a Border Patrol agent. If we see people breaking the law, it makes no sense not to punish them. I would support the removal of Eric Holder as Attorney General."
+            "description": "I want to talk about immigration. You all know my record, and I take pride in it, but I don't want it lost on the American people that I am concerned about the state of our border. Security is very much on the ballot this November. "
         }
     },
     {
@@ -7873,8 +7873,38 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 149,
             "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": -0.02
+            "affected_candidate": 16,
+            "global_multiplier": 0.0091
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 150,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 150,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 150,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.015
         }
     },
     {
@@ -10271,6 +10301,56 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 427,
         "fields": {
+            "answer": 151,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 427,
+        "fields": {
+            "answer": 152,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.00985
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 427,
+        "fields": {
+            "answer": 152,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.031
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 427,
+        "fields": {
+            "answer": 152,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 427,
+        "fields": {
+            "answer": 149,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 427,
+        "fields": {
             "answer": 42151,
             "candidate": 17,
             "affected_candidate": 16,
@@ -10876,8 +10956,48 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 151,
             "issue": 3,
-            "issue_score": 0,
-            "issue_importance": 1
+            "issue_score": -0.46,
+            "issue_importance": 2.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 140,
+        "fields": {
+            "answer": 152,
+            "issue": 5,
+            "issue_score": -0.4,
+            "issue_importance": 2.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 140,
+        "fields": {
+            "answer": 149,
+            "issue": 1,
+            "issue_score": -0.31,
+            "issue_importance": 2.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 140,
+        "fields": {
+            "answer": 150,
+            "issue": 4,
+            "issue_score": -0.41,
+            "issue_importance": 1.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 140,
+        "fields": {
+            "answer": 150,
+            "issue": 1,
+            "issue_score": -0.51,
+            "issue_importance": 1.0
         }
     },
     {
@@ -17432,6 +17552,15 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
+            "answer": 150,
+            "candidate": 17,
+            "answer_feedback": "This is is a biting. Bernie certainly had his supporters this year, but some moderates and even a few liberals described him as borderline demagogic. The Warner campaign is clearly trying to distance itself from him, so pushing them together seems smart. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
             "answer": 2911,
             "candidate": 17,
             "answer_feedback": "This appeals to some conservatives who feel Shelby-Bayh went too far, but keep in mind that most people, especially those you need to win over, either feel it didn’t go far enough or simply aren’t too familiar with the specifics."
@@ -17462,6 +17591,24 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 46,
             "candidate": 17,
             "answer_feedback": "This aligns with your administration's stance, but it’s bound to provoke activists and protesters who are already fired up to see you out of office. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 151,
+            "candidate": 17,
+            "answer_feedback": "Democrats across the nation, and increasingly most indepedents groan at the War On Terror rhetoric, but perhaps this will scare enough voters away from Warner? Who knows... "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 149,
+            "candidate": 17,
+            "answer_feedback": "While, yes, this might be entirely true on paper. Most folks just plainly blame the GOP for the recession, and they blame you for 'not doing enough to fix it'.  "
         }
     },
     {
@@ -17570,6 +17717,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 243,
             "candidate": 17,
             "answer_feedback": "This is essentially the standard plank of the GOP, and perfectly in line with your beliefs. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 152,
+            "candidate": 17,
+            "answer_feedback": "Have you been listening to Donald Trump, sir?"
         }
     },
     {
