@@ -16187,7 +16187,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 38,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.017998995
+            "state_multiplier": 0.020998995
         }
     },
     {
@@ -16352,7 +16352,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 38,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.017998995
+            "state_multiplier": 0.020998995
         }
     },
     {
@@ -16363,7 +16363,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 38,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.017998995
+            "state_multiplier": 0.020998995
         }
     },
     {
@@ -16374,7 +16374,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 38,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.017998995
+            "state_multiplier": 0.020998995
         }
     },
     {
@@ -16947,6 +16947,50 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "state_multiplier": 0.0118989898
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2864,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.011118989898
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2861,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.011118989898
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2862,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.011118989898
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1031,
+        "fields": {
+            "answer": 2863,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.011118989898
         }
     },
     {
