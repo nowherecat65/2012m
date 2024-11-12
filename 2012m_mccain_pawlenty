@@ -23,7 +23,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1133,
         "fields": {
             "priority": 0,
-            "description": "You’ve been standing by the TV in your New Hampshire campaign office. Thanks to Rick Santorum, you’ve found yourself in another nomination battle. ​Just then, your campaign manager, Rick Davis, walks in to tell you that the AP is about to call New Hampshire in your favor by a sizable margin.​ -- It's time for the victory speech. ",
+            "description": "You’ve been standing by the TV in your New Hampshire campaign office, watching as the primary results start to pour in. Thanks to Rick Santorum, you’ve found yourself in another nomination battle. Just then, your campaign manager, Rick Davis, walks in to inform you that the Associated Press is about to call the race in your favor by a good margin.  ",
             "likelihood": 1
         }
     },
@@ -1015,7 +1015,15 @@ campaignTrail_temp.answers_json = [
         "pk": 3991,
         "fields": {
             "question": 1133,
-            "description": "You know what? I'm not even going to dignify Santroum, or this primary with a speech. We'll release a memo thanking the staff, volunteers, and voters, but that's it. "
+            "description": "You know what? I'm not even going to dignify Santroum, or this primary with a speech. We'll release a memo thanking the staff, volunteers, and voters, but that's it. I want to get back to the White House before it's too late. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 3993,
+        "fields": {
+            "question": 1133,
+            "description": "I want to give a rousing speech, for the TV cameras to pick up. I am running on a record of competence and my unwavering determination. I believe the people of this great country understand that, and I want to talk about it. "
         }
     },
     {
@@ -1023,7 +1031,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3992,
         "fields": {
             "question": 1133,
-            "description": "Let's head out. We ought to thank our supporters at the very least, and the TV cameras will be on us. A big win in New Hampshire should settle those pundits down, right? "
+            "description": "Well, I guess it’s time for a speech. Let’s head out. We ought to express our thanks to our supporters at the very least, especially since the TV cameras will be on us. A big win in New Hampshire should calm those pundits down. "
         }
     },
     {
@@ -7858,6 +7866,16 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 77,
         "fields": {
+            "answer": 3993,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.01865
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
             "answer": 3991,
             "candidate": 17,
             "affected_candidate": 17,
@@ -7878,6 +7896,16 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 77,
         "fields": {
+            "answer": 3993,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.004665
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
             "answer": 3991,
             "candidate": 17,
             "affected_candidate": 16,
@@ -7889,6 +7917,16 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 77,
         "fields": {
             "answer": 3992,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 77,
+        "fields": {
+            "answer": 3993,
             "candidate": 17,
             "affected_candidate": 18,
             "global_multiplier": -0.0125
@@ -11634,6 +11672,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3991,
             "issue": 4,
             "issue_score": -0.1,
+            "issue_importance": 1.8
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 357,
+        "fields": {
+            "answer": 3993,
+            "issue": 1,
+            "issue_score": 0.3,
+            "issue_importance": 2.4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 357,
+        "fields": {
+            "answer": 3993,
+            "issue": 4,
+            "issue_score": 0.25,
             "issue_importance": 1.8
         }
     },
@@ -17115,6 +17173,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 3992,
             "candidate": 17,
             "answer_feedback": "You soon arrive at the Crowne Plaza Hotel and speak to your numerous supporters and staff. The crowd goes cheers as they see you smile and thank them for their hard work. But now your headed to South Carolina, and Florida, and your numbers don't look great there... "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 3993,
+            "candidate": 17,
+            "answer_feedback": "You soon arrive at the Crowne Plaza Hotel and speak to your numerous supporters and staff. The crowd goes wild as they hear your surprisingly serious victory speech. But now your headed to South Carolina, and Florida, and your numbers don't look great there... "
         }
     },
     {
