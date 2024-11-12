@@ -1080,7 +1080,7 @@ campaignTrail_temp.answers_json = [
         "pk": 395,
         "fields": {
             "question": 114,
-            "description": "American Exceptionalism, and Freedom -- America is a force for good in this world. We have a responsibility to defend peace and freedom whenever they’re under threat. That’s our role, and we won’t back down."
+            "description": "American Exceptionalism -- America is a force for good in this world. We have a responsibility to defend peace and freedom whenever they’re under threat. That’s our role, and we won’t back down."
         }
     },
     {
@@ -1088,7 +1088,7 @@ campaignTrail_temp.answers_json = [
         "pk": 396,
         "fields": {
             "question": 114,
-            "description": "Human Rights, and Democracy. -- America should stand with those fighting for freedom. It’s time we backed democracies and stopped propping up dictators. Our values have to lead the way. "
+            "description": "Human Rights. -- America should stand with those fighting for freedom. It’s time we backed democracies and stopped propping up dictators. Our values have to lead the way. "
         }
     },
     {
@@ -9348,7 +9348,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 398,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.01813
+            "global_multiplier": 0.01
         }
     },
     {
@@ -9588,7 +9588,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 398,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.036
+            "global_multiplier": -0.018761
         }
     },
     {
