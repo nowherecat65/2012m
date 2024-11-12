@@ -9,6 +9,15 @@ cyoAdventure = function(a) {
        console.log("done");
        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
     }
+    if(ans == 3991){
+        e.election_json[0].fields.has_visits = 0;
+    }
+    if(ans == 3992){
+        e.election_json[0].fields.has_visits = 0;
+    }
+    if(ans == 3993){
+        e.election_json[0].fields.has_visits = 0;
+    }
     if(ans == 88){
        console.log("done");
        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
@@ -17547,6 +17556,8 @@ campaignTrail_temp.candidate_last_name = 'McCain';
 campaignTrail_temp.candidate_first_name = 'John';
 
 campaignTrail_temp.running_mate_last_name = 'Pawlenty';
+
+e.election_json[0].fields.has_visits = 1;
 
 campaignTrail_temp.running_mate_state_id = '23';
 
