@@ -6816,7 +6816,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 101,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.33352
+            "global_multiplier": 0.53352
         }
     },
     {
@@ -6826,7 +6826,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 104,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.33352
+            "global_multiplier": 0.53352
         }
     },
     {
@@ -6836,7 +6836,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 103,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.33352
+            "global_multiplier": 0.53352
         }
     },
     {
@@ -6846,7 +6846,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 102,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.331352
+            "global_multiplier": 0.531352
         }
     },
     {
@@ -8391,6 +8391,46 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 2551,
+        "fields": {
+            "answer": 21,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2551,
+        "fields": {
+            "answer": 24,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2551,
+        "fields": {
+            "answer": 23,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2551,
+        "fields": {
+            "answer": 22,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 216,
         "fields": {
             "answer": 290,
@@ -8506,7 +8546,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 293,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.11575
+            "global_multiplier": 0.21575
         }
     },
     {
@@ -8527,6 +8567,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 16,
             "affected_candidate": 16,
             "global_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 225,
+        "fields": {
+            "answer": 294,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.16
         }
     },
     {
@@ -9475,6 +9525,16 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 408,
             "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.11
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 296,
+        "fields": {
+            "answer": 408,
+            "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": -0.00711
         }
@@ -9936,7 +9996,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 353,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.15151
+            "global_multiplier": 0.225151
         }
     },
     {
@@ -9966,7 +10026,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 354,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": -0.2111111222225555551
+            "global_multiplier": -0.2021111222225555551
         }
     },
     {
