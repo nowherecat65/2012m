@@ -9,19 +9,19 @@ cyoAdventure = function(a) {
        console.log("done");
        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
     }
-    if(ans == 730){
+    if(ans == 391){
        console.log("done");
        campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
     }
-    if(ans == 731){
+    if(ans == 392){
        console.log("done");
        campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
     }
-    if(ans == 732){
+    if(ans == 393){
        console.log("done");
        campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
     }
-    if(ans == 733){
+    if(ans == 394){
        console.log("done");
        campaignTrail_temp.candidate_json[1]["fields"].last_name = "Warner";
     }
