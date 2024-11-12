@@ -10,13 +10,13 @@ cyoAdventure = function(a) {
        campaignTrail_temp.candidate_json[2]["fields"].last_name = "Trump";
     }
     if(ans == 3991){
-        e.election_json[0].fields.has_visits = 0;
+        e.election_json[0].fields.has_visits = 1;
     }
     if(ans == 3992){
-        e.election_json[0].fields.has_visits = 0;
+        e.election_json[0].fields.has_visits = 1;
     }
     if(ans == 3993){
-        e.election_json[0].fields.has_visits = 0;
+        e.election_json[0].fields.has_visits = 1;
     }
     if(ans == 88){
        console.log("done");
