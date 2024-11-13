@@ -138,7 +138,7 @@ campaignTrail_temp.questions_json = [
         "pk": 38,
         "fields": {
             "priority": 2,
-            "description": "You're on the campaign trail, addressing what is, to you, a big crowd outside of Philly. What message do you want to touch on today?",
+            "description": "You're on the campaign trail, speaking to what you think is a big crowd outside of Philly. What message do you want to hit on today?",
             "likelihood": 1
         }
     },
