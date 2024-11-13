@@ -288,6 +288,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 80999,
+        "fields": {
+            "priority": 2,
+            "description": "Another day, another crowd, you're just outside of Aurora, Colorado, holding an honestly, small, rally. What do you want to focus on?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 80,
         "fields": {
             "priority": 2,
@@ -522,6 +531,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 6777,
             "description": "Let me tell you something about character. When I was a young man in Hanoi, and I don't talk about this often, I learned what real courage means. It's not about grand gestures. It's about putting country first, every single day.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 809991,
+        "fields": {
+            "question": 80999,
+            "description": "Well, you know, I want you fine people to know that I am fighting for each and ever vote, not out of pride, but because I think we have a good thing going. I respect Mark Warner, I honestly do, folks, but I think we have a better case for success.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 809992,
+        "fields": {
+            "question": 80999,
+            "description": "Damn the polls; I want to give a serious, measured speech. We find ourselves at a pivotal moment in America. Our economy is recovering, not at some erratic or unpredictable pace, but at a steady, and stable rate. The Democrats can, and will jeopardize this."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 809993,
+        "fields": {
+            "question": 80999,
+            "description": "I want to touch on immigration. I understand that not everyone is happy with where we are now, but that's only because of the Do-Nothing Democratic congress. My friends, comprehensive legislation to resolve these challenges has been drafted, and it was killed by the Democratic Party."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 809994,
+        "fields": {
+            "question": 80999,
+            "description": "The Democrats have gone way, way too far, and I'm sorry to say that. When you have people like Elizabeth Warren and Bernie Sanders leading the charge and shaping the direction of the party, it creates a recipe for economic turmoil, my friends. We cannot afford to elect them."
         }
     },
     {
@@ -6862,6 +6903,126 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 10,
         "fields": {
+            "answer": 809991,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0055
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809991,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809991,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0041
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809994,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809994,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0155
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809994,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0085
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809992,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809992,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809992,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.0151
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809993,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0065
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809993,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0171
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
+            "answer": 809993,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 10,
+        "fields": {
             "answer": 104,
             "candidate": 17,
             "affected_candidate": 18,
@@ -10869,6 +11030,86 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 5,
             "issue_score": -0.75,
             "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809991,
+            "issue": 1,
+            "issue_score": 0.1,
+            "issue_importance": 1.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809991,
+            "issue": 2,
+            "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809994,
+            "issue": 1,
+            "issue_score": -0.35,
+            "issue_importance": 1.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809994,
+            "issue": 4,
+            "issue_score": -0.25,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809993,
+            "issue": 5,
+            "issue_score": -0.27,
+            "issue_importance": 1.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809993,
+            "issue": 4,
+            "issue_score": -0.31,
+            "issue_importance": 1.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809992,
+            "issue": 1,
+            "issue_score": -0.35,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 809992,
+            "issue": 3,
+            "issue_score": -0.25,
+            "issue_importance": 1.3
         }
     },
     {
@@ -18466,6 +18707,33 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 67778,
             "candidate": 17,
             "answer_feedback": "The crowd ate up your speech! You've been taking an aggressive, at times personal line against Mark Warner, particularly on the issue of his readiness. It's a bit unclear if this will work, but people do seem to trust your hand on foreign policy more. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 809991,
+            "candidate": 17,
+            "answer_feedback": "Admittedly, this tone is more conciliatory, and nice than many people had hoped, or expected from you. However, election day is quickly coming, so could this be a good move. Right? "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 809992,
+            "candidate": 17,
+            "answer_feedback": "This, of course, leans into a 'Presidential' tone however, the fact is that many people are genuinely concerned and frustrated about the current state of the economy. Addressing it like this could backfire.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 809993,
+            "candidate": 17,
+            "answer_feedback": "Undoubtedly, both the Democratic opposition and the hard-right factions of the GOP defeated your immigration bill early in your first term. But campaigning on an issue that many people do not trust you on, and which is inherently divisive, is risky.  "
         }
     },
     {
