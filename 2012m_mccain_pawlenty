@@ -10619,6 +10619,36 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 426,
+        "fields": {
+            "answer": 35444,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.1521111222225555551
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 426,
+        "fields": {
+            "answer": 35444,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0141145671
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 426,
+        "fields": {
+            "answer": 35444,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 427,
         "fields": {
             "answer": 42151,
@@ -12016,8 +12046,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 354,
             "issue": 4,
-            "issue_score": -0.375,
-            "issue_importance": 4.7
+            "issue_score": -0.475,
+            "issue_importance": 4.8
         }
     },
     {
@@ -12046,8 +12076,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 35444,
             "issue": 4,
-            "issue_score": -0.187,
-            "issue_importance": 2.3
+            "issue_score": -0.287,
+            "issue_importance": 2.9
         }
     },
     {
@@ -14797,6 +14827,28 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 92,
         "fields": {
+            "answer": 35444,
+            "state": 38,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.01481239696
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 92,
+        "fields": {
+            "answer": 35444,
+            "state": 25,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "state_multiplier": 0.00751
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 92,
+        "fields": {
             "answer": 353,
             "state": 25,
             "candidate": 17,
@@ -14830,6 +14882,28 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 92,
         "fields": {
+            "answer": 35444,
+            "state": 18,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.00841481239696
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 92,
+        "fields": {
+            "answer": 35444,
+            "state": 4,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.009718998996899
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 92,
+        "fields": {
             "answer": 353,
             "state": 18,
             "candidate": 17,
@@ -14874,11 +14948,44 @@ campaignTrail_temp.answer_score_state_json = [
         "model": "campaign_trail.answer_score_state",
         "pk": 92,
         "fields": {
+            "answer": 35444,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": -0.0021681239696
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 92,
+        "fields": {
             "answer": 353,
             "state": 35,
             "candidate": 17,
             "affected_candidate": 17,
             "state_multiplier": 0.022681239696
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 92,
+        "fields": {
+            "answer": 35444,
+            "state": 35,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.022681239696
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 92,
+        "fields": {
+            "answer": 35444,
+            "state": 38,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "state_multiplier": 0.02581239696
         }
     },
     {
@@ -18316,6 +18423,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 354,
             "candidate": 17,
             "answer_feedback": "You've embraced the polarizing Rick Santorum, who ran an insurgent campaign against you, picked up rural states, and kept you on your toes. It may be a smart move, but it stings. Meanwhile, Trump’s on Twitter, saying Santorum 'signed a deal with the devil.' "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 383,
+        "fields": {
+            "answer": 35444,
+            "candidate": 17,
+            "answer_feedback": "Santorum's staff, and apparently the former senator himself, are a bit upset about the distance, but perhaps, in an effort to set himself up for 2016, he is eager to appear on TV and speak to evangelicals and former supporters to try and keep them voting GOP rather than Trump."
         }
     },
     {
