@@ -1023,6 +1023,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 35444,
+        "fields": {
+            "question": 101,
+            "description": "Me and Senator Santorum agree on the big issues that count. We'll issue a statement to that effect and send Rick out to campaign for the ticket. However, let's be clear here: we are not planning a reconciliation or a silly hug rally. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 366,
         "fields": {
             "question": 105,
@@ -11948,8 +11956,18 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 353,
             "issue": 4,
-            "issue_score": 0.175,
-            "issue_importance": 2.4
+            "issue_score": 0.199,
+            "issue_importance": 3.7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 305,
+        "fields": {
+            "answer": 353,
+            "issue": 2,
+            "issue_score": 0.125,
+            "issue_importance": 1.0
         }
     },
     {
@@ -11959,7 +11977,37 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 354,
             "issue": 4,
             "issue_score": -0.375,
-            "issue_importance": 3.1
+            "issue_importance": 4.7
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 305,
+        "fields": {
+            "answer": 354,
+            "issue": 2,
+            "issue_score": -0.385,
+            "issue_importance": 2.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 305,
+        "fields": {
+            "answer": 35444,
+            "issue": 4,
+            "issue_score": -0.187,
+            "issue_importance": 2.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 305,
+        "fields": {
+            "answer": 35444,
+            "issue": 2,
+            "issue_score": -0.197,
+            "issue_importance": 1.5
         }
     },
     {
