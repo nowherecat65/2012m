@@ -291,7 +291,7 @@ campaignTrail_temp.questions_json = [
         "pk": 80999,
         "fields": {
             "priority": 2,
-            "description": "Another day, another crowd, you're just outside of Aurora, Colorado, holding an honestly, small, rally. What do you want to focus on?",
+            "description": "Another day, another crowd, you're just outside of Aurora, Colorado, holding a late-stage rally. What do you want to focus on?",
             "likelihood": 1
         }
     },
