@@ -19202,6 +19202,15 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
+            "answer": 809994,
+            "candidate": 17,
+            "answer_feedback": "Bernie did give Warner a run for his money during the primary season, and the Democratic Party is seen as having moved to the left since 2008 and the defeat of Hillary Clinton. So while Warner is no Sanders, this rhetoric serves as red meat for the base "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
             "answer": 67778,
             "candidate": 17,
             "answer_feedback": "The crowd ate up your speech! You've been taking an aggressive, at times personal line against Mark Warner, particularly on the issue of his readiness. It's a bit unclear if this will work, but people do seem to trust your hand on foreign policy more. "
