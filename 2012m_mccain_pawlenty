@@ -138,7 +138,7 @@ campaignTrail_temp.questions_json = [
         "pk": 38,
         "fields": {
             "priority": 2,
-            "description": "You're on the campaign trail, addressing what is, to you, a big crowd. What message do you want to touch on today?",
+            "description": "You're on the campaign trail, addressing what is, to you, a big crowd outside of Philly. What message do you want to touch on today?",
             "likelihood": 1
         }
     },
@@ -202,6 +202,15 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 2,
             "description": "Do you think that military spending should be reduced to help cut the deficit? And if so, by how much?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 6777,
+        "fields": {
+            "priority": 2,
+            "description": "Your on the trail, speaking to a modest crowd in Greensboro, North Carolina -- apparently the Warner spoke nearby last night. What do you want to touch on?",
             "likelihood": 1
         }
     },
@@ -489,6 +498,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 26,
             "description": "The U.S.-China trade relationship has put real pressure on American manufacturing jobs over the years. We need to take smart, measured steps to protect American workers and ensure fair competition, while still keeping our place as a leader in the global economy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 67778,
+        "fields": {
+            "question": 6777,
+            "description": "My friends, I heard Mark Warner was down here last night?... He might get the big crowds, but let me tell you straight - you need backbone be President of this great nation, to heal our divides, and to move our economy forward. I'll tell you directly - I don't believe he is ready. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 67779,
+        "fields": {
+            "question": 6777,
+            "description": "Our economy is recovering, it's growing. We passed a good, fair tax cut in 2009, and we're working hard to restore stability to our financial sector. Slow and steady will win this race, that's what I've learned, and we will win it together  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 67780,
+        "fields": {
+            "question": 6777,
+            "description": "Let me tell you something about character. When I was a young man in Hanoi, and I don't talk about this often, I learned what real courage means. It's not about grand gestures. It's about putting country first, every single day.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 67781,
+        "fields": {
+            "question": 6777,
+            "description": "When Senator Warner talks about his radical healthcare plan, I have to tell you, that's not the American way. We need reform, absolutely. But turning over one-sixth of our economy to Washington bureaucrats? That's not reform, that's a recipe for disaster. "
         }
     },
     {
@@ -8949,6 +8990,36 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67781,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67781,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0151
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67781,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0161
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 267,
         "fields": {
             "answer": 269,
@@ -8985,6 +9056,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 16,
             "global_multiplier": -0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67780,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67780,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0171
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67780,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0195
         }
     },
     {
@@ -9071,6 +9172,36 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 269,
         "fields": {
+            "answer": 67778,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0161
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67778,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": 0.0071
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67778,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
             "answer": 270,
             "candidate": 17,
             "affected_candidate": 17,
@@ -9085,6 +9216,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67779,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67779,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0031
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 67779,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.0021
         }
     },
     {
@@ -10868,6 +11029,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 1,
             "issue_score": 0.6,
             "issue_importance": 2.9
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 96,
+        "fields": {
+            "answer": 67778,
+            "issue": 3,
+            "issue_score": -0.2,
+            "issue_importance": 2.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 96,
+        "fields": {
+            "answer": 67780,
+            "issue": 3,
+            "issue_score": -0.1,
+            "issue_importance": 2.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 96,
+        "fields": {
+            "answer": 67781,
+            "issue": 2,
+            "issue_score": -0.25,
+            "issue_importance": 2.6
         }
     },
     {
@@ -18266,6 +18457,51 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 1013,
             "candidate": 17,
             "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 67778,
+            "candidate": 17,
+            "answer_feedback": "The crowd ate up your speech! You've been taking an aggressive, at times personal line against Mark Warner, particularly on the issue of his readiness. It's a bit unclear if this will work, but people do seem to trust your hand on foreign policy more. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 67780,
+            "candidate": 17,
+            "answer_feedback": "The crowd seems, frankly, a bit nervous to hear you so openly talk about your torture and capture by the Viet Minh forces during the Vietnam War - all the TV cameras surely captured the moment as you reflected on it and spoke to your devotion towards the USA. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 67781,
+            "candidate": 17,
+            "answer_feedback": "The crowd loves it! Warner is not, in fact, running on a single-payer healthcare plan, but his biggest rival during the primaries, Bernie Sanders loudly did. People are unhappy with healthcare today, but perhaps this is the right route of attack? "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 67779,
+            "candidate": 17,
+            "answer_feedback": "You've been telling your advisors that you want to touch on the economy and its slow recovery, even though they tell you it's hardly a winning issue for you. Regardless, your small crowd loves it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 67781,
+            "candidate": 17,
+            "answer_feedback": "You've been telling your advisors that you want to touch on the economy and its slow recovery, even though they tell you it's hardly a winning issue for you. Regardless, your small crowd loves it."
         }
     },
     {
