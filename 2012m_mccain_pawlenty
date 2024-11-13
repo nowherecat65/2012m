@@ -210,7 +210,7 @@ campaignTrail_temp.questions_json = [
         "pk": 6777,
         "fields": {
             "priority": 2,
-            "description": "Your on the trail, speaking to a modest crowd in Greensboro, North Carolina -- apparently the Warner spoke nearby last night. What do you want to touch on?",
+            "description": "Your on the trail, speaking to a modest crowd in Greensboro, North Carolina -- apparently Warner spoke, and held an event nearby last night. What do you want to touch on?",
             "likelihood": 1
         }
     },
