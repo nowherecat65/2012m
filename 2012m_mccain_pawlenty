@@ -234,6 +234,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 821515,
+        "fields": {
+            "priority": 2,
+            "description": "Tensions with Iran have escalated in recent years, particularly over their nuclear program. But incidents in the Strait of Hormuz, including the death of three U.S. servicemen in 2010, have intensified the situation. Your administration soon announced bombings of alleged Iranian nuclear facilities and considered a UN Security Council resolution. Meanwhile, Democrats and libertarians, weary of Iraq and Afghanistan deployments, are making this a major issue, warning that a war with Iran could occur. How should we respond?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 106,
         "fields": {
             "priority": 2,
@@ -939,6 +948,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 80,
             "description": "I’m prepared to do what’s necessary to defend freedom and human rights in Syria. If that requires U.S. military commitment down the line, we’ll cross that bridge when we get there—but I'm not going to make any commitments right now, one way or another."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2884441,
+        "fields": {
+            "question": 821515,
+            "description": "I want the American people to know that we will not back down against Iran. We have already lost brave Americans to their forces and those they openly support, who have been getting away with murder. This is serious, and we need a strong leader to strike back. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2884442,
+        "fields": {
+            "question": 821515,
+            "description": "Uh, well, you know, the bombing happened last year. Senator Warner, and those liberals can whine about it, but I think most people are focused on the economy or our men and women in Iraq and Afghanistan. So, no, no statement from us. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 2884443,
+        "fields": {
+            "question": 821515,
+            "description": "I have deep problems with Iran, my friends, and you all know that. But we already have thousands of our brave soldiers in Iraq and Afghanistan. We’ve sharpened sanctions on Iran, and they are pretty damn isolated. Let's get a statement out saying we're focused on our current commitments. "
         }
     },
     {
@@ -7816,6 +7849,96 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 37,
         "fields": {
+            "answer": 2884441,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0115
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884441,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.0167
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884441,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.00761
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884442,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.00461
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884442,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884442,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.0085
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884443,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.0047
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884443,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": -0.0025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 2884443,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.0057
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
             "answer": 966,
             "candidate": 17,
             "affected_candidate": 18,
@@ -11103,6 +11226,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 1,
             "issue_score": -0.35,
             "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 2884441,
+            "issue": 3,
+            "issue_score": -0.68,
+            "issue_importance": 3.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 2884442,
+            "issue": 3,
+            "issue_score": -0.05,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 2884443,
+            "issue": 3,
+            "issue_score": 0.1,
+            "issue_importance": 2
         }
     },
     {
@@ -20001,9 +20154,36 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
-            "answer": 1014,
+            "answer": 1012,
             "candidate": 17,
             "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2884441,
+            "candidate": 17,
+            "answer_feedback": "In a recently released interview, you voiced your views on Iran, stating that your administration would ''strike'' them with ''unmatched resolve'' if they attacked American vessels or soldiers. Democrats are practically shrieking at this point, sir."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2884442,
+            "candidate": 17,
+            "answer_feedback": "Fair enough. The Democrats will keep making this an issue, painting you as a warmonger who will drag America into a third war paid for on a credit card. But at the end of the day, this isn't the biggest issue facing our country."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2884443,
+            "candidate": 17,
+            "answer_feedback": "In a recent interview you gave to CNN, filmed nearby the Rose Garden at the White House during a break from the campaign trail, you discussed wanting to take a ''breath'' regarding American-Iranian relations, something that surprised much of the nation's press. "
         }
     },
     {
