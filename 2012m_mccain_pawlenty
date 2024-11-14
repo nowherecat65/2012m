@@ -11626,7 +11626,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 398,
             "issue": 3,
-            "issue_score": 0.81,
+            "issue_score": 0.45,
             "issue_importance": 3.3
         }
     },
