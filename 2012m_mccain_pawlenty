@@ -237,7 +237,7 @@ campaignTrail_temp.questions_json = [
         "pk": 821515,
         "fields": {
             "priority": 2,
-            "description": "Tensions with Iran have escalated in recent years, particularly over their nuclear program. But incidents in the Strait of Hormuz, including the death of three U.S. servicemen in 2010, have intensified the situation. Your administration announced bombings of alleged Iranian nuclear facilities and considered a UN Security Council resolution. Meanwhile, Democrats and libertarians, weary of Iraq and Afghanistan deployments, are making this a major issue, warning that a war with Iran could occur. How should we respond?",
+            "description": "Tensions with Iran have escalated in recent years, particularly over their nuclear program. But incidents in the Strait of Hormuz, including the death of three U.S. servicemen in 2010, have intensified things. Your administration announced bombings of Iranian nuclear facilities and apparently considered a UN Security Council resolution. Meanwhile, Democrats and libertarians, fatigued by Iraq and Afghanistan, are warning that a war with Iran could be imminent. How should we respond?",
             "likelihood": 1
         }
     },
