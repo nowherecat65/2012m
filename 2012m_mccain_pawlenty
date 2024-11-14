@@ -883,7 +883,7 @@ campaignTrail_temp.answers_json = [
         "pk": 270,
         "fields": {
             "question": 75,
-            "description": "You know, I am concerned about these polls, if you want me to be entirely honest. But I’ll be damned if I let these folks shove me out of the White House. It’s time to start an ad blitz against Warner. I know, I know, but if we want a real shot at winning, we’ve got to mobilize."
+            "description": "You know, I am concerned about these polls, if you want me to be entirely honest. But I’ll be damned if I let these folks shove me out of the White House. It’s time to start an ad blitz against Warner. I know, I know, but if we want a real shot at winning, we’ve got to punch them in the nose."
         }
     },
     {
@@ -8692,7 +8692,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 270,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.002
+            "global_multiplier": -0.002
         }
     },
     {
@@ -9463,6 +9463,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": 0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 269,
+        "fields": {
+            "answer": 270,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": -0.00481512
         }
     },
     {
