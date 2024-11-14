@@ -19372,7 +19372,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 150,
             "candidate": 17,
-            "answer_feedback": "This is is a biting. Bernie certainly had his supporters this year, but some moderates and even a few liberals described him as borderline demagogic. The Warner campaign is clearly trying to distance itself from him, so pushing them together seems smart. "
+            "answer_feedback": "This is biting. Bernie certainly had his supporters this year, but some moderates and even a few liberals described him as borderline demagogic. The Warner campaign is clearly trying to distance itself from him, so pushing them together seems smart. "
         }
     },
     {
