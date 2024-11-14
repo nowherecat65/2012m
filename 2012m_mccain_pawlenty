@@ -17075,7 +17075,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.066456412341
+            "state_multiplier": 0.067998456412341
         }
     },
     {
@@ -17086,7 +17086,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.066456412341
+            "state_multiplier": 0.06799856412341
         }
     },
     {
@@ -17097,7 +17097,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0664564112341
+            "state_multiplier": 0.067998564112341
         }
     },
     {
@@ -17108,7 +17108,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.0664564112341
+            "state_multiplier": 0.067998564112341
         }
     },
     {
@@ -17251,7 +17251,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 25,
             "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.007652666
+            "state_multiplier": -0.011117652666
         }
     },
     {
@@ -17262,7 +17262,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 25,
             "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.007652666
+            "state_multiplier": -0.011117652666
         }
     },
     {
@@ -17273,7 +17273,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 25,
             "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.007652666
+            "state_multiplier": -0.011117652666
         }
     },
     {
@@ -17284,7 +17284,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 25,
             "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.007652666
+            "state_multiplier": -0.011117652666
         }
     },
     {
