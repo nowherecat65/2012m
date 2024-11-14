@@ -843,7 +843,7 @@ campaignTrail_temp.answers_json = [
         "pk": 243,
         "fields": {
             "question": 67,
-            "description": "Cutting our military budget isn’t the answer to reducing our deficit. We can tackle our budget without compromising national security. I’ll always stand for a strong and well-prepared defense."
+            "description": "Cutting our military budget isn’t the answer to reducing our deficit. We can address our deficit without compromising our national security and our strength as a superpower. As long as I’m your President, and as long as I’m still here kicking, I’ll stand firm for a strong and well-prepared defense."
         }
     },
     {
@@ -851,7 +851,7 @@ campaignTrail_temp.answers_json = [
         "pk": 244,
         "fields": {
             "question": 67,
-            "description": "It’s true; our defense spending is substantial compared to other nations, and there are areas where we can responsibly trim back without compromising our core strength. If we're serious about reducing the deficit, then some careful adjustments to military spending are worth considering. "
+            "description": "It’s true; our defense spending is substantial compared to other nations, and there are certainly areas where we can responsibly trim back without sacrificing our core strength. If we're serious about reducing the deficit, then it’s time for a thoughtful discussion about making real adjustments to military spending. "
         }
     },
     {
@@ -859,7 +859,7 @@ campaignTrail_temp.answers_json = [
         "pk": 245,
         "fields": {
             "question": 67,
-            "description": "We need to be smart, not reckless, when it comes to our defense budget. I’m open to efficiency reforms, but not at the expense of our readiness or global commitments. America’s strength isn’t something I’m willing to gamble with for the sake of temporary cuts."
+            "description": "We need to be smart, not reckless, about our defense budget. I’m open to reforms that improve efficiency, but not at the cost of our military readiness or global commitments. America’s strength is essential, and I won’t risk it for temporary cuts. We must ensure that any adjustments are made thoughtfully, and seriously."
         }
     },
     {
