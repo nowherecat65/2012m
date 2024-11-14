@@ -8222,9 +8222,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 78,
         "fields": {
             "answer": 152,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": -0.02
+            "candidate": 17,
+            "affected_candidate": 19,
+            "global_multiplier": 0.006136915
         }
     },
     {
