@@ -245,7 +245,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>Joe Lieberman, the incumbent Vice President, has reluctantly agreed to stay on the ticket with McCain, not wanting to abandon his friend and partner in the final political battle of his career. Long despised by progressive Democrats for his unabashed centrism, Lieberman isn't exactly popular with many Republicans either, especially since being elected.</p><p>At the same time, however, some advisors view the cost of replacing him as more hurtful than helpful, and the President himself remains eager to keep his co-captain aboard.<p>",
+            "description_as_running_mate": "<p>Joe Lieberman, the incumbent Vice President, has reluctantly agreed to stay on the ticket with McCain, not wanting to abandon his friend and partner in the final political battle of his career. Long despised by progressive Democrats for his unabashed centrism, Lieberman isn't exactly popular with many Republicans either, especially since being elected VP. </p><p>At the same time, however, some advisors view the cost of replacing him as more hurtful than helpful, and the President himself remains eager to keep his co-captain aboard.<p>",
             "candidate_score": 0,
             "running_mate": true
         }
