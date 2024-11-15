@@ -6912,7 +6912,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 809991,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0055
+            "global_multiplier": 0.0155
         }
     },
     {
@@ -6942,7 +6942,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 809994,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0075
+            "global_multiplier": 0.016989
         }
     },
     {
@@ -6972,7 +6972,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 809992,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.006
         }
     },
     {
@@ -7002,7 +7002,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 809993,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0065
+            "global_multiplier": 0.0161
         }
     },
     {
@@ -9332,7 +9332,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 370,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0279999899998999992489989989989898911113761
+            "global_multiplier": 0.028749999899998999992489989989989898911113761
         }
     },
     {
@@ -9342,7 +9342,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 370,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": -0.02114999899989998999
+            "global_multiplier": -0.0234991994989894999899989998999
         }
     },
     {
@@ -9782,7 +9782,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 377,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.0331
+            "global_multiplier": 0.0261
         }
     },
     {
