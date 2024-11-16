@@ -4888,7 +4888,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 5,
-            "state_multiplier": 1.09998999793974912119
+            "state_multiplier": 1.100998999793974912119
         }
     },
     {
@@ -4960,7 +4960,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 13,
-            "state_multiplier": 1.227893699858999899398
+            "state_multiplier": 1.237893699858999899398
         }
     },
     {
@@ -5032,7 +5032,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 21,
-            "state_multiplier": 1.165911115
+            "state_multiplier": 1.211195911115
         }
     },
     {
@@ -5266,7 +5266,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 47,
-            "state_multiplier": 1.06849989989763
+            "state_multiplier": 1.079989949989989763
         }
     },
     {
@@ -5347,7 +5347,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 5,
-            "state_multiplier": 0.9600512376
+            "state_multiplier": 0.95899899512376
         }
     },
     {
@@ -5383,7 +5383,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 9,
-            "state_multiplier": 1.0799989999799991151151189989984999999
+            "state_multiplier": 1.08499989999799991151151189989984999999
         }
     },
     {
@@ -5419,7 +5419,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 13,
-            "state_multiplier": 1.02995
+            "state_multiplier": 1.023366995
         }
     },
     {
@@ -5491,7 +5491,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 21,
-            "state_multiplier": 0.9641678
+            "state_multiplier": 0.9555995551678
         }
     },
     {
