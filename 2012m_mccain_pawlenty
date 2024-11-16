@@ -228,7 +228,7 @@ campaignTrail_temp.questions_json = [
         "pk": 82,
         "fields": {
             "priority": 2,
-            "description": "What do you see as the next steps for Medicare reform, especially as the program faces long-term financial challenges? During your term you haven't put anything serious forward on the issue.",
+            "description": "What do you see as the next steps for Medicare reform, especially as the program faces long-term financial challenges? During your term you haven't put anything serious forward on the issue, but it's still a big issue. ",
             "likelihood": 1
         }
     },
@@ -282,7 +282,7 @@ campaignTrail_temp.questions_json = [
         "pk": 3344,
         "fields": {
             "priority": 2,
-            "description": "The Vice Presidential debate, between Pawlenty, and Amy Klobuchar is approaching, and the Governor has been deep into debate prep these past few days. Ultimately, though, his strategy is in your hands and the team’s. What approach would you like him to take?",
+            "description": "The Vice Presidential debate, between the two governors: Tim Pawlenty, and Chet Culver is approaching, and Pawlenty has been deep in the trenches debate prep these past few days. Ultimately, though, his strategy is in your hands and the team’s. What approach would you like him to take? ",
             "likelihood": 1
         }
     },
@@ -291,7 +291,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24,
         "fields": {
             "priority": 2,
-            "description": "Would you say the United States is overly reliant on fossil fuels to meet its energy needs?",
+            "description": "Would you say the United States is overly reliant on fossil fuels to meet its energy needs? According to many liberals you as President haven't been proactive enough on the environment, and renewables. ",
             "likelihood": 1
         }
     },
@@ -651,7 +651,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12919,
         "fields": {
             "question": 3344,
-            "description": "I held back a bit on Warner in my debate, but I want Tim to go all-in on Klobuchar. He needs to hit hard on their plans for big-government liberalism, and make it clear that we stand against massive bureaucratic overreach. "
+            "description": "I held back a bit on Warner in my debate, but I want Tim to go all-in on Culver. He needs to hit hard on their plans for big-government liberalism, and make it clear that we stand against massive bureaucratic overreach. "
         }
     },
     {
@@ -20196,7 +20196,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12919,
             "candidate": 17,
-            "answer_feedback": "This didn't work out well. Senator Klobuchar came across as measured, experienced, and even funny during the debate, while your running mate, fellow Minnesotan Tim Pawlenty, appeared uncharacteristically angry. Most think she won.  "
+            "answer_feedback": "This didn't work out well. Governor Culver came across as measured, experienced, and even funny during the debate, while your running mate, fellow Minnesotan Tim Pawlenty, appeared uncharacteristically angry. Most think Culver won.  "
         }
     },
     {
@@ -20205,7 +20205,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12920,
             "candidate": 17,
-            "answer_feedback": "The debate ended in a draw according to the polls, with both Klobuchar and Pawlenty keeping things calm and civil, if a bit dull. In fact, it reportedly had some of the lowest ratings in modern VP debate history. "
+            "answer_feedback": "The debate ended in a draw according to the polls, with both Culver and Pawlenty keeping things calm and civil, if a bit dull. In fact, it reportedly had some of the lowest ratings in modern VP debate history. "
         }
     },
     {
@@ -20214,7 +20214,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12921,
             "candidate": 17,
-            "answer_feedback": "Good call, sir. Governor Pawlenty kept his cool while Klobuchar leaned into a more populist, almost combative strategy, taking shots at the McCain administration and the GOP. Most polls are saying Pawlenty came out on top. "
+            "answer_feedback": "Good call, sir. Governor Pawlenty kept his cool while Culver leaned into a more populist, almost combative strategy, taking shots at the McCain administration and the GOP. Most polls are saying Pawlenty came out on top. "
         }
     },
     {
