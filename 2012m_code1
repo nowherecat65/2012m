@@ -195,7 +195,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#0F48FF",
             "secondary_color_hex": "#3e6cff",
             "is_active": 0,
-            "image_url": "https://www.dropbox.com/scl/fi/9jqtoastzxeycwedzqs2k/ChetCulver-1.png?rlkey=1ugx1nj0x02k7cdmjf3s05kv7&st=0nr12nvs&dl=0",
+            "image_url": "https://previews.dropbox.com/p/thumb/ACdxGJ56tKRTS9m_ZnR1MvoAhNRcsL4OA4QcNpWSG22W8l8iskvtm2T8GYq37IvfeagPqO8Kp0A7Pe6DJvXXPKa9UufP2nSAqwKmwyipjiRdjHMzx_5bKcUfjxFt4zUiO6bLyALEZJztDn40UJRjbd06ZfxDK-dZnB7xWTbfzo8LFCUQ5Yot9rHg8gIzngGedaDbaipO-QuKEpiphBsniiwpcWLwVYdsFw8r-hPqfR7Dqk-Eatrk5dPwMhaZtOcNr7gY1giqlk8J0iQYF1j9Rmj1cCg78Kl6UYRUf1S3nLYWxp1d1kLtx3Aek7a0IwlYRwu9zpezshRbIRz9oasVuu3vdKAoNhfO5jK9Yjm1Xb_bpP4anU4zNktQxcmyYyssZscLNkxlLr2TwJbQN0Ps-7b3v7lg7PKHIOpD4uQP0kmRLauktOd3OWr8MyI76CsadZlhRGwHTeecsJq6ZDX9tk8pjyQH6uHgkqZNybcqIc2EOQLjcQ07RPt4S4ny8rVH1y5AJBGV0hqIN5MugOzqPdE2uo735D9fxQrSi9hqofbeopN-DHqt86pwivTWFrwZBryR1R4MdV4O8I6ULmA4AqU2/p.png?is_prewarmed=true",
             "electoral_victory_message": "n/a",
             "electoral_loss_message": "n/a",
             "no_electoral_majority_message": "n/a",
