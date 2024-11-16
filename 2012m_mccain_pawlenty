@@ -20421,6 +20421,15 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
+            "answer": 1014,
+            "candidate": 17,
+            "answer_feedback": "This is the top story in the political press right now. Trump has lost only one Congressional endorsement so far, though a few more are distancing themselves. Meanwhile, his running mate, Steve King, is doing the opposite, calling the entire thing a conspiracy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
             "answer": 809994,
             "candidate": 17,
             "answer_feedback": "Bernie did give Warner a run for his money during the primary season, and the Democratic Party is seen as having moved to the left since 2008 and the defeat of Hillary Clinton. So while Warner is no Sanders, this rhetoric serves as red meat for the base "
