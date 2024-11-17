@@ -20282,7 +20282,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3992,
             "candidate": 17,
-            "answer_feedback": "You soon arrive at the Crowne Plaza Hotel and speak to your numerous supporters and staff. The crowd goes cheers as they see you smile and thank them for their hard work. But now your headed to South Carolina, and Florida, and your numbers don't look great there... "
+            "answer_feedback": "You soon arrive at the Crowne Plaza Hotel and speak to your numerous supporters and staff. The crowd goes cheers as they see you smile and thank them for their hard work. But now you're headed to South Carolina, and Florida, and your numbers don't look great there... "
         }
     },
     {
@@ -20291,7 +20291,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3993,
             "candidate": 17,
-            "answer_feedback": "You soon arrive at the Crowne Plaza Hotel and speak to your numerous supporters and staff. The crowd goes wild as they hear your surprisingly serious victory speech. But now your headed to South Carolina, and Florida, and your numbers don't look great there... "
+            "answer_feedback": "You soon arrive at the Crowne Plaza Hotel and speak to your numerous supporters and staff. The crowd goes wild as they hear your surprisingly serious victory speech. But now you're headed to South Carolina, and Florida, and your numbers don't look great there... "
         }
     },
     {
