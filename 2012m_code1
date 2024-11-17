@@ -298,6 +298,29 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
+        "pk": 34999,
+        "fields": {
+            "first_name": "Bernie",
+            "last_name": "Sanders",
+            "election": 3,
+            "party": "Indepedent",
+            "state": "Vermont",
+            "priority": 11,
+            "description": "n/a",
+            "color_hex": "#0F48FF",
+            "secondary_color_hex": "#3e6cff",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/9Oo1CLD.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Bernie Sanders, the junior Senator from Vermont and, before that, the Congressman from the state, has long been something of a political enigma, at least until this year. Known for his no-nonsense, sometimes grumpy nature, the Senator struck a chord with young people and activists who propelled him forward.</p><p>TThe self-described ''democratic socialist'' ran in the Democratic primaries this year and, to the shock of the DNC and much of the institutional press, managed to keep the frontrunner, Mark Warner, battling for delegates until June. The nomination battle admittedly became a bit messy and, at times, rough. Perhaps to heal the party, it has been made clear through leaks and inside sources that Bernie is being vetted for the vice presidency.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
         "pk": 38,
         "fields": {
             "first_name": "James P.",
@@ -507,6 +530,14 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 16,
             "running_mate": 34
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 2,
+        "fields": {
+            "candidate": 16,
+            "running_mate": 34999
         }
     },
     {
