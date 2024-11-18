@@ -20815,7 +20815,7 @@ e.election_json[0].fields.has_visits = 1;
 
 campaignTrail_temp.running_mate_state_id = '23';
 
-campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/HGQxTxI.jpeg';
+campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/I4X9S30.jpeg';
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/xBthGvM.jpeg';
 
