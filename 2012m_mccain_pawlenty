@@ -66,7 +66,7 @@ campaignTrail_temp.questions_json = [
         "pk": 131,
         "fields": {
             "priority": 0,
-            "description": "After a long primary battle, the Democrats have just recently, as expected, nominated the moderate Virgina Governor-turned-Senator, Mark Warner for President. In the most general terms, what will be your overall campaign strategy against him, and the Democrats?",
+            "description": "After a long primary battle, the Democrats have, as expected, nominated the moderate and youthful Virginia Governor-turned-Senator Mark Warner for President. In broad terms, what will be your overall campaign strategy against him and the Democrats?",
             "likelihood": 1
         }
     },
