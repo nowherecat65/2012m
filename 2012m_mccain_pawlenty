@@ -667,7 +667,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12921,
         "fields": {
             "question": 3344,
-            "description": "Well, you know, Pawlenty’s a good man, and he’s well-respected. I want him to keep it civil, something more in the spirit of how Lieberman and Bayh’s debate went back in 2008."
+            "description": "Frankly, Governor Pawlenty’s a good man, and he’s well-respected. I want him to keep it civil, something more in the spirit of how Lieberman and Bayh’s debate went back in 2008."
         }
     },
     {
@@ -963,7 +963,15 @@ campaignTrail_temp.answers_json = [
         "pk": 2884442,
         "fields": {
             "question": 821515,
-            "description": "Uh, well, you know, the bombing happened last year. Senator Warner, and those liberals can whine about it, but I think most people are focused on the economy or our men and women in Iraq and Afghanistan. So, no, no statement from us. "
+            "description": "Uh, well, the bombing happened last year. Senator Warner, and those liberals can whine about it, but I think most people are focused on the economy or our men and women in Iraq and Afghanistan. So, no, no statement from us. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 28844422,
+        "fields": {
+            "question": 821515,
+            "description": "Remember that old Beach Boys song? I want the American people to know that we are not going to stand down or shut up. We must take decisive action; it's time to launch another bombing run. They are literally harboring and supporting terror against us and our friends, like Israel. "
         }
     },
     {
@@ -7862,7 +7870,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 2884441,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.0115
+            "global_multiplier": 0.0125
         }
     },
     {
@@ -7872,7 +7880,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 2884441,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.1121
+            "global_multiplier": 0.1
         }
     },
     {
@@ -7983,6 +7991,36 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 17,
             "affected_candidate": 17,
             "global_multiplier": 0.012173942298
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 28844422,
+            "candidate": 17,
+            "affected_candidate": 16,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 28844422,
+            "candidate": 17,
+            "affected_candidate": 18,
+            "global_multiplier": 0.1311
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 37,
+        "fields": {
+            "answer": 28844422,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "global_multiplier": -0.026121
         }
     },
     {
@@ -11335,6 +11373,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 2884442,
             "issue": 3,
             "issue_score": -0.05,
+            "issue_importance": 2.1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 27,
+        "fields": {
+            "answer": 28844422,
+            "issue": 3,
+            "issue_score": -0.8,
             "issue_importance": 2.1
         }
     },
@@ -20652,6 +20700,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 2884441,
             "candidate": 17,
             "answer_feedback": "In a recently released interview, you voiced your views on Iran, stating that your administration would ''strike'' them with ''unmatched resolve'' if they attacked American vessels or soldiers. Democrats are practically shrieking at this point, sir."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 28844422,
+            "candidate": 17,
+            "answer_feedback": "Soon, you find yourself sitting in the Situation Room, monitoring a bombing run against Iranian military facilities that allegedly have the capacity to develop a nuclear weapon. Civilians are killed, and now the Warner campaign is labeling you nothing short of a warmongering old man."
         }
     },
     {
