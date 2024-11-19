@@ -57,7 +57,7 @@ campaignTrail_temp.questions_json = [
         "pk": 113,
         "fields": {
             "priority": 0,
-            "description": "Four years after your narrow victory over Hillary Clinton, and fresh off a primary challenge from Rick Santorum, what will be the central theme of your re-nomination speech at the Republican Convention?",
+            "description": "Skipping ahead... Four years after your narrow victory over Hillary Clinton, and fresh off a primary challenge from Rick Santorum, what will be the central theme of your re-nomination speech at the Republican Convention?",
             "likelihood": 1
         }
     },
