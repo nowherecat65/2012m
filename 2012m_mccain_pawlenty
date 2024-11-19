@@ -659,7 +659,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12920,
         "fields": {
             "question": 3344,
-            "description": "The Governor’s won two tough races, I trust his judgment. But I'll give him a call before the debate, just in case there’s anything specific I want him to hit on... "
+            "description": "The Governor’s won two tough races, I trust him, and his team's judgment. But I'll give him a call before the debate, just in case there’s anything specific I want him to hit on... "
         }
     },
     {
