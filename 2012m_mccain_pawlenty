@@ -165,7 +165,7 @@ campaignTrail_temp.questions_json = [
         "pk": 81,
         "fields": {
             "priority": 2,
-            "description": "The 2010 Shelby-Bayh Financial Integrity Act was a landmark of your administration, designed to prevent another financial meltdown. It set accountability standards, required banks to hold more capital, and streamlined regulations to stabilize the market. However, critics, including Democrats and even Donald Trump, argue it doesn’t go far enough to curb risky banking practices. How do you respond?",
+            "description": "The 2010 Shelby-Bayh Financial Integrity Act was a landmark of your administration, designed to prevent another financial meltdown. It set accountability standards by requiring banks to hold more capital, and streamlined regulations to stabilize the market. However, critics, including Democrats and even Donald Trump, argue it doesn’t go far enough to curb risky banking practices. How do you respond?",
             "likelihood": 1
         }
     },
