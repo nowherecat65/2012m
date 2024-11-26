@@ -5148,7 +5148,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 33,
-            "state_multiplier": 1.069878998998849829895982345
+            "state_multiplier": 1.0749878998998849829895982345
         }
     },
     {
@@ -5391,7 +5391,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 9,
-            "state_multiplier": 1.096121499989999799991151151189989984999999
+            "state_multiplier": 1.0974316121499989999799991151151189989984999999
         }
     },
     {
@@ -5427,7 +5427,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 13,
-            "state_multiplier": 1.023366995
+            "state_multiplier": 1.0179898366995
         }
     },
     {
@@ -5643,7 +5643,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 37,
-            "state_multiplier": 1
+            "state_multiplier": 1.09487654321
         }
     },
     {
@@ -5679,7 +5679,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 41,
-            "state_multiplier": 1.1499989998999859898989899899
+            "state_multiplier": 1.13699989998999859898989899899
         }
     },
     {
@@ -5724,7 +5724,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 46,
-            "state_multiplier": 0.9798998999899989998999
+            "state_multiplier": 0.9889898998999899989998999
         }
     },
     {
@@ -5733,7 +5733,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 47,
-            "state_multiplier": 0.98512169998991
+            "state_multiplier": 0.9899899899512169998991
         }
     },
     {
