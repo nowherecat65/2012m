@@ -93,7 +93,7 @@ campaignTrail_temp.questions_json = [
         "pk": 4215,
         "fields": {
             "priority": 1,
-            "description": "During this year’s convention, Governor Tim Pawlenty was introduced to the nation as your new running mate, while Vice President Joe Lieberman cheered from the stands. Why did you decide to make the switch, and what do you hope Pawlenty will bring to the campaign? ",
+            "description": "Despite some contention and open discussion on the matter, you have decided to stick with Joe Lieberman as your running mate, even though his approval rating has been described as ''in the toilet.'' Why did you choose to keep him, and what role do you see for him on the campaign trail? ",
             "likelihood": 1
         }
     },
@@ -819,7 +819,7 @@ campaignTrail_temp.answers_json = [
         "pk": 42151,
         "fields": {
             "question": 4215,
-            "description": "Look, off the record, I think folks understand why we made the change. I have a lot of respect for Joe, but his numbers were rough, and we couldn't ignore that. As for Pawlenty, let him run wild in the Midwest."
+            "description": "Look, Joe is a friend of mine, and despite what the damn approval ratings may say, the people of this nation understand the true, real character that Joe possesses. He’s a maverick. I want him to have an active role in the campaign, just like he did in '08. "
         }
     },
     {
@@ -827,7 +827,7 @@ campaignTrail_temp.answers_json = [
         "pk": 42153,
         "fields": {
             "question": 4215,
-            "description": "Well, I did my share of the late-night circuit back in 2007 and 2008, but honestly, I'm done with it. Let's get Governor Pawlenty out there in front of the media, on those shows. Folks need to get a feel for him, see who he really is. "
+            "description": "I don't think it's necessary to even address this press murmuring. As for the campaign trail, I think we would be best served if the Vice President pinpoints his focus on states like Florida, New Hampshire, and Maine.  "
         }
     },
     {
@@ -835,7 +835,7 @@ campaignTrail_temp.answers_json = [
         "pk": 42152,
         "fields": {
             "question": 4215,
-            "description": "Vice President Lieberman is a good man, and he’s done a lot for this administration, but he wanted to spend more time with family, and I respect that choice. As for Governor Pawlenty, I see him as a vital partner, and I want him by my side as much as possible. "
+            "description": "Vice President Lieberman is a good man and, in my opinion, the greatest Vice President our nation has ever had. He has been with me literally since before day one. I want him to accompany me at most rallies and visits. "
         }
     },
     {
@@ -4914,7 +4914,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 7,
-            "state_multiplier": 1.1898989899899344
+            "state_multiplier": 1.171298989899899344
         }
     },
     {
@@ -5058,7 +5058,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 23,
-            "state_multiplier": 1.089891121119989928989765
+            "state_multiplier": 1.0989891121119989928989765
         }
     },
     {
@@ -5373,7 +5373,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 7,
-            "state_multiplier": 0.955678
+            "state_multiplier": 0.97125678
         }
     },
     {
@@ -5517,7 +5517,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 23,
-            "state_multiplier": 1.0649998999199949998899989997956899
+            "state_multiplier": 1.04989849998999199949998899989997956899
         }
     },
     {
@@ -7440,7 +7440,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 86,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.078836
+            "global_multiplier": 0.0978836
         }
     },
     {
@@ -7490,7 +7490,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 87,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.07511126589999
+            "global_multiplier": 0.097511126589999
         }
     },
     {
@@ -7500,7 +7500,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 88,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": 0.073799899899
+            "global_multiplier": 0.0973799899899
         }
     },
     {
@@ -10830,7 +10830,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42151,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0071
+            "global_multiplier": 0.00171
         }
     },
     {
@@ -10890,7 +10890,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42153,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.008989898
+            "global_multiplier": 0.011218989898
         }
     },
     {
@@ -10900,7 +10900,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42152,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0071
+            "global_multiplier": 0.00171
         }
     },
     {
@@ -10970,7 +10970,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42151,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": -0.0113121911129484674226
+            "global_multiplier": 0.00298113121911129484674226
         }
     },
     {
@@ -10980,7 +10980,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42153,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": -0.01011112948467426
+            "global_multiplier": 0.004231249811112948467426
         }
     },
     {
@@ -10990,7 +10990,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42152,
             "candidate": 17,
             "affected_candidate": 16,
-            "global_multiplier": -0.01011112948467426
+            "global_multiplier": 0.002981311112948467426
         }
     },
     {
@@ -18906,10 +18906,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 1033,
         "fields": {
             "answer": 42151,
-            "state": 23,
+            "state": 7,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.03452
+            "state_multiplier": 0.04452
         }
     },
     {
@@ -18942,7 +18942,29 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42153,
+            "state": 29,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.0187451
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1033,
+        "fields": {
+            "answer": 42153,
+            "state": 19,
+            "candidate": 17,
+            "affected_candidate": 17,
+            "state_multiplier": 0.0132211
         }
     },
     {
@@ -19049,10 +19071,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 1033,
         "fields": {
             "answer": 42152,
-            "state": 23,
+            "state": 7,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.03322
+            "state_multiplier": 0.04322
         }
     },
     {
@@ -19140,7 +19162,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.0066911142769
+            "state_multiplier": -0.01966911142769
         }
     },
     {
@@ -19151,7 +19173,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.0066911142769
+            "state_multiplier": -0.01966911142769
         }
     },
     {
@@ -19162,7 +19184,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 9,
             "candidate": 17,
             "affected_candidate": 16,
-            "state_multiplier": -0.0066911142769
+            "state_multiplier": -0.01966911142769
         }
     },
     {
@@ -19412,10 +19434,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 1033,
         "fields": {
             "answer": 42153,
-            "state": 23,
+            "state": 7,
             "candidate": 17,
             "affected_candidate": 17,
-            "state_multiplier": 0.03352
+            "state_multiplier": 0.04352
         }
     },
     {
@@ -20595,9 +20617,9 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
-            "answer": 42151,
+            "answer": 42153,
             "candidate": 17,
-            "answer_feedback": "Tim Pawlenty doing anything 'wild’ isn’t exactly something you picture, but jokes aside, he’s got a certain vigor and approachability that brings something fresh to the ticket. This was likely a smart call."
+            "answer_feedback": "Despite your friendship, Vice President Lieberman is eager to maintain his own schedule. Somewhat eccentrically for a Vice President, he is practically running his own mini-campaign in Florida and New Hampshire, engaging intimately with voters in town halls, much like a primary. "
         }
     },
     {
@@ -20606,16 +20628,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42152,
             "candidate": 17,
-            "answer_feedback": "Tim Pawlenty has been right by your side at most rallies, but recently, he made a stop at the White House and was photographed sitting in the Oval Office alongside you and Joe Lieberman. It seems the goodwill between all parties remains intact. "
+            "answer_feedback": "The Vice President has been quite determined to maintain an independent schedule, even during this busy campaign cycle. However, thanks to directives from the top of your campaign, he has recently joined you at many major rallies, though not at every one. "
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
-            "answer": 42153,
+            "answer": 42151,
             "candidate": 17,
-            "answer_feedback": "Fair enough. So far, the Democrats have mostly cornered the ‘Gone-on-Letterman’ demographic, but Pawlenty’s making strides. He connects well enough with the average voter, coming across as down-to-earth and, naturally, younger and more relatable than Lieberman or Cheney."
+            "answer_feedback": "Fair enough. Joe Lieberman is obviously unpopular, but from the start of the discussion about replacing him, you seemed uncomfortable and unwilling to let go of your friend, even though he appeared willing to step aside. "
         }
     },
     {
@@ -20899,7 +20921,7 @@ campaignTrail_temp.candidate_last_name = 'McCain';
 
 campaignTrail_temp.candidate_first_name = 'John';
 
-campaignTrail_temp.running_mate_last_name = 'Pawlenty';
+campaignTrail_temp.running_mate_last_name = 'Lieberman';
 
 e.election_json[0].fields.has_visits = 1;
 
@@ -20907,7 +20929,7 @@ campaignTrail_temp.running_mate_state_id = '23';
 
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/I4X9S30.jpeg';
 
-campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/xBthGvM.jpeg';
+campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6ZF6ToQ.jpeg';
 
 campaignTrail_temp.candidate_json[1]["fields"].last_name = "Democrat";
 
