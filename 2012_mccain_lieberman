@@ -5022,7 +5022,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 16,
             "state": 19,
-            "state_multiplier": 1.079898911211998999498989899899353
+            "state_multiplier": 1.071219898911211998999498989899899353
         }
     },
     {
@@ -5328,7 +5328,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 2,
-            "state_multiplier": 1.42911299798761251
+            "state_multiplier": 1.419989989911211299798761251
         }
     },
     {
@@ -5337,7 +5337,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 3,
-            "state_multiplier": 1.220312121
+            "state_multiplier": 1.21415312121
         }
     },
     {
@@ -5571,7 +5571,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 29,
-            "state_multiplier": 1.06511211498998751
+            "state_multiplier": 1.072998991214411211498998751
         }
     },
     {
@@ -5634,7 +5634,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 17,
             "state": 36,
-            "state_multiplier": 1.194859234
+            "state_multiplier": 1.1879894859234
         }
     },
     {
@@ -5787,7 +5787,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 2,
-            "state_multiplier": 0.1999811
+            "state_multiplier": 0.2099899811
         }
     },
     {
@@ -5796,7 +5796,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 3,
-            "state_multiplier": 0.037512
+            "state_multiplier": 0.04567817512
         }
     },
     {
@@ -6093,7 +6093,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 18,
             "state": 36,
-            "state_multiplier": 0.0811211126987922
+            "state_multiplier": 0.09012511211126987922
         }
     },
     {
