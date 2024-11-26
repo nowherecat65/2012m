@@ -20619,7 +20619,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42153,
             "candidate": 17,
-            "answer_feedback": "Despite your friendship, Vice President Lieberman is eager to maintain his own schedule. Somewhat eccentrically for a Vice President, he is practically running his own mini-campaign in Florida and New Hampshire, engaging intimately with voters in town halls, much like a primary. "
+            "answer_feedback": "Despite your friendship, Vice President Lieberman is eager to maintain his own schedule. Somewhat oddly for a Vice President, he is basically running his own campaign in Florida and New Hampshire, engaging intimately with voters in town halls, much like a primary. "
         }
     },
     {
