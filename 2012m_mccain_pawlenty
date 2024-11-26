@@ -723,7 +723,7 @@ campaignTrail_temp.answers_json = [
         "pk": 151,
         "fields": {
             "question": 38,
-            "description": "You know, I get it hasn't been in the news much, but our nation is still in danger. The War on Terror is still being fought every single day, and our brave men and women are on the frontlines. Can we truly, honestly, trust the Democrats judgement on these issues?"
+            "description": "I get it hasn't been in the news much, but our nation is still in danger. The War on Terror is still being fought every single day, and our brave men and women are on the frontlines. Can we truly, honestly, trust the Democrats judgement on these issues?"
         }
     },
     {
@@ -739,7 +739,7 @@ campaignTrail_temp.answers_json = [
         "pk": 165,
         "fields": {
             "question": 42,
-            "description": "You know, I’m not one to dwell on the past. But if Mark Warner were ever to take office, he’d likely waste no time signing a single-payer, socialized healthcare bill, maybe in his very first week. We can’t stand by and let that happen."
+            "description": "I’m not one to dwell on the past, or get to negative. But if Mark Warner were ever to take office, he’d likely waste no time signing a single-payer, socialized healthcare bill, maybe in his very first week. We can’t stand by and let that happen."
         }
     },
     {
