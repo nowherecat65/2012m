@@ -282,7 +282,7 @@ campaignTrail_temp.questions_json = [
         "pk": 3344,
         "fields": {
             "priority": 2,
-            "description": "The Vice Presidential debate, between the two governors: Tim Pawlenty, and Chet Culver is approaching, and Pawlenty has been deep in the trenches debate prep these past few days. Ultimately, though, his strategy is in your hands and the team’s. What approach would you like him to take? ",
+            "description": "The Vice Presidential debate, between your V.P, Joe Lieberman and Governor Chet Culver is approaching, and Lieberman has been deep in the trenches debate prep these past few days. Ultimately, though, his strategy is in your hands and the team’s. What approach would you like him to take? ",
             "likelihood": 1
         }
     },
@@ -651,7 +651,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12919,
         "fields": {
             "question": 3344,
-            "description": "I held back a bit on Warner in my debate, but I want Tim to go all-in on Culver. He needs to hit hard on their plans for big-government liberalism, and make it clear that we stand against massive bureaucratic overreach. "
+            "description": "I held back a bit on Warner in my debate, but I want Joe to go all-in on Culver. He needs to hit hard on their plans for big-government liberalism, and make it clear that we stand against massive bureaucratic overreach. "
         }
     },
     {
@@ -659,7 +659,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12920,
         "fields": {
             "question": 3344,
-            "description": "The Governor’s won two tough races, I trust him, and his team's judgment. But I'll give him a call before the debate, just in case there’s anything specific I want him to hit on... "
+            "description": "I'm not going to give Joe orders. He is a tested and capable leader, and as you know, from 2000, or 2008, he's an experienced debater. Let his staff handle his strategy; I don't want us butting heads. Do you hear me?  "
         }
     },
     {
@@ -667,7 +667,7 @@ campaignTrail_temp.answers_json = [
         "pk": 12921,
         "fields": {
             "question": 3344,
-            "description": "Frankly, Governor Pawlenty’s a good man, and he’s well-respected. I want him to keep it civil, something more in the spirit of how Lieberman and Bayh’s debate went back in 2008."
+            "description": "Let the Vice President prepare, but I’d like to speak with him over the phone for a few minutes the night before the debate. I know the tension is high in our camp, but it’s his job to appear calm, cool, and collected. "
         }
     },
     {
@@ -7530,7 +7530,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12919,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.061125161149448846899
+            "global_multiplier": 0.0761125161149448846899
         }
     },
     {
@@ -7540,7 +7540,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12921,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.061125161149448846899
+            "global_multiplier": 0.0761125161149448846899
         }
     },
     {
@@ -7550,7 +7550,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12920,
             "candidate": 17,
             "affected_candidate": 18,
-            "global_multiplier": 0.0745161149448846899
+            "global_multiplier": 0.0887945161149448846899
         }
     },
     {
@@ -7600,7 +7600,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12921,
             "candidate": 17,
             "affected_candidate": 17,
-            "global_multiplier": 0.0249448846899
+            "global_multiplier": 0.0349448846899
         }
     },
     {
@@ -20656,7 +20656,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12919,
             "candidate": 17,
-            "answer_feedback": "This didn't work out well. Governor Culver came across as measured, experienced, and even funny during the debate, while your running mate, fellow Minnesotan Tim Pawlenty, appeared uncharacteristically angry. Most think Culver won.  "
+            "answer_feedback": "This didn't work out well. Governor Culver came across as measured, experienced, and even funny during the debate, while your running mate, Vice President Joe Lieberman appeared uncharacteristically upset. Most think Culver won.  "
         }
     },
     {
@@ -20665,7 +20665,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12920,
             "candidate": 17,
-            "answer_feedback": "The debate ended in a draw according to the polls, with both Culver and Pawlenty keeping things calm and civil, if a bit dull. In fact, it reportedly had some of the lowest ratings in modern VP debate history. "
+            "answer_feedback": "The debate ended in a draw according to the polls. The ever-prepared Joe Lieberman was eager to stick to his prepared lines and figures, as was Governor Culver. The debate left most of the audience literally yawning, and was considered a draw.  "
         }
     },
     {
@@ -20674,7 +20674,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12921,
             "candidate": 17,
-            "answer_feedback": "Good call, sir. Governor Pawlenty kept his cool while Culver leaned into a more populist, almost combative strategy, taking shots at the McCain administration and the GOP. Most polls are saying Pawlenty came out on top. "
+            "answer_feedback": "You and your co-captain had a longer-than-expected conversation the day before the debate while you were staying in the Presidential suite at a hotel in Denver, Colorado. He agreed to adopt a cool tone, which soon proved to be the smart move, as he trounced Governor Culver during the debate. "
         }
     },
     {
