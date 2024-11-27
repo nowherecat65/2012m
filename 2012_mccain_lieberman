@@ -20674,7 +20674,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 12921,
             "candidate": 17,
-            "answer_feedback": "You and your co-captain had a longer-than-expected conversation the day before the debate while you were staying in the Presidential suite at a hotel in Denver, Colorado. He agreed to adopt a cool tone, which soon proved to be the smart move, as he trounced Governor Culver during the debate. "
+            "answer_feedback": "You and your co-captain had an unexpectedly long conversation the day before the debate while you were staying at a hotel in Denver, CO. He agreed to adopt a cool tone, which soon proved to be the smart move, as he trounced Governor Culver during the debate. "
         }
     },
     {
