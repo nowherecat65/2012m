@@ -20990,6 +20990,42 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 480,
         "fields": {
+            "answer": 269,
+            "candidate": 17,
+            "answer_feedback": "Uh... while turning voters out on Election Day is obviously part of the path to a second term, sir, your poll numbers are looking rough. Not addressing this or changing course is widely considered a dumb move by some on your staff.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 270,
+            "candidate": 17,
+            "answer_feedback": "Karl Rove and that ilk of GOP operatives have had a testy relationship with you since the 2000 primary and later, your defense of John Kerry during the 2004 Swift Boat controversy. Still, deploying negative, hard-hitting ads, much like against Hillary Clinton in 2008, might be necessary. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 2701,
+            "candidate": 17,
+            "answer_feedback": "Some glossy-paged magazines are running covers featuring an illustration of Air Force One with a 'Straight Talk Express' banner and paint job. While it's clearly a bit of a gimmick, this feels very much like classic John McCain, and voters still seem to like him.  "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
+            "answer": 268,
+            "candidate": 17,
+            "answer_feedback": "There's that classic McCain stubbornness! But keeping your focus on a busy schedule of rallies, town halls, and events, rather than fixating on polls or reading The New York Times, is probably for the best. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 480,
+        "fields": {
             "answer": 2884441,
             "candidate": 17,
             "answer_feedback": "In a recently released interview, you voiced your views on Iran, stating that your administration would ''strike'' them with ''unmatched resolve'' if they attacked American vessels or soldiers. Democrats are practically shrieking at this point, sir."
