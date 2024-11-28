@@ -48,7 +48,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1133,
         "fields": {
             "priority": 0,
-            "description": "You’ve been standing by the TV in your New Hampshire campaign office, watching as the primary results start to pour in. Thanks to Rick Santorum, you’ve found yourself in another nomination battle. Just then, your campaign manager, Rick Davis, walks in to inform you that the Associated Press is about to call the race in your favor by a good margin.  ",
+            "description": "Sitting in your New Hampshire campaign headquarters, you watch the first primary results pour in. Despite polls placing you behind Bernie Sanders, your narrow Iowa victory had given your campaign hope for a New Hampshire win. With about 30% of the vote counted, you're in third place behind Bernie Sanders and Deval Patrick. Now it's on to Nevada, South Carolina, and Super Tuesday... Where do you focus?",
             "likelihood": 1
         }
     },
