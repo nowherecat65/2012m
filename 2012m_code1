@@ -613,7 +613,7 @@ corrr = '\n              <h2>2012m</h2>\n            ';
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
 
-document.getElementById("header").src = "https://i.imgur.com/X2q9iJd.png";
+document.getElementById("header").src = "https://i.imgur.com/SeFi1uz.png";
 
 e.collect_results = true;
 
