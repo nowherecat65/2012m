@@ -20977,7 +20977,7 @@ campaignTrail_temp.running_mate_last_name = 'Culver';
 
 e.election_json[0].fields.has_visits = 1;
 
-campaignTrail_temp.running_mate_state_id = '23';
+campaignTrail_temp.running_mate_state_id = '15';
 
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/YOyGsj9.jpeg';
 
@@ -20993,8 +20993,8 @@ campaignTrail_temp.cyoa = true
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
-  background-color: #e91717;
-  border-color: #2e0404;
+  background-color: #0F48FF;
+  border-color: #030e33;
 }`
 ;
 document.head.appendChild(style_overwrite);
