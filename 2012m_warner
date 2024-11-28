@@ -20975,31 +20975,26 @@ campaignTrail_temp.candidate_first_name = 'Mark';
 
 campaignTrail_temp.running_mate_last_name = 'Culver';
 
-campaignTrail_temp.running_mate_state_id = '185';
+e.election_json[0].fields.has_visits = 1;
+
+campaignTrail_temp.running_mate_state_id = '23';
 
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/YOyGsj9.jpeg';
 
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6DonJgl.jpeg';
 
+campaignTrail_temp.candidate_json[1]["fields"].last_name = "Democrat";
+
+campaignTrail_temp.candidate_json[2]["fields"].last_name = "Draft Trump";
+
+campaignTrail_temp.cyoa = true
+
+
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
-  background-color: #0F48FF;
-  border-color: #030e33;
+  background-color: #e91717;
+  border-color: #2e0404;
 }`
 ;
 document.head.appendChild(style_overwrite);
-
-campaignTrail_temp.multiple_endings = true;
-endingPicker = (out, totv, aa, quickstats) => {
-
-    function setImage(url) {
-        if(url == '' || url == null) return;
-        let interval = setInterval(function () {
-            img = document.getElementsByClassName("person_image")[0];
-            if (img != null) {
-                img.src = url;
-                clearInterval(interval);
-            }
-        }, 50);
-    }
