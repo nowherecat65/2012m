@@ -275,29 +275,6 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 34,
-        "fields": {
-            "first_name": "Barbara",
-            "last_name": "Lee",
-            "election": 3,
-            "party": "Democrat",
-            "state": "California",
-            "priority": 11,
-            "description": "n/a",
-            "color_hex": "#0F48FF",
-            "secondary_color_hex": "#3e6cff",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/9Oo1CLD.jpeg",
-            "electoral_victory_message": "n/a",
-            "electoral_loss_message": "n/a",
-            "no_electoral_majority_message": "n/a",
-            "description_as_running_mate": "<p>Barbara Lee, the California congresswoman representing Oakland, endorsed Elizabeth Warren and eventually Bernie Sanders in this year's Democratic primaries, and is considered a strong liberal, who came to prominence due to her fierce opposition to the Iraq War. Her selection would certainly signal to that wing of the party that Warner hears their voices.</p><p>Though Lee has spent many years in Washington, and isn't exactly as much of a bomb-thrower as the right makes her out to be, she would still be a controversial choice due to her progressivism and, frankly, her race and gender.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
         "pk": 34999,
         "fields": {
             "first_name": "Bernie",
