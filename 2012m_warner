@@ -20973,13 +20973,13 @@ campaignTrail_temp.candidate_last_name = 'Warner';
 
 campaignTrail_temp.candidate_first_name = 'Mark';
 
-campaignTrail_temp.running_mate_last_name = 'Klobuchar';
+campaignTrail_temp.running_mate_last_name = 'Culver';
 
-campaignTrail_temp.running_mate_state_id = '203';
+campaignTrail_temp.running_mate_state_id = '185';
 
 campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/YOyGsj9.jpeg';
 
-campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/sht4tGM.jpeg';
+campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/6DonJgl.jpeg';
 
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
