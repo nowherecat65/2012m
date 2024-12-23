@@ -33,7 +33,7 @@ campaignTrail_temp.election_json = [
             "image_url": "https://i.imgur.com/HI2JhOp.jpeg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.imgur.com/LBbe3z6.png",
-            "recommended_reading": "<font color='black'><div style='overflow-y:scroll;height:357.133px;font-size:1em;'><h1 style='margin-top: 0.5em;'>LORE:</h1><br><p><i></i></p><p><i><img src='https://i.imgur.com/VjhT8rb.png' alt='Batman' style='width:261px;height:508px;''><br><i>(2008 Presidential Election)</i></i></p><div style='overflow-y:scroll;height:357.133px;font-size:1em;'><br><p><i></i></p><p><i><img src='https://i.imgur.com/6XIPQE3.png' alt='Batman' style='width:261px;height:508px;''><br><i>(2012 Presidential Election)</i></i>",
+            "recommended_reading": "<font color='black'><div style='overflow-y:scroll;height:357.133px;font-size:1em;'><h1 style='margin-top: 0.5em;'>LORE:</h1><br><p><i></i></p><p><i><img src='https://i.imgur.com/VjhT8rb.png' alt='Batman' style='width:261px;height:508px;''><br><i>(2008 Presidential Election)</i></i></p<i></i></p><p><i><img src='https://i.imgur.com/6XIPQE3.png' alt='Batman' style='width:261px;height:508px;''><br><i>(2012 Presidential Election)</i></i>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "creator": ".theanswerisme",
