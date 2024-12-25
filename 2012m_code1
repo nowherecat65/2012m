@@ -76,7 +76,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Virginia",
             "priority": 1,
-            "description": "<p>Senator Mark Warner has seized the Democratic nomination after a turbulent primary battle with Bernie Sanders and the party’s left wing. Elected to the Senate in 2008, and previously serving as Governor of his state, Warner is known as a moderate, if not centrist, Democrat. However, during the prolonged primary season, he adopted some more liberal policy positions. </p><p> Warner is expected to run an aggressive, Bill Clinton-inspired campaign against President McCain, focusing on the severe recession and slow recovery. He is ahead in the polls right now, but it's unlikely that the President will let himself be steamrolled, and the battle will be contested.</p>",
+            "description": "<p><i><b>CURRENTLY NOT PLAYABLE. FOR CONTEXT ONLY.</b></i></p><p>Senator Mark Warner has seized the Democratic nomination after a turbulent primary battle with Bernie Sanders and the party’s left wing. Elected to the Senate in 2008, and previously serving as Governor of his state, Warner is known as a moderate, if not centrist, Democrat. However, during the prolonged primary season, he adopted some more liberal policy positions. </p><p> Warner is expected to run an aggressive, economy focused campaign against President McCain, focusing on the severe recession and slow recovery. He is ahead in the polls right now, but it's unlikely that the President will let himself be steamrolled, and the battle will be contested.</p>",
             "color_hex": "#0F48FF",
             "secondary_color_hex": "#2340E6",
             "is_active": 1,
