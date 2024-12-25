@@ -655,4 +655,14 @@ async function appendStyle() {
 }
 appendStyle();
 
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#bfe6ff",
+    "header_text_color": "#000000",
+    "description_text_color": "#000000",
+    "description_background_color": "#e8fbff",
+    "main_color": "#bfe6ff",
+    "secondary_color": "#700016",
+    "ui_text_color": "#FFFFFF"
+}
+
 //#endcode
