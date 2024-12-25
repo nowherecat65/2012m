@@ -598,6 +598,8 @@ document.body.background = "https://cdn.discordapp.com/attachments/1186700569654
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
 
+HistHexcolour=["#b22b27","#1E48D7","#f28c28","#74C365"]; HistName=[" Mark Warner"," John McCain"," Donald Trump"," Other Candidates"]; HistEV=[357,181,0,0]; HistPV=["64,267,033","58,572,570","2,710,447","312,031"]; HistPVP=["51.2%","44.6%","3.8%","0.4%"];
+
 RecReading = true
 
 async function appendStyle() {
